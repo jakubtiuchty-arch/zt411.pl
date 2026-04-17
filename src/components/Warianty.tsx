@@ -154,19 +154,18 @@ export default function Warianty() {
           })}
         </div>
 
-        <div className="mt-8 lg:mt-10 text-center">
-          <p className="text-sm text-slate-500 max-w-2xl mx-auto">
-            Pokazaliśmy 4 najpopularniejsze warianty. Zebra ZT411 dostępna jest w <strong className="text-slate-700">16 konfiguracjach</strong> (różne mechanizmy: odrywanie, odklejak, nawijak, gilotyna, linerless).
-            {' '}
-            <a
-              href="https://www.takma.com.pl/produkt/zebra-zt411"
-              target="_blank"
-              rel="noopener"
-              className="font-semibold text-brand-700 hover:text-brand-600 underline underline-offset-2"
-            >
-              Zobacz wszystkie warianty w sklepie TAKMA →
-            </a>
+        <div className="mt-10 lg:mt-12 pt-8 border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 max-w-4xl mx-auto">
+          <p className="text-sm text-slate-600">
+            Pokazaliśmy 4 warianty. ZT411 dostępna jest w <strong className="text-slate-900">16 konfiguracjach</strong>.
           </p>
+          <a
+            href="https://www.takma.com.pl/produkt/zebra-zt411"
+            target="_blank"
+            rel="noopener"
+            className="text-sm font-semibold text-slate-900 hover:text-brand-700 transition-colors whitespace-nowrap"
+          >
+            Zobacz wszystkie w sklepie TAKMA →
+          </a>
         </div>
 
       </div>
