@@ -1,0 +1,345 @@
+# tc22.pl — pełny content strony produktowej Zebra TC22
+
+> Wersja pełna dla LLM. Krótszy zarys dostępny w /llms.txt.
+> Strona prowadzona przez TAKMA — autoryzowanego partnera Zebra Technologies od 2001 roku.
+> Ceny synchronizowane z dystrybutorem Ingram Micro (aktualizacja codzienna).
+
+---
+
+## 1. Zebra TC22 — opis produktu
+
+Zebra TC22 to wytrzymały terminal mobilny klasy enterprise dedykowany do pracy w magazynie, retailu, aptece, sektorze HoReCa, serwisie i produkcji. Model zaprojektowany jako następca linii TC21 oraz MC3200/MC3300 w segmencie Wi-Fi-only.
+
+Kluczowa zaleta TC22 vs smartfon konsumencki: 3-letnia gwarancja producenta, IP68, MIL-STD-810H, wymienna bateria hot-swap w 5 sekund, skaner 1D/2D klasy enterprise oraz darmowy pakiet oprogramowania Mobility DNA Professional (DataWedge, StageNow, Device Tracker, LifeGuard).
+
+Urządzenie dostarczane jest w 7 wariantach konfiguracyjnych — różnią się skanerem (SE4710 standardowy lub SE55 Advanced Range), ilością RAM/Flash (6/64 GB lub 8/128 GB), baterią (3 800 mAh lub 5 200 mAh) oraz typem złącza eConnex (2-pin lub 8-pin RFID-ready).
+
+## 2. Pełny cennik (netto PLN, aktualizowany codziennie)
+
+| Part Number | Skaner | RAM/Flash | Bateria | Specjalne | Cena netto | Dostępność |
+|---|---|---|---|---|---|---|
+| WLMT0-T22B6ABC2-A6 | SE4710 | 6/64 GB | 3 800 mAh | — | 2 673 zł | W magazynie (246 szt.) |
+| WLMT0-T22B6ABE2-A6 | SE4710 | 6/64 GB | 5 200 mAh | — | 2 824 zł | Na zamówienie |
+| WLMT0-T22B8ABC8-A6 | SE4710 | 8/128 GB | 3 800 mAh | RFID-ready (8-pin eConnex) | 3 255 zł | Na zamówienie |
+| WLMT0-T22B6CBC2-A6 | SE55 Advanced | 6/64 GB | 3 800 mAh | — | 3 277 zł | W magazynie (696 szt.) |
+| WLMT0-T22B8ABD8-A6 | SE4710 | 8/128 GB | 3 800 mAh | RFID-ready + lokalizator BLE | 3 293 zł | W magazynie (3 837 szt.) |
+| WLMT0-T22B6CBE2-A6 | SE55 Advanced | 6/64 GB | 5 200 mAh | — | 3 335 zł | W magazynie (3 szt.) |
+| WLMT0-T22B8CBD8-A6 | SE55 Advanced | 8/128 GB | 3 800 mAh | RFID-ready + lokalizator BLE | 3 880 zł | W magazynie (101 szt.) |
+
+**Zakres cen:** 2 673 zł – 3 880 zł netto.
+**Rabaty projektowe:** od 10 szt. Indywidualna wycena: formularz na tc22.pl lub e-mail kontakt@tc22.pl.
+**GRATIS do każdego TC22:** szkło ochronne na ekran + ładowarka USB-C.
+
+## 3. Pełna specyfikacja techniczna
+
+**System operacyjny:**
+- Android 14 z gwarancją aktualizacji do Android 16 (3 generacje OS)
+- Dostępne wersje: GMS (Google Mobile Services) i AOSP (bez Google)
+- Zebra LifeGuard: comiesięczne łatki bezpieczeństwa przez cały cykl życia
+- Rekomendacja: wersja GMS dla europejskiego retailu i HoReCa
+
+**Procesor i pamięć:**
+- Qualcomm 5430 hex-core (6 rdzeni), 2,1 GHz
+- RAM: 6 GB (LPDDR5) lub 8 GB (LPDDR5)
+- Pamięć wewnętrzna: 64 GB lub 128 GB (UFS 2.1)
+- Karta microSD: obsługa do 2 TB
+
+**Wyświetlacz:**
+- Rozdzielczość: 1080×2160 pikseli (FHD+)
+- Przekątna: 6,0"
+- Jasność: 450 nit (czytelny w słońcu)
+- Szkło ochronne: Corning Gorilla Glass
+- Wielodotyk pojemnościowy (10 punktów)
+- Obsługa mokrą ręką i w rękawiczkach
+- Wbudowany klawisz sprzętowy do skanowania
+
+**Skanery kodów (opcje):**
+
+**SE4710 (standardowy imager 1D/2D):**
+- Zasięg: 0–35 cm (typowo do wyciągnięcia ręki)
+- Technologia: PRZM zoom, czerwona kropka celująca
+- Ergonomia: szybkie skanowanie na półkach/kasie/ladzie
+- Rekomendacja: retail, apteka, kasa mobilna
+- Czas skanowania: ~200 ms
+
+**SE55 Advanced Range:**
+- Zasięg dla 2D: od 10 cm do 7,6 m
+- Zasięg dla 1D: od 10 cm do 12,2 m
+- Technologia: intelligent illumination, zielona kropka z autofokusem
+- Rekomendacja: magazyny wysokiego składowania, regały 3-6 m bez drabiny
+- Różnica w cenie vs SE4710: ok. 400–550 zł netto
+
+**Kamera:**
+- Tylna: 16 MP, autofokus, dioda LED
+- Przednia: 5 MP
+- Nagrywanie wideo: do 4K @ 30 fps
+- Zastosowanie: dokumentacja uszkodzeń, skanowanie dokumentów, videoroz­mowy (TeamViewer, MS Teams)
+
+**Bateria:**
+- Standardowa: 3 800 mAh (Li-ion, 14,4 Wh), ok. 10 godzin typowej pracy
+- Rozszerzona: 5 200 mAh (Li-ion, 19,4 Wh), ok. 14 godzin typowej pracy
+- Technologia: Zebra PowerPrecision+ (monitoring stanu w czasie rzeczywistym)
+- Wymiana hot-swap: 5 sekund, bez wyłączania terminala i utraty danych
+- Ładowanie: od 0 do 80% w ok. 90 minutach
+- Żywotność: minimum 500 cykli ładowania do 80% pojemności
+
+**Łączność bezprzewodowa:**
+- Wi-Fi: 802.11 a/b/g/n/ac/ax/be (Wi-Fi 6 i Wi-Fi 6E)
+- Pasma: 2,4 GHz / 5 GHz / 6 GHz (tri-band)
+- MIMO: 2×2 MU-MIMO
+- Prędkość maksymalna: do 2,4 Gbps
+- Uwierzytelnianie: WPA3 Enterprise, PEAP, EAP-TLS, EAP-TTLS, EAP-PWD
+- Bluetooth: 5.2 LE (classic + low energy)
+- NFC: ISO 14443 A/B, Mifare, FeliCa, Apple VAS, Google SmartTap
+- USB: 3.1 Type-C (SuperSpeed, data + charging)
+- RFID UHF (opcja): nakładka Zebra RFD40 przez złącze eConnex (warianty 8-pin) lub Bluetooth (warianty 2-pin), odczyt do 700 tagów/s, zasięg do 9 m
+
+**Wytrzymałość i certyfikacje:**
+- IP68 (pyłoszczelność + zanurzenie 1 m na 30 minut)
+- IP65 (strumień wody pod ciśnieniem)
+- MIL-STD-810H (wojskowa norma odporności)
+- Upadki: 1,5 m na beton z etui ochronnym (bumper boot)
+- Tumble: 500× z 0,5 m (test beczkowy)
+- Szok termiczny: -10°C do +50°C
+- Wilgotność: 5% do 95% (niekondensujący)
+- Gorilla Glass: wyświetlacz + okno skanera
+
+**Temperatury:**
+- Pracy: -10°C do +50°C
+- Składowania: -40°C do +70°C
+- Ładowania: 0°C do +40°C
+- Nie nadaje się do mroźni (-18°C i poniżej) — do tego Zebra MC9400 lub MC3400
+- Chłodnie (+2°C do +8°C): TC22 pracuje bez problemu, zalecana bateria 5 200 mAh
+
+**Wymiary i waga:**
+- Wymiary: 165 mm × 76,3 mm × 12,5 mm
+- Waga z baterią standardową: 236 g
+- Waga z baterią rozszerzoną: ok. 260 g
+- Mocowanie na rękę: opcjonalne (hand strap, trigger handle)
+
+**Zabezpieczenia:**
+- Szyfrowanie: AES-256 (dane w spoczynku)
+- Zebra Secure Boot (weryfikacja integralności OS)
+- Zdalne zarządzanie: SOTI MobiControl, VMware Workspace ONE, Microsoft Intune, Zebra DNA Cloud, Android Enterprise
+- MAM: wybór między Work Profile a Fully Managed
+- Zdalny kill switch dla skradzionych urządzeń (via MDM)
+
+## 4. Porównanie Zebra TC22 z konkurencją
+
+### TC22 vs Zebra TC27
+
+**Identyczne komponenty:** procesor Qualcomm 5430, ekran 6" FHD+, skanery (SE4710/SE55), wytrzymałość IP68 + MIL-STD-810H, akcesoria (baterie, boot, stacje ładowania, trigger handle).
+
+**Różnica:** moduł łączności komórkowej.
+- TC22: tylko Wi-Fi 6/6E
+- TC27: Wi-Fi 6/6E + 5G/4G LTE + dual SIM (nano + eSIM) + GPS/GNSS (dokładność 1–3 m)
+
+**Kiedy wybrać TC22:** praca wewnątrz budynku (magazyn, sklep, apteka, restauracja) z zasięgiem Wi-Fi.
+**Kiedy wybrać TC27:** praca mobilna w terenie (kurierzy, serwisanci, inspektorzy, sprzedawcy mobilni), gdzie Wi-Fi niedostępne.
+
+**Cena:** TC22 od 2 673 zł netto, TC27 od 3 254 zł netto (różnica ~20%).
+
+### TC22 vs Honeywell CT32
+
+| Parametr | TC22 | CT32 |
+|---|---|---|
+| Cena od | 2 673 zł | 3 389 zł |
+| Skaner (max zasięg) | SE55 7,6 m | FlexRange 11 m |
+| Ekran | 6" FHD+ | 6" FHD |
+| Procesor | Qualcomm 5430 2,1 GHz | QCS4490 2,4 GHz |
+| RAM/Flash | 6/64 lub 8/128 GB | 6/128 lub 8/128 GB |
+| Bateria | 3 800 / 5 200 mAh | 4 500 mAh |
+| Hot-swap | Tak | Tak |
+| IP | IP68/IP65 | IP65/IP68 |
+| Upadki | 1,5 m na beton | 1,8 m (z boot) |
+| Wi-Fi | 6/6E | 6E |
+| Android | Do v16 | Do v18 |
+| Waga | 236 g | 269 g |
+| Mobility DNA | Tak (gratis) | Nie |
+| 5G | TC27 opcja | CT32 X1N opcja |
+
+**Werdykt:** TC22 lżejszy, tańszy, z pełnym ekosystemem Zebra Mobility DNA. CT32 dłuższa ścieżka Android i dalszy skaner dla projektów 6+ lat.
+
+### TC22 vs Datalogic Memor 12
+
+| Parametr | TC22 | Memor 12 |
+|---|---|---|
+| Cena od | 2 673 zł | 2 687 zł |
+| Skaner | SE4710/SE55 | Halogen 2D + Green Spot |
+| Android | Do v16 | Do v18 |
+| Mobility DNA | Tak | Nie |
+| Ładowanie Qi | Nie | Tak |
+| Waga | 236 g | 245 g |
+| Bateria | 3 800 / 5 200 mAh | 4 000 mAh |
+
+**Werdykt:** podobna cena, TC22 wygrywa ekosystemem i serwisem. Memor 12 dla firm potrzebujących ładowania Qi.
+
+### TC22 vs M3 SM24
+
+| Parametr | TC22 | M3 SM24 |
+|---|---|---|
+| Cena od | 2 673 zł | 3 123 zł |
+| Ekran | 6" FHD+ (1080×2160) | 6" HD+ (720×1440) |
+| Procesor | Qualcomm 5430 | SM6225 2,4 GHz |
+| IP | IP68/IP65 | IP67 |
+| Wi-Fi | 6/6E | 6E |
+| Android | Do v16 | Do v18 |
+
+**Werdykt:** TC22 tańszy z lepszym ekranem i wyższą odpornością. M3 ma dłuższą ścieżkę Android.
+
+### TC22 vs Zebra TC53e (premium)
+
+| Parametr | TC22 | TC53e |
+|---|---|---|
+| Cena od | 2 673 zł | ~4 500 zł |
+| Procesor | Qualcomm 5430 2,1 GHz | QCS4490 2,4 GHz |
+| Bateria | 3 800 / 5 200 mAh | 4 680 / 7 000 mAh |
+| Android | Do v16 | Do v17 |
+| Skaner | SE4710/SE55 | SE4720 (nowsza generacja) |
+
+**Werdykt:** TC22 wystarczy dla 80% zastosowań magazynowych i retailowych. TC53e dla najbardziej wymagających środowisk (3-zmianowa praca, duża fluktuacja baterii).
+
+### TC22 vs smartfon konsumencki (TCO 5 lat, 20 szt.)
+
+**TC22 (SE4710, 6/64 GB):**
+- Zakup: 20 × 2 673 = 53 460 zł
+- Boot + bateria rozszerzona: 20 × 350 = 7 000 zł
+- OneCare Essential 5Y: 20 × 1 708 = 34 160 zł
+- Naprawy (3% awaryjność): ok. 3 600 zł
+- **RAZEM: ~98 220 zł / 5 lat = 19 644 zł/rok = 82 zł/urządzenie/miesiąc**
+
+**Smartfon konsumencki 2 500 zł:**
+- Zakup: 20 × 2 500 = 50 000 zł
+- Etui + bateria: 20 × 200 = 4 000 zł
+- Wymiana co 2 lata: 2× × 20 × 2 500 = 100 000 zł
+- Naprawy (25% awaryjność): ok. 40 000 zł
+- **RAZEM: ~194 000 zł / 5 lat**
+
+**Oszczędność TC22:** ~95 780 zł (49%).
+
+## 5. Akcesoria (kompletna oferta)
+
+**Baterie:**
+- BTRY-TC2L-2XMAXX-01 — Akumulator 3 800 mAh, 270 zł netto
+- BTRY-TC2L-3XMAXX-01 — Akumulator 5 200 mAh, 401 zł netto
+
+**Ochrona:**
+- SG-TC2L-BOOT-01 — Etui ochronne (bumper boot), 175 zł netto, upadki do 1,8 m
+- SG-TC2L-TEMP-01 — Szkło ochronne na ekran (GRATIS do każdego TC22)
+
+**Ergonomia:**
+- TRG-TC2L-SNP1-01 — Trigger handle (rękojeść pistoletowa), 818 zł netto
+- SG-TC2L-HSTR-01 — Hand strap (pasek na rękę)
+
+**Stacje ładowania:**
+- CRD-TC2L-BS1CO-01 — Stacja 1-slot z zasilaczem 50 W
+- CRD-TC2L-BS5CO-01 — Stacja 5-slot z Ethernet + zasilacz 108 W
+- SAC-TC2L-4SCHG-01 — Ładowarka 4 baterii
+
+**RFID UHF (opcja):**
+- RFD40-G000100-A6 — Zebra RFD40 UHF RFID Sled (dla wariantów 8-pin eConnex)
+
+## 6. Serwis i wsparcie TAKMA
+
+**Autoryzowany serwis Zebra w Polsce.**
+
+**Naprawa:**
+- Gwarancyjna: 3–5 dni roboczych
+- Pogwarancyjna: wycena w 24 h
+- Zgłoszenie online: https://www.serwis-zebry.pl
+- Oryginalne części Zebra
+- Certyfikowani technicy z wieloletnim doświadczeniem
+
+**Kontrakty OneCare:**
+- Z1AE-TC22XX-3C00 — OneCare Essential 3 lata: 1 025 zł netto
+  Obejmuje: naprawa 3 dni, aktualizacje OS, LifeGuard, accidental damage
+- Z1AE-TC22XX-5C00 — OneCare Essential 5 lat: 1 708 zł netto
+  Obejmuje: jak wyżej + wymiana baterii w cyklu
+- Z1AE-TC22XX-3C03 — OneCare Select (priorytetowy) 3 lata
+- Z1BE-TC22XX-3C00 — OneCare Essential 3 lata (Business Essential)
+
+**Wsparcie techniczne (w cenie):**
+- Konfiguracja DataWedge pod WMS/ERP
+- Setup StageNow (masowa konfiguracja floty)
+- Integracja z MDM (SOTI, VMware, Intune, Zebra DNA Cloud)
+- Konfiguracja profili Wi-Fi Enterprise (802.1X, certyfikaty)
+- Diagnostyka przed zakupem (POC — proof of concept)
+
+**Dostępność:**
+- Pon–Pt: 7:30–15:30
+- Email: odpowiedź do 24 h (zwykle 2 h w dni robocze)
+- Telefon: +48 601 828 711 (doradztwo bezpłatne)
+
+## 7. Najczęściej zadawane pytania (FAQ)
+
+**Q: Jaka jest cena terminala Zebra TC22 w Polsce?**
+A: Od 2 673 zł netto (SE4710, 6/64 GB, 3 800 mAh) do 3 880 zł netto (SE55, 8/128 GB, RFID+BLE). Wersja z 5G/GPS — TC27 — od 3 254 zł netto. Ceny obejmują urządzenie z baterią standardową, bez akcesoriów.
+
+**Q: Czym Zebra TC22 różni się od TC27?**
+A: Identyczny procesor, ekran, skanery i wytrzymałość. Jedyna różnica: TC22 = Wi-Fi only, TC27 = dodaje 5G/4G LTE, dual SIM i GPS. TC22 do pracy wewnątrz budynku, TC27 dla pracowników terenowych.
+
+**Q: Który skaner wybrać — SE4710 czy SE55?**
+A: SE4710 — standardowy do 35 cm (retail, apteka, kasa). SE55 Advanced — od 10 cm do 7,6 m (magazyn wysokiego składowania bez drabiny). Różnica: ok. 400–550 zł. SE55 zalecany dla regałów powyżej 2 m.
+
+**Q: Czy TC22 jest wodoodporny?**
+A: Tak. IP68 (zanurzenie 1 m/30 min) + IP65 (strumień wody). MIL-STD-810H: upadki 1,5 m na beton, 500 tumble z 0,5 m, temperatura -10°C do +50°C, wilgotność 95%. Gorilla Glass na ekran i okno skanera.
+
+**Q: Jak długo wytrzymuje bateria?**
+A: 3 800 mAh: ~10 h. 5 200 mAh: ~14 h. Obie wymienne hot-swap w 5 sekund bez wyłączania. Technologia PowerPrecision+ monitoruje stan w czasie rzeczywistym.
+
+**Q: Jaki Android i jak długo wsparcie?**
+A: Android 14 przy dostawie, gwarancja aktualizacji do Android 16 (3 generacje OS). LifeGuard: comiesięczne łatki bezpieczeństwa. Wersje: GMS (Google Play) lub AOSP.
+
+**Q: Czy TC22 może czytać RFID?**
+A: TC22 nie ma wbudowanego UHF RFID, ale warianty 8-pin eConnex (RFID-ready) obsługują nakładkę Zebra RFD40 (do 700 tagów/s, zasięg 9 m). Warianty 2-pin łączą się z RFD40 przez Bluetooth. NFC (ISO 14443) jest w każdym wariancie.
+
+**Q: Porównanie cen TC22 vs Honeywell CT32?**
+A: TC22 od 2 673 zł, CT32 od 3 389 zł (~27% drożej). CT32: dłuższa ścieżka Android (v18 vs v16), FlexRange 11 m. TC22: lżejszy (236 vs 269 g), Mobility DNA gratis, szersza sieć serwisowa Zebra w Polsce.
+
+**Q: Porównanie TC22 vs TC53e?**
+A: TC22 od 2 673 zł, TC53e od ~4 500 zł. TC53e to premium: bateria 4 680/7 000 mAh, procesor QCS4490 2,4 GHz, Android v17, skaner SE4720. TC22 wystarczy dla 80% zastosowań. TC53e dla 3-zmianowej pracy.
+
+**Q: Czy NFC obsługuje płatności?**
+A: Tak — NFC (ISO 14443 A/B, Mifera, FeliCa) z certyfikacją Apple VAS i Google SmartTap. Czyta bilety, karty lojalnościowe, vouchery, boarding passy z Apple Wallet / Google Wallet. Płatności wymagają integracji z aplikacją POS.
+
+**Q: Jakie oprogramowanie dołączone do TC22?**
+A: Mobility DNA Professional (gratis): DataWedge (skanowanie bez programowania), StageNow (masowa konfiguracja), Device Tracker (lokalizacja), LifeGuard (łatki). Żaden konkurent nie oferuje tego pakietu w cenie.
+
+**Q: Gdzie serwisować TC22 w Polsce?**
+A: Autoryzowany serwis Zebra — TAKMA (Poznań) oraz serwis-zebry.pl. Naprawa gwarancyjna 3–5 dni. OneCare: Essential, Select, TC Cloud.
+
+**Q: Ile urządzeń mogę ładować jednocześnie?**
+A: Stacje: 1-slot (CRD-TC2L-BS1CO-01), 5-slot z Ethernet (CRD-TC2L-BS5CO-01), ładowarka 4 baterii (SAC-TC2L-4SCHG-01). Dla floty 20+: 4× stacja 5-slot + 2× ładowarka baterii.
+
+**Q: Alternatywy dla TC22?**
+A: Honeywell CT32 (od 3 389 zł), Zebra TC53e (od ~4 500 zł), Datalogic Memor 12 (od 2 687 zł), M3 SM24 (od 3 123 zł), Samsung Galaxy XCover (od ~1 500 zł — smartfon, brak skanera enterprise). TC22 oferuje najlepszy stosunek cena/wydajność z darmowym Mobility DNA.
+
+## 8. TAKMA — autoryzowany partner Zebra
+
+**TAKMA Tadeusz Tiuchty**
+ul. Romana Maya 1, 61-371 Poznań
+Tel: +48 61 624 82 82
+Kom.: +48 601 828 711
+E-mail: takma@takma.com.pl | kontakt@tc22.pl
+NIP: 915-100-43-77
+Od 2001 roku.
+
+**Certyfikaty Zebra:**
+- Zebra Premier Solution Partner
+- Printer Repair Specialist
+- Public Sector Specialist
+
+Jeden z nielicznych partnerów Zebra w Polsce z 3 oficjalnymi certyfikatami.
+
+**Strony:**
+- Sklep: https://takma.com.pl
+- Produkt TC22: https://takma.com.pl/produkt/zebra-tc22
+- Produkt TC27: https://takma.com.pl/produkt/zebra-tc27
+- Terminale mobilne: https://takma.com.pl/terminale-mobilne
+- Serwis: https://www.serwis-zebry.pl
+- Instrukcja TC22 (PL): https://serwis-zebry.pl/instrukcje/zebra-tc22/instrukcja-po-polsku
+- Datasheet Zebra (EN): https://www.zebra.com/us/en/support-downloads/mobile-computers/handheld/tc22-tc27.html
+- Profil partnera Zebra: https://www.zebra.com/pl/pl/partners/partner-application-locator/partner-details.html?id=001i0000019OwOUAA0
+
+**Sektory dla których wdrażamy TC22:**
+Retail, Magazyn i logistyka, Apteka i przychodnia, Serwis i produkcja, E-commerce, HoReCa.

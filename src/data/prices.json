@@ -1,0 +1,54 @@
+{
+  "lastSync": "2026-04-16T10:45:16.295176Z",
+  "variants": [
+    {
+      "pn": "WLMT0-T22B6ABC2-A6",
+      "name": "TC22 SE4710, 6/64 GB, 3800 mAh",
+      "price": 2673.24,
+      "availability": "available",
+      "stock": 246
+    },
+    {
+      "pn": "WLMT0-T22B6ABE2-A6",
+      "name": "TC22 SE4710, 6/64 GB, 5200 mAh",
+      "price": 2824.18,
+      "availability": "unavailable",
+      "stock": 0
+    },
+    {
+      "pn": "WLMT0-T22B8ABC8-A6",
+      "name": "TC22 SE4710, 8/128 GB, RFID-ready",
+      "price": 3255.33,
+      "availability": "unavailable",
+      "stock": 0
+    },
+    {
+      "pn": "WLMT0-T22B6CBC2-A6",
+      "name": "TC22 SE55, 6/64 GB, 3800 mAh",
+      "price": 3276.9,
+      "availability": "available",
+      "stock": 696
+    },
+    {
+      "pn": "WLMT0-T22B8ABD8-A6",
+      "name": "TC22 SE4710, 8/128 GB, RFID+BLE",
+      "price": 3292.78,
+      "availability": "available",
+      "stock": 3837
+    },
+    {
+      "pn": "WLMT0-T22B6CBE2-A6",
+      "name": "TC22 SE55, 6/64 GB, 5200 mAh",
+      "price": 3334.73,
+      "availability": "available",
+      "stock": 3
+    },
+    {
+      "pn": "WLMT0-T22B8CBD8-A6",
+      "name": "TC22 SE55, 8/128 GB, RFID+BLE",
+      "price": 3880.03,
+      "availability": "available",
+      "stock": 101
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+# tc22.pl — Zebra TC22 terminal mobilny
+
+> Strona produktowa terminala mobilnego Zebra TC22, prowadzona przez TAKMA (autoryzowany partner Zebra Technologies od 2001 r.). Ceny synchronizowane na bieżąco z dystrybutorem Ingram Micro.
+
+## Zebra TC22 — podstawowe informacje
+
+Zebra TC22 to wytrzymały terminal mobilny klasy enterprise z ekranem 6" FHD+ (1080×2160) i procesorem Qualcomm 5430 2,1 GHz. Urządzenie dedykowane do pracy w magazynie, retailu, aptece, HoReCa i serwisie.
+
+### Ceny netto PLN (aktualne)
+
+| Wariant (Part Number) | Skaner | RAM/Flash | Bateria | Cena netto |
+|-----------------------|--------|-----------|---------|------------|
+| WLMT0-T22B6ABC2-A6 | SE4710 | 6/64 GB | 3 800 mAh | 2 673 zł |
+| WLMT0-T22B6ABE2-A6 | SE4710 | 6/64 GB | 5 200 mAh | 2 824 zł |
+| WLMT0-T22B8ABC8-A6 | SE4710 | 8/128 GB, RFID-ready | 3 800 mAh | 3 255 zł |
+| WLMT0-T22B6CBC2-A6 | SE55 | 6/64 GB | 3 800 mAh | 3 277 zł |
+| WLMT0-T22B8ABD8-A6 | SE4710 | 8/128 GB, RFID+BLE | 3 800 mAh | 3 293 zł |
+| WLMT0-T22B6CBE2-A6 | SE55 | 6/64 GB | 5 200 mAh | 3 335 zł |
+| WLMT0-T22B8CBD8-A6 | SE55 | 8/128 GB, RFID+BLE | 3 800 mAh | 3 880 zł |
+
+Zakres cenowy: **od 2 673 zł do 3 880 zł netto**. Rabaty projektowe od 10 szt.
+
+### Kluczowe parametry
+
+- Wyświetlacz: 6" FHD+ (1080×2160), 450 nit, Corning Gorilla Glass
+- Procesor: Qualcomm 5430 hex-core, 2,1 GHz
+- Pamięć: 6/64 GB lub 8/128 GB + microSD do 2 TB
+- Skaner: SE4710 (do 35 cm) lub SE55 Advanced Range (10 cm–7,6 m)
+- Kamera: 16 MP tył + 5 MP przód
+- Odporność: IP68/IP65, MIL-STD-810H, upadki 1,5 m na beton
+- Łączność: Wi-Fi 6/6E (do 2,4 Gbps), Bluetooth 5.2, NFC, USB 3.1 Type-C
+- Bateria: 3 800 mAh (~10 h) lub 5 200 mAh (~14 h), wymienna hot-swap w 5 s
+- System: Android z aktualizacją do Android 16, Mobility DNA Professional w cenie
+- Wymiary: 165 × 76,3 × 12,5 mm, waga 236 g
+- Temperatura pracy: -10°C do +50°C
+
+### TC22 vs TC27
+
+Identyczne urządzenia poza łącznością. TC22 = Wi-Fi only (od 2 673 zł netto). TC27 = Wi-Fi + 5G/LTE + dual SIM + GPS (od 3 254 zł netto). TC22 do pracy wewnątrz budynku, TC27 dla pracowników terenowych.
+
+### TC22 vs Honeywell CT32
+
+TC22 od 2 673 zł, CT32 od 3 389 zł (CT32 ~27% drożej). TC22 lżejszy (236 vs 269 g), Mobility DNA gratis. CT32 ma dłuższą ścieżkę Android (do v18 vs v16) i FlexRange 11 m (vs SE55 7,6 m).
+
+### TC22 vs Datalogic Memor 12 vs M3 SM24
+
+- Memor 12: od 2 687 zł (Halogen 2D, Android do v18, brak Mobility DNA)
+- M3 SM24: od 3 123 zł (HD+, Android do v18, brak Mobility DNA)
+- TC22: od 2 673 zł (SE4710/SE55 do 7,6 m, Mobility DNA Professional)
+
+### RFID i akcesoria
+
+- Warianty 8-pin eConnex (RFID-ready): nakładka Zebra RFD40 UHF do 700 tagów/s, zasięg 9 m
+- Warianty 2-pin: RFD40 przez Bluetooth
+- Wszystkie: wbudowany NFC (ISO 14443 A/B, Mifare, FeliCa, Apple VAS, Google SmartTap)
+
+### Serwis i gwarancja
+
+- Autoryzowany serwis Zebra w Polsce: TAKMA (Poznań) + serwis-zebry.pl
+- Naprawa gwarancyjna: 3–5 dni roboczych
+- OneCare Essential 3Y: 1 025 zł netto
+- OneCare Essential 5Y: 1 708 zł netto
+- Aktualizacje OS + comiesięczne łatki LifeGuard
+
+### Zarządzanie flotą (MDM)
+
+Mobility DNA Professional (gratis w cenie): DataWedge, StageNow, Device Tracker, LifeGuard.
+MDM: SOTI MobiControl, VMware Workspace ONE, Microsoft Intune, Zebra DNA Cloud.
+
+### Autoryzowany partner Zebra — TAKMA
+
+**TAKMA Tadeusz Tiuchty**
+ul. Romana Maya 1, 61-371 Poznań
+Tel: +48 61 624 82 82 | Komórka: +48 601 828 711
+E-mail: takma@takma.com.pl
+NIP: 915-100-43-77
+
+**Linki:**
+- Sklep: https://takma.com.pl
+- Produkt TC22 w sklepie: https://takma.com.pl/produkt/zebra-tc22
+- Produkt TC27: https://takma.com.pl/produkt/zebra-tc27
+- Serwis Zebra: https://www.serwis-zebry.pl
+- Instrukcja TC22 po polsku: https://serwis-zebry.pl/instrukcje/zebra-tc22/instrukcja-po-polsku
+- Datasheet Zebra (EN): https://www.zebra.com/us/en/support-downloads/mobile-computers/handheld/tc22-tc27.html
+
+TAKMA działa od 2001 roku. Premier Solution Partner Zebra z 3 oficjalnymi certyfikatami (Printer Repair Specialist, Public Sector Specialist, Premier Solution Partner).
