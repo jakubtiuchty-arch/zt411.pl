@@ -6,20 +6,27 @@ import { getPrices, formatPrice } from '@/data/prices'
 
 const prices = getPrices()
 
+const tooltips: Record<string, string> = {
+  'Odrywanie (tear-off)': 'Najprostszy mechanizm: drukarka wydrukowuje etykietę, a użytkownik odrywa ją ręcznie na listwie odrywającej. Wariant bazowy, bez automatycznego podajnika.',
+  'Gilotyna (cutter)': 'Automatyczny obcinak gilotynowy cięcie między etykietami. Zalecany przy ciągłych nośnikach lub gdy etykiety mają być różnych długości.',
+  'Gilotyna linerless': 'Specjalna gilotyna do etykiet bezpodkładowych (ZeroLiner). Tnie bez podkładu — brak odpadów, +50% etykiet na rolkę.',
+  'ZeroLiner': 'Zebra ZeroLiner — druk na etykietach bez podkładu (linerless). Więcej etykiet na rolkę, mniej odpadów, redukcja emisji CO2. Tylko w ZT411.',
+}
+
 const plans = [
   {
     pn: 'ZT41142-T0E0000Z',
-    features: ['203 dpi', 'Odrywanie', '356 mm/s', 'Ethernet + USB + BT 4.2', '2× USB host'],
+    features: ['203 dpi', 'Odrywanie (tear-off)', '356 mm/s', 'Ethernet + USB + BT 4.2', '2× USB host'],
     defaultActive: true,
   },
   {
     pn: 'ZT41143-T2E0000Z',
-    features: ['300 dpi', 'Gilotyna', '305 mm/s', 'Ethernet + USB + BT 4.2', '2× USB host'],
+    features: ['300 dpi', 'Gilotyna (cutter)', '305 mm/s', 'Ethernet + USB + BT 4.2', '2× USB host'],
     defaultActive: false,
   },
   {
     pn: 'ZT41146-T0E0000Z',
-    features: ['600 dpi', 'Odrywanie', '152 mm/s', 'Ethernet + USB + BT 4.2', '2× USB host'],
+    features: ['600 dpi', 'Odrywanie (tear-off)', '152 mm/s', 'Ethernet + USB + BT 4.2', '2× USB host'],
     defaultActive: false,
   },
   {
@@ -107,12 +114,26 @@ export default function Warianty() {
                 </div>
 
                 <ul className="space-y-4 mb-8 flex-1">
-                  {plan.features.map((feature, i) => (
-                    <li key={i} className={`flex items-start text-sm text-slate-700 ${feature === '—' ? 'invisible' : ''}`}>
-                      <span className={`w-1.5 h-1.5 rounded-full mr-3 mt-2 shrink-0 transition-colors duration-300 ${isActive ? 'bg-brand-500' : 'bg-slate-300'}`} />
-                      {feature}
-                    </li>
-                  ))}
+                  {plan.features.map((feature, i) => {
+                    const tip = tooltips[feature]
+                    return (
+                      <li key={i} className={`flex items-start text-sm text-slate-700 ${feature === '—' ? 'invisible' : ''}`}>
+                        <span className={`w-1.5 h-1.5 rounded-full mr-3 mt-2 shrink-0 transition-colors duration-300 ${isActive ? 'bg-brand-500' : 'bg-slate-300'}`} />
+                        {tip ? (
+                          <span className="inline">
+                            {feature}{' '}
+                            <span className="relative group/tip inline-flex items-center align-middle">
+                              <span className="w-4 h-4 bg-slate-200 rounded-full inline-flex items-center justify-center text-[10px] font-bold text-slate-600 cursor-help">?</span>
+                              <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-64 p-2.5 bg-slate-900 text-white text-xs rounded-lg shadow-lg opacity-0 invisible group-hover/tip:opacity-100 group-hover/tip:visible transition-all z-50 leading-relaxed pointer-events-none">
+                                {tip}
+                                <span className="absolute top-full left-1/2 -translate-x-1/2 w-2 h-2 bg-slate-900 rotate-45 -mt-1" />
+                              </span>
+                            </span>
+                          </span>
+                        ) : feature}
+                      </li>
+                    )
+                  })}
                 </ul>
 
                 <button
