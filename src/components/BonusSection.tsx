@@ -14,7 +14,7 @@ export default function BonusSection() {
 
           <div>
             <h2 className="text-lg md:text-xl font-bold text-white leading-tight">
-              Do każdego ZT411 <span className="text-brand-500">GRATIS:</span> 2× taśma barwiąca Wax + konfiguracja ZPL
+              Do każdego ZT411 <span className="text-brand-500">GRATIS:</span> rolka etykiet + taśma termotransferowa
             </h2>
           </div>
         </div>
