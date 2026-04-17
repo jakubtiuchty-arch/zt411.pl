@@ -54,7 +54,7 @@ export default function Kontakt() {
           quantity: data.get('quantity'),
           accessories: addedAccessories,
           message: data.get('message'),
-          source: 'tc22.pl',
+          source: 'zt411.pl',
         }),
       })
       if (!res.ok) throw new Error('send failed')
@@ -71,7 +71,7 @@ export default function Kontakt() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-6 lg:mb-12">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900">
-            Zapytaj o ofertę na Zebra TC22
+            Zapytaj o ofertę na Zebra ZT411
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600">
             Odpowiadamy w ciągu 2 godzin w dni robocze. Podpowiemy konfigurację i policzymy rabat ilościowy.
@@ -84,7 +84,7 @@ export default function Kontakt() {
                 {/* Wariant + ilość */}
                 <div className="grid md:grid-cols-3 gap-4">
                   <div className="md:col-span-2">
-                    <label htmlFor="variant" className="block text-sm font-medium text-slate-700 mb-1">Wariant TC22</label>
+                    <label htmlFor="variant" className="block text-sm font-medium text-slate-700 mb-1">Wariant ZT411</label>
                     <select
                       id="variant"
                       name="variant"
@@ -149,7 +149,7 @@ export default function Kontakt() {
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-1">Uwagi / pytania</label>
-                  <textarea id="message" name="message" rows={3} placeholder="Np. Potrzebuję wycenę z etui ochronnym i stacją ładowania 5-slot..." className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none resize-none" />
+                  <textarea id="message" name="message" rows={3} placeholder="Np. Potrzebuję wycenę z obcinakiem i 10 rolkami taśmy Wax..." className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none resize-none" />
                 </div>
 
                 <button type="submit" disabled={loading} className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-brand-500 text-slate-900 font-bold rounded-lg hover:bg-brand-400 transition-colors disabled:opacity-60">

@@ -1,54 +1,41 @@
 {
-  "lastSync": "2026-04-16T10:45:16.295176Z",
+  "lastSync": "2026-04-17T10:00:00.000Z",
+  "_comment": "PLACEHOLDER — do podmiany na rzeczywiste PN'y i ceny z Ingrama",
   "variants": [
     {
-      "pn": "WLMT0-T22B6ABC2-A6",
-      "name": "TC22 SE4710, 6/64 GB, 3800 mAh",
-      "price": 2673.24,
+      "pn": "ZT41142-T0E0000Z",
+      "name": "ZT411 203 dpi, Wi-Fi 6/6E + BT 5.3, obcinak",
+      "price": 6490,
       "availability": "available",
-      "stock": 246
-    },
-    {
-      "pn": "WLMT0-T22B6ABE2-A6",
-      "name": "TC22 SE4710, 6/64 GB, 5200 mAh",
-      "price": 2824.18,
-      "availability": "unavailable",
       "stock": 0
     },
     {
-      "pn": "WLMT0-T22B8ABC8-A6",
-      "name": "TC22 SE4710, 8/128 GB, RFID-ready",
-      "price": 3255.33,
-      "availability": "unavailable",
+      "pn": "ZT41143-T0E0000Z",
+      "name": "ZT411 300 dpi, Wi-Fi 6/6E + BT 5.3, obcinak",
+      "price": 6990,
+      "availability": "available",
       "stock": 0
     },
     {
-      "pn": "WLMT0-T22B6CBC2-A6",
-      "name": "TC22 SE55, 6/64 GB, 3800 mAh",
-      "price": 3276.9,
+      "pn": "ZT41146-T0E0000Z",
+      "name": "ZT411 600 dpi, Wi-Fi 6/6E + BT 5.3, obcinak",
+      "price": 8490,
       "availability": "available",
-      "stock": 696
+      "stock": 0
     },
     {
-      "pn": "WLMT0-T22B8ABD8-A6",
-      "name": "TC22 SE4710, 8/128 GB, RFID+BLE",
-      "price": 3292.78,
+      "pn": "ZT41142-T0E00C0Z",
+      "name": "ZT411 203 dpi, RFID UHF, Wi-Fi 6/6E",
+      "price": 10490,
       "availability": "available",
-      "stock": 3837
+      "stock": 0
     },
     {
-      "pn": "WLMT0-T22B6CBE2-A6",
-      "name": "TC22 SE55, 6/64 GB, 5200 mAh",
-      "price": 3334.73,
-      "availability": "available",
-      "stock": 3
-    },
-    {
-      "pn": "WLMT0-T22B8CBD8-A6",
-      "name": "TC22 SE55, 8/128 GB, RFID+BLE",
-      "price": 3880.03,
-      "availability": "available",
-      "stock": 101
+      "pn": "ZT41142-T2E0000Z",
+      "name": "ZT411 203 dpi, bezpodkładowy ZeroLiner",
+      "price": 11990,
+      "availability": "on_order",
+      "stock": 0
     }
   ]
 }

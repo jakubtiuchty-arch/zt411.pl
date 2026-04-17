@@ -1,14 +1,14 @@
 'use client'
 
-import { ShoppingCart, Warehouse, Pill, Wrench, Package, Hotel } from 'lucide-react'
+import { Factory, Truck, ShoppingCart, HeartPulse, FlaskConical, Tag } from 'lucide-react'
 
 const sectors = [
-  { icon: ShoppingCart, title: 'Retail' },
-  { icon: Warehouse, title: 'Magazyn i logistyka' },
-  { icon: Pill, title: 'Apteka i przychodnia' },
-  { icon: Wrench, title: 'Serwis i produkcja' },
-  { icon: Package, title: 'E-commerce' },
-  { icon: Hotel, title: 'HoReCa' },
+  { icon: Factory, title: 'Produkcja' },
+  { icon: Truck, title: 'Transport i logistyka' },
+  { icon: ShoppingCart, title: 'Handel detaliczny' },
+  { icon: HeartPulse, title: 'Ochrona zdrowia' },
+  { icon: FlaskConical, title: 'Laboratoria' },
+  { icon: Tag, title: 'Znakowanie zgodności' },
 ]
 
 export default function DlaKogo() {

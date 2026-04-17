@@ -6,10 +6,10 @@ import { Plus, Check } from 'lucide-react'
 import { useState } from 'react'
 
 const accessories = [
-  { pn: 'BTRY-TC2L-2XMAXX-01', name: 'Akumulator 3800 mAh', desc: 'Bateria standardowa hot-swap, ~10 h pracy', price: 270, image: '/images/BTRY-TC2L-2XMAXX-01.png', available: true },
-  { pn: 'BTRY-TC2L-3XMAXX-01', name: 'Akumulator 5200 mAh', desc: 'Bateria rozszerzona hot-swap, ~14 h pracy', price: 401, image: '/images/BTRY-TC2L-3XMAXX-01.png', available: false },
-  { pn: 'SG-TC2L-BOOT-01', name: 'Etui ochronne (boot)', desc: 'Gumowy bumper, upadki do 1,8 m', price: 175, image: '/images/SG-TC2L-BOOT-01.png', available: true },
-  { pn: 'TRG-TC2L-SNP1-01', name: 'Trigger handle', desc: 'Rękojeść pistoletowa do skanowania', price: 818, image: '/images/TRG-TC2L-SNP1-01.png', available: true },
+  { pn: 'P1083320-118', name: 'Głowica drukująca 203 dpi', desc: 'Cienkowarstwowa z technologią E3™, wymiana u klienta', price: 1290, image: '/images/accessory-placeholder.png', available: true },
+  { pn: '02300GS11007', name: 'Taśma barwiąca Wax 110 mm × 450 m', desc: 'Certyfikowana Zebra, do standardowych etykiet', price: 62, image: '/images/accessory-placeholder.png', available: true },
+  { pn: 'KIT-CUT-ZT411', name: 'Obcinak gilotynowy (zestaw)', desc: 'Montowany z przodu + taca odbiorcza', price: 1890, image: '/images/accessory-placeholder.png', available: true },
+  { pn: 'KT-RFID-ZT411', name: 'Zestaw RFID UHF (upgrade)', desc: 'ISO/IEC 18000-63, EPC gen. 2 v2.1, kodowanie adaptacyjne', price: 4790, image: '/images/accessory-placeholder.png', available: false },
 ]
 
 function AccessoryCard({ acc }: { acc: typeof accessories[0] }) {
@@ -62,7 +62,7 @@ export default function Akcesoria() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-6 lg:mb-12">
           <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900">
-            Akcesoria do Zebra TC22
+            Akcesoria i materiały eksploatacyjne
           </motion.h2>
         </div>
 

@@ -14,11 +14,11 @@ function ClockSvg({ className }: { className?: string }) {
 
 const footerLinks = {
   tc22: [
-    { name: 'TC22 w sklepie', href: 'https://takma.com.pl/produkt/zebra-tc22' },
-    { name: 'TC27 (wersja 5G)', href: 'https://takma.com.pl/produkt/zebra-tc27' },
-    { name: 'Terminale mobilne', href: 'https://takma.com.pl/terminale-mobilne' },
-    { name: 'Instrukcja TC22 (PL)', href: 'https://serwis-zebry.pl/instrukcje/zebra-tc22/instrukcja-po-polsku' },
-    { name: 'Datasheet Zebra (EN)', href: 'https://www.zebra.com/us/en/support-downloads/mobile-computers/handheld/tc22-tc27.html' },
+    { name: 'ZT411 w sklepie', href: 'https://takma.com.pl/produkt/zebra-zt411' },
+    { name: 'ZT421 (wersja 6")', href: 'https://takma.com.pl/produkt/zebra-zt421' },
+    { name: 'Drukarki przemysłowe', href: 'https://takma.com.pl/drukarki-przemyslowe' },
+    { name: 'Instrukcja ZT411 (PL)', href: 'https://serwis-zebry.pl/instrukcje/zebra-zt411' },
+    { name: 'Datasheet Zebra (EN)', href: 'https://www.zebra.com/pl/pl/products/printers/industrial/zt400.html' },
   ],
   serwis: [
     { name: 'Serwis drukarek Zebra', href: 'https://serwis-zebry.pl/serwis-drukarek-zebra' },
@@ -100,7 +100,7 @@ export default function Footer() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 lg:gap-10">
             {/* TC22 */}
             <div className="text-center">
-              <h4 className="text-[10px] sm:text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-3 sm:mb-5">Zebra TC22</h4>
+              <h4 className="text-[10px] sm:text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-3 sm:mb-5">Zebra ZT411</h4>
               <ul className="space-y-2 sm:space-y-3">
                 {footerLinks.tc22.map((link) => (
                   <li key={link.href}>

@@ -2,11 +2,10 @@ import { NextResponse } from 'next/server'
 import { Resend } from 'resend'
 
 export const runtime = 'nodejs'
-
-const resend = new Resend(process.env.RESEND_API_KEY)
+export const dynamic = 'force-dynamic'
 
 const TO = process.env.CONTACT_TO_EMAIL || 'jakub.tiuchty@takma.com.pl'
-const FROM = process.env.CONTACT_FROM_EMAIL || 'kontakt@tc22.pl'
+const FROM = process.env.CONTACT_FROM_EMAIL || 'kontakt@zt411.pl'
 
 function esc(v: unknown): string {
   return String(v ?? '')
@@ -17,6 +16,12 @@ function esc(v: unknown): string {
 
 export async function POST(req: Request) {
   try {
+    const apiKey = process.env.RESEND_API_KEY
+    if (!apiKey) {
+      console.error('[contact] RESEND_API_KEY not set')
+      return NextResponse.json({ error: 'Konfiguracja serwera' }, { status: 500 })
+    }
+    const resend = new Resend(apiKey)
     const body = await req.json()
     const { name, email, company, nip, phone, variant, quantity, accessories, message } = body
 
@@ -44,7 +49,7 @@ export async function POST(req: Request) {
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light only">
 <meta name="supported-color-schemes" content="light only">
-<title>Nowe zapytanie z tc22.pl</title>
+<title>Nowe zapytanie z zt411.pl</title>
 <style>
 :root { color-scheme: light only; supported-color-schemes: light only; }
 [data-ogsc] .hdr-title, [data-ogsb] .hdr-title { color: #f8fafc !important; }
@@ -63,7 +68,7 @@ u + .body .hdr-title { color: #f8fafc !important; }
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr>
 <td style="vertical-align:middle">
-<div style="color:#A8F000;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:4px">tc22.pl</div>
+<div style="color:#A8F000;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:4px">zt411.pl</div>
 <div class="hdr-title" style="color:#f8fafc;mso-line-height-rule:exactly;font-size:22px;font-weight:700;line-height:1.3"><font color="#f8fafc">Nowe zapytanie ofertowe</font></div>
 </td>
 <td style="vertical-align:middle;text-align:right">
@@ -83,7 +88,7 @@ ${company ? `<div style="color:#475569;font-size:14px;margin-top:4px">${esc(comp
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:18px">
 <tr>
 <td style="padding-right:8px"><a href="tel:${esc(phone)}" style="display:inline-block;padding:10px 18px;background:#A8F000;color:#0A1A2F;font-size:13px;font-weight:700;text-decoration:none;border-radius:999px">📞 Zadzwoń</a></td>
-<td><a href="mailto:${esc(email)}?subject=Re%3A%20Zapytanie%20z%20tc22.pl" style="display:inline-block;padding:10px 18px;background:#0A1A2F;color:#ffffff;font-size:13px;font-weight:700;text-decoration:none;border-radius:999px">✉ Odpowiedz</a></td>
+<td><a href="mailto:${esc(email)}?subject=Re%3A%20Zapytanie%20z%20zt411.pl" style="display:inline-block;padding:10px 18px;background:#0A1A2F;color:#ffffff;font-size:13px;font-weight:700;text-decoration:none;border-radius:999px">✉ Odpowiedz</a></td>
 </tr>
 </table>
 </td></tr>
@@ -94,7 +99,7 @@ ${company ? `<div style="color:#475569;font-size:14px;margin-top:4px">${esc(comp
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px">
 <tr>
 <td style="padding:16px 18px;vertical-align:middle">
-<div style="color:#0f172a;font-size:16px;font-weight:700">Zebra TC22</div>
+<div style="color:#0f172a;font-size:16px;font-weight:700">Zebra ZT411</div>
 <div style="color:#475569;font-size:13px;font-family:ui-monospace,monospace;margin-top:2px">${variant ? esc(variant) : '— wariant nie wybrany —'}</div>
 </td>
 <td style="padding:16px 18px;vertical-align:middle;text-align:right;white-space:nowrap">
@@ -127,7 +132,7 @@ ${messageHtml}
 <tr><td style="padding:20px 28px 24px;background:#f8fafc;border-top:1px solid #e2e8f0">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr>
-<td style="color:#94a3b8;font-size:11px">Źródło: <a href="https://tc22.pl" style="color:#475569;text-decoration:none;font-weight:600">tc22.pl</a></td>
+<td style="color:#94a3b8;font-size:11px">Źródło: <a href="https://zt411.pl" style="color:#475569;text-decoration:none;font-weight:600">zt411.pl</a></td>
 <td style="color:#94a3b8;font-size:11px;text-align:right">TAKMA · partner Zebra od 2001</td>
 </tr>
 </table>
@@ -141,10 +146,10 @@ ${messageHtml}
 </html>`.trim()
 
     const { data, error } = await resend.emails.send({
-      from: `tc22.pl <${FROM}>`,
+      from: `zt411.pl <${FROM}>`,
       to: [TO],
       replyTo: email,
-      subject: `[tc22.pl] Zapytanie: ${name}${variant ? ` — ${variant}` : ''}`,
+      subject: `[zt411.pl] Zapytanie: ${name}${variant ? ` — ${variant}` : ''}`,
       html,
     })
 

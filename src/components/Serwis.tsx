@@ -71,8 +71,8 @@ export default function Serwis() {
             </p>
             <ul className="space-y-2 text-sm text-slate-600 mb-4">
               <li>• Zgłoszenie naprawy online 24/7</li>
-              <li>• Instrukcje obsługi po polsku (TC22, TC27, ZD421 i inne)</li>
-              <li>• Poradniki konfiguracji DataWedge, StageNow, MDM</li>
+              <li>• Instrukcje obsługi po polsku (ZT411, ZT421, ZD621 i inne)</li>
+              <li>• Poradniki konfiguracji ZPL, Print DNA, MDM</li>
               <li>• Diagnostyka zdalna przed wysyłką do serwisu</li>
             </ul>
             <a href="https://www.serwis-zebry.pl" target="_blank" rel="noopener" className="inline-flex items-center gap-1 text-sm text-brand-700 font-semibold hover:underline">

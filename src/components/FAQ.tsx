@@ -12,60 +12,60 @@ const _fmt = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
 
 const faqs = [
   {
-    q: 'Jaka jest cena terminala Zebra TC22 w Polsce?',
-    a: `Zebra TC22 kosztuje od ${_fmt(_low)} zł netto (konfiguracja SE4710, 6/64 GB, bateria 3 800 mAh) do ${_fmt(_high)} zł netto (SE55 Advanced Range, 8/128 GB, RFID-ready, BLE). Wersja z 5G/GPS — Zebra TC27 — zaczyna się od 3 254 zł netto. Ceny obejmują urządzenie z baterią, bez akcesoriów. Ceny netto PLN, aktualizowane na bieżąco.`,
+    q: 'Ile kosztuje drukarka Zebra ZT411 w Polsce?',
+    a: `Zebra ZT411 kosztuje od ${_fmt(_low)} zł netto (wariant 203 dpi, Wi-Fi + Bluetooth) do ${_fmt(_high)} zł netto (wariant bezpodkładowy ZeroLiner). Wariant z RFID UHF: ok. 10 490 zł netto. Ceny zawierają drukarkę z zasilaczem i kablem USB, bez taśmy barwiącej.`,
   },
   {
-    q: 'Czym Zebra TC22 różni się od modelu TC27?',
-    a: 'TC22 i TC27 mają identyczny procesor (Qualcomm 5430), ekran (6" FHD+), skanery, wytrzymałość IP68 i kompatybilne akcesoria. Jedyna różnica: TC22 pracuje wyłącznie przez Wi-Fi 6/6E, natomiast TC27 dodaje moduł 5G/4G LTE z dual SIM (nano + eSIM) oraz GPS/GNSS z dokładnością 1–3 m. TC22 wybierz do pracy wewnątrz budynku (magazyn, sklep). TC27 — dla pracowników terenowych (kurierzy, serwisanci, inspektorzy).',
+    q: 'Jaką rozdzielczość druku wybrać: 203, 300 czy 600 dpi?',
+    a: '203 dpi — standardowe etykiety logistyczne, kody kreskowe, adresy wysyłki. 300 dpi — mniejsze czcionki, QR, DataMatrix, etykiety laboratoryjne. 600 dpi — mikrotekst, znakowanie PCB, etykiety farmaceutyczne, najdrobniejsze kody 2D. Rozdzielczość 600 dpi dostępna wyłącznie w ZT411 (nie w ZT421).',
   },
   {
-    q: 'Który skaner wybrać — SE4710 czy SE55?',
-    a: 'SE4710 to standardowy skaner 1D/2D z zasięgiem do 35 cm — idealny do codziennego skanowania produktów na półkach, w kasie lub w aptece. SE55 Advanced Range sięga od 10 cm do 7,6 metra — skanuje etykiety na wysokich regałach magazynowych bez użycia drabiny. Różnica cenowa wynosi ok. 500 zł. Rekomendacja: SE55 dla magazynów z regałami powyżej 2 m, SE4710 dla retailu i pracy na poziomie ręki.',
+    q: 'Czym różni się Zebra ZT411 od ZT421?',
+    a: 'ZT411 ma szerokość druku 4" (104 mm), ZT421 ma 6" (168 mm). ZT411 oferuje opcjonalną rozdzielczość 600 dpi, ZT421 tylko 203 i 300 dpi. ZT411 obsługuje druk bezpodkładowy ZeroLiner, ZT421 nie. ZT411 jest lżejsza (16,33 vs 18,14 kg). Dla standardowych etykiet logistycznych — ZT411, dla dużych etykiet paletowych 6" — ZT421.',
   },
   {
-    q: 'Czy TC22 jest wodoodporny i wytrzymały?',
-    a: 'Tak — TC22 posiada podwójną certyfikację IP68 (pyłoszczelność + zanurzenie do 1 m na 30 min) oraz IP65 (silny strumień wody). Spełnia normy MIL-STD-810H: upadki z 1,5 m na beton (z etui), 500 tumble z 0,5 m, szok termiczny od -10°C do +50°C, wilgotność 95%. Wyświetlacz i okienko skanera chronione Corning Gorilla Glass.',
+    q: 'Czym ZT411 różni się od starszej ZT410?',
+    a: 'ZT411 to następca ZT410. Kluczowe różnice: kolorowy ekran dotykowy 4,3" (vs monochromatyczny w ZT410), Wi-Fi 6/6E i Bluetooth 5.3 (vs Wi-Fi 5 i BT 4.1), szybszy procesor, dwa porty USB host (vs jeden), Zebra Link-OS z Print DNA, opcja druku bezpodkładowego ZeroLiner, certyfikat ENERGY STAR. ZT410 została wycofana z produkcji.',
   },
   {
-    q: 'Jak długo wytrzymuje bateria i czy można ją wymienić?',
-    a: 'Bateria standardowa 3 800 mAh zapewnia ok. 10 godzin typowej pracy (Wi-Fi + skanowanie). Bateria rozszerzona 5 200 mAh — ok. 14 godzin. Obie są wymienne metodą hot-swap: pracownik wymienia baterię w 5 sekund bez wyłączania terminala i utraty danych. Technologia PowerPrecision podaje stan baterii w czasie rzeczywistym.',
+    q: 'Czy ZT411 obsługuje RFID UHF?',
+    a: 'Tak. Opcja RFID UHF (ISO/IEC 18000-63, EPC gen. 2 v2.1, RAIN RFID) dostępna jako wariant fabryczny lub zestaw do instalacji u klienta. Technologia kodowania adaptacyjnego automatycznie dobiera optymalne ustawienia dla każdego tagu. Dostępna jest też specjalna wersja RFID On-Metal do znakowania powierzchni metalowych (kontenery, zasoby metalowe).',
   },
   {
-    q: 'Jaki system Android ma TC22 i jak długo będzie wspierany?',
-    a: 'TC22 jest dostarczany z aktualnym Androidem i posiada gwarancję producenta na aktualizację do Androida 16 (3 generacje OS). Zebra LifeGuard zapewnia comiesięczne łatki bezpieczeństwa przez cały cykl życia urządzenia. Dostępne wersje: GMS (Google Play) i AOSP (bez Google). Zarządzanie flotą przez SOTI, VMware, Intune lub Zebra DNA Cloud.',
+    q: 'Czym jest druk bezpodkładowy ZeroLiner w ZT411?',
+    a: 'ZeroLiner to technologia druku na etykietach bez podkładu (linerless). Zalety: ~50% więcej etykiet na jednej rolce, brak odpadów z podkładu, redukcja emisji CO2, mniej przestojów na wymianę rolek. ZT411 to jedyna drukarka przemysłowa Zebra obsługująca ZeroLiner. Dostępna jako wariant fabryczny (tylko druk termiczny) lub zestaw do modernizacji istniejących ZT411.',
   },
   {
-    q: 'Czy Zebra TC22 może czytać tagi RFID?',
-    a: 'TC22 nie ma wbudowanego czytnika RFID UHF, ale warianty z 8-pinowym złączem eConnex (oznaczone „RFID-ready") obsługują nakładkę Zebra RFD40 UHF Sled — odczyt 100–700 tagów/sekundę z odległości do 9 m. Modele z 2-pinowym złączem łączą się z RFD40 przez Bluetooth. Wbudowany NFC (13,56 MHz) działa we wszystkich wariantach — obsługuje karty lojalnościowe, Apple VAS i Google SmartTap.',
+    q: 'Jakie łączności ma ZT411?',
+    a: 'Standard: USB 2.0, RS-232 szeregowy, Ethernet 10/100, Bluetooth 4.2, 2× USB host (do klawiatury, skanera, pendrive z firmware). Opcja: dwupasmowy moduł Wi-Fi 802.11ax (Wi-Fi 6/6E) + Bluetooth 5.3, interfejs równoległy, interfejs aplikatora. Dwa otwarte gniazda umożliwiają instalację dodatkowych kart komunikacyjnych w ciągu kilku minut.',
   },
   {
-    q: 'Ile kosztuje Zebra TC22 vs Honeywell CT32?',
-    a: `Zebra TC22 zaczyna się od ${_fmt(_low)} zł netto — Honeywell CT32 od 3 389 zł netto. CT32 jest o ~27% droższy w wersji bazowej, ale oferuje dłuższą ścieżkę Android (do v18 vs v16) i skaner FlexRange z zasięgiem 11 m. TC22 jest lżejszy (236 vs 269 g), ma większy ekosystem Mobility DNA (gratis) i najszerszą sieć serwisową Zebra w Polsce. Dla firm szukających najniższego TCO — TC22. Dla projektów z perspektywą 6+ lat — CT32 wart rozważenia.`,
+    q: 'Ile kosztuje Zebra ZT411 vs Honeywell PM45?',
+    a: `ZT411 od ${_fmt(_low)} zł netto, Honeywell PM45 od ok. 7 200 zł netto (porównywalny wariant 203 dpi). ZT411 wygrywa: Wi-Fi 6/6E (PM45 tylko Wi-Fi 5), rozdzielczość 600 dpi w opcji (PM45 max 406 dpi), ZeroLiner bezpodkładowy (PM45 brak), Print DNA gratis (bogatszy ekosystem niż Honeywell). PM45 wygrywa: nieco szybszy przy 300 dpi. Dla firm z flotą Zebra — ZT411.`,
   },
   {
-    q: 'Ile kosztuje Zebra TC22 vs TC53e?',
-    a: `TC22 od ${_fmt(_low)} zł netto, TC53e od ok. 4 500 zł netto. TC53e to klasa premium: bateria 4 680/7 000 mAh (vs 3 800/5 200 mAh), procesor QCS4490 2,4 GHz (vs 5430 2,1 GHz), Android do v17, nowszy skaner SE4720. TC22 wystarczy dla 80% zastosowań magazynowych i retailowych. TC53e rekomendowany dla wymagających środowisk z 3-zmianową pracą i potrzebą najdłuższego cyklu baterii.`,
+    q: 'Jakie języki programowania obsługuje ZT411?',
+    a: 'Standardowo: ZPL i ZPL II (Zebra Programming Language — zaawansowane formatowanie etykiet), ZBI 2.0 (BASIC Interpreter dla niezależnych aplikacji drukarkowych). Dodatkowo EPL i EPL2 (Eltron z trybem liniowym — tylko model 203 dpi) dla kompatybilności ze starszymi systemami. Dzięki Unicode ZT411 drukuje w dowolnym języku — polskim, chińskim, arabskim, cyrylicy.',
   },
   {
-    q: 'Czy mogę korzystać z płatności zbliżeniowych NFC na TC22?',
-    a: 'Tak — wbudowany NFC (ISO 14443 A/B, Mifare, FeliCa) obsługuje płatności contactless po integracji z aplikacją POS. TC22 jest certyfikowany Apple VAS i Google SmartTap — skanuje bilety, karty lojalnościowe, karty podarunkowe i boarding passy z Apple Wallet / Google Wallet. Przydatne w retail, hotelarstwie i obsłudze eventów.',
+    q: 'Jak szybka jest Zebra ZT411?',
+    a: 'Maksymalna prędkość druku: 356 mm/s (14"/s) przy 203 dpi — najwyższa w klasie drukarek 4" przemysłowych. Przy 300 dpi: ok. 305 mm/s. Przy 600 dpi: ok. 152 mm/s. Krótki czas wydruku pierwszej etykiety (<1 s). Długość ciągłego druku: 3 988 mm (203 dpi), 1 854 mm (300 dpi), 991 mm (600 dpi).',
   },
   {
-    q: 'Jakie oprogramowanie jest dołączone do TC22?',
-    a: 'Każdy TC22 zawiera darmowy pakiet Mobility DNA Professional: DataWedge (skanowanie kodów bez programowania — kody trafiają bezpośrednio do pola tekstowego), StageNow (masowa konfiguracja floty z jednego profilu), Device Tracker (lokalizacja zagubionego terminala w budynku), LifeGuard (comiesięczne łatki bezpieczeństwa). Żaden konkurent nie oferuje takiego pakietu w cenie urządzenia.',
+    q: 'Jakie akcesoria i materiały eksploatacyjne pasują do ZT411?',
+    a: 'Taśmy barwiące Wax, Wax-Resin lub Resin (szerokość 51–110 mm, długość do 450 m, rdzeń 25 mm). Głowice drukujące 203/300/600 dpi (wymienne u klienta). Nawijak pełnej rolki, odklejak, obcinak gilotynowy, klawiatura ZKDU do niezależnego druku, interfejs aplikatora. Etykiety certyfikowane Zebra — ciągłe, sztancowane, z czarnymi znacznikami, ZeroLiner.',
   },
   {
-    q: 'Gdzie serwisować Zebra TC22 w Polsce?',
-    a: 'Autoryzowany serwis Zebra w Polsce: TAKMA oraz serwis-zebry.pl. Czas naprawy gwarancyjnej: 3–5 dni roboczych. Opcjonalne kontrakty OneCare (Z1AE-TC2L-*): Essential (naprawa 3 dni), Select (naprawa+wymiana baterii), TC Cloud (zarządzanie zdalne). TAKMA zapewnia też diagnostykę przed zakupem i pomoc przy konfiguracji floty.',
+    q: 'Gdzie serwisować Zebra ZT411 w Polsce?',
+    a: 'Autoryzowany serwis Zebra w Polsce: TAKMA (Poznań, Premier Solution Partner) oraz portal serwis-zebry.pl. Czas naprawy gwarancyjnej: 3–5 dni roboczych. Kontrakty Zebra OneCare: Essential (naprawa 3 dni, priorytet 8×5) lub Select (priorytet 24×7, wymiana urządzenia następnego dnia). TAKMA oferuje wymianę głowic, konserwację prewencyjną, diagnostykę zdalną przez Printer Profile Manager.',
   },
   {
-    q: 'Ile urządzeń TC22 mogę ładować jednocześnie?',
-    a: 'Dostępne stacje ładowania: 1-slot (CRD-TC2L-BS1CO-01) do pojedynczego stanowiska, 5-slot (CRD-TC2L-BS5CO-01) z Ethernet do każdego urządzenia, ładowarka 4 baterii (SAC-TC2L-4SCHG-01). Dla floty 20+ urządzeń: 4× stacja 5-slot + 2× ładowarka 4 baterii. Zasilanie: dedykowany zasilacz 50 W (1-slot) lub 108 W (5-slot/ładowarka).',
+    q: 'Do jakich zastosowań jest Zebra ZT411?',
+    a: 'Produkcja (WIP, oznaczenia identyfikacyjne, numery seryjne, etykiety odbiorcze i składowania). Transport i logistyka (kompletacja, wysyłka, przyjmowanie towarów, przeładunek, etykiety zgodności). Handel detaliczny (centra dystrybucji, obsługa zaplecza). Ochrona zdrowia (etykiety laboratoryjne, banki krwi, śledzenie zasobów, apteki). Rekomendowana tam, gdzie wymagana niezawodność 24/7 i duża ilość drukowanych etykiet dziennie.',
   },
   {
-    q: 'Jakie są alternatywy dla Zebra TC22 na rynku?',
-    a: `Główne alternatywy w segmencie entry/mid-range: Honeywell CT32 (od 3 389 zł, Android do v18, FlexRange 11 m), Zebra TC53e (od ~4 500 zł, premium z baterią 7 000 mAh), Datalogic Memor 12 (od ~4 490 zł, Android 13, ładowanie Qi), Samsung Galaxy XCover (od ~1 500 zł, smartfon — brak profesjonalnego skanera i Mobility DNA). TC22 (od ${_fmt(_low)} zł netto) oferuje najlepszy stosunek cena/wydajność z darmowym Mobility DNA i najszerszą siecią serwisową Zebra w Polsce.`,
+    q: 'Jakie są warunki środowiskowe pracy ZT411?',
+    a: 'Druk termotransferowy: 5°C do 40°C. Druk termiczny: 0°C do 40°C. Przechowywanie i transport: -40°C do +60°C. Wilgotność pracy: 20–85% bez kondensacji. Wilgotność przechowywania: 5–85%. Metalowa rama i składana pokrywa z dużym przezroczystym okienkiem. Certyfikat ENERGY STAR (energooszczędna). Trwała powłoka ochraniająca głowicę w trybie termicznym.',
   },
 ]
 

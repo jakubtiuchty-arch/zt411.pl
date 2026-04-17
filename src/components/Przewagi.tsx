@@ -1,13 +1,13 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Wifi, ScanBarcode, Shield, BatteryCharging } from 'lucide-react'
+import { Gauge, Printer, Radio, Leaf } from 'lucide-react'
 
 const features = [
-  { id: '01', icon: Wifi, title: 'Wi-Fi 6E', stat: '2,4 Gbps', desc: 'Tri-band 2,4/5/6 GHz, 2×2 MU-MIMO. Stabilne połączenie w gęstych sieciach z 50+ urządzeniami.' },
-  { id: '02', icon: ScanBarcode, title: 'Skaner SE55', stat: 'do 7,6 m', desc: 'Advanced Range z zieloną kropką. Skanuje kody na regałach do 7,6 m bez drabiny.' },
-  { id: '03', icon: Shield, title: 'IP68 + MIL-STD', stat: '1,5 m drop', desc: 'Pyłoszczelny, zanurzenie 1 m/30 min. Upadki z 1,5 m na beton. -10°C do +50°C.' },
-  { id: '04', icon: BatteryCharging, title: 'Hot-swap bateria', stat: '5 s wymiany', desc: 'Wymiana bez wyłączania. 3 800 mAh (~10 h) lub 5 200 mAh (~14 h).' },
+  { id: '01', icon: Gauge, title: 'Szybkość druku', stat: '356 mm/s', desc: 'Najwyższa w klasie 4" przemysłowej. Krótki czas wydruku pierwszej etykiety, wysoka przepustowość dla 24/7 produkcji.' },
+  { id: '02', icon: Printer, title: 'Rozdzielczość', stat: 'do 600 dpi', desc: 'Trzy opcje: 203 dpi (logistyka), 300 dpi (QR/DataMatrix), 600 dpi (mikrotekst, PCB, farma). 600 dpi tylko w ZT411.' },
+  { id: '03', icon: Radio, title: 'RFID UHF', stat: 'EPC gen.2', desc: 'Zintegrowany koder RFID UHF (ISO/IEC 18000-63) z adaptacyjnym kodowaniem. Wersja On-Metal do powierzchni metalowych.' },
+  { id: '04', icon: Leaf, title: 'ZeroLiner', stat: '+50% etykiet', desc: 'Druk bezpodkładowy: 50% więcej etykiet na rolkę, zero odpadów z podkładu, redukcja emisji CO2. Tylko w ZT411.' },
 ]
 
 export default function Przewagi() {
@@ -16,7 +16,7 @@ export default function Przewagi() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-6 lg:mb-12">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
-            Kluczowe parametry Zebra TC22
+            Kluczowe przewagi Zebra ZT411
           </h2>
         </div>
 
@@ -30,12 +30,10 @@ export default function Przewagi() {
               transition={{ duration: 0.7, delay: i * 0.15 }}
               className="relative group text-center"
             >
-              {/* Icon in circle */}
               <div className="relative inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-brand-500/30 mb-5 group-hover:border-brand-500 transition-all duration-300">
                 <div className="w-11 h-11 sm:w-14 sm:h-14 bg-brand-500/10 rounded-full flex items-center justify-center group-hover:bg-brand-500/20 transition-colors">
                   <f.icon size={24} className="text-brand-500" />
                 </div>
-                {/* Number badge */}
                 <div className="absolute -top-1 -right-1 w-6 h-6 sm:w-7 sm:h-7 bg-brand-500 rounded-full flex items-center justify-center text-slate-900 font-bold text-xs shadow-md">
                   {f.id}
                 </div>

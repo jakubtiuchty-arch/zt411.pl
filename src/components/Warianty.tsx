@@ -8,23 +8,23 @@ const prices = getPrices()
 
 const plans = [
   {
-    pn: 'WLMT0-T22B6ABC2-A6',
-    features: ['Skaner SE4710 (do 35 cm)', '6 GB / 64 GB', 'Bateria 3 800 mAh (~10 h)', 'Wi-Fi 6/6E + BT 5.2 + NFC', '—'],
+    pn: 'ZT41142-T0E0000Z',
+    features: ['Rozdzielczość 203 dpi', 'Szerokość druku 4" (104 mm)', 'Wi-Fi 6/6E + Bluetooth 5.3', 'Obcinak gilotynowy', 'Ekran dotykowy 4,3"'],
     defaultActive: true,
   },
   {
-    pn: 'WLMT0-T22B8ABD8-A6',
-    features: ['Skaner SE4710 (do 35 cm)', '8 GB / 128 GB', 'Bateria 3 800 mAh (~10 h)', 'Lokalizator BLE', 'Złącze RFID 8-pin (eConnex)'],
+    pn: 'ZT41143-T0E0000Z',
+    features: ['Rozdzielczość 300 dpi', 'Szerokość druku 4" (104 mm)', 'Wi-Fi 6/6E + Bluetooth 5.3', 'Obcinak gilotynowy', 'QR / DataMatrix małe'],
     defaultActive: false,
   },
   {
-    pn: 'WLMT0-T22B6CBE2-A6',
-    features: ['Skaner SE55 Advanced (do 7,6 m)', '6 GB / 64 GB', 'Bateria 5 200 mAh (~14 h)', 'Wi-Fi 6/6E + BT 5.2 + NFC', '—'],
+    pn: 'ZT41146-T0E0000Z',
+    features: ['Rozdzielczość 600 dpi', 'Mikrotekst, PCB, farma', 'Wi-Fi 6/6E + Bluetooth 5.3', 'Obcinak gilotynowy', 'Tylko w ZT411'],
     defaultActive: false,
   },
   {
-    pn: 'WLMT0-T22B8CBD8-A6',
-    features: ['Skaner SE55 Advanced (do 7,6 m)', '8 GB / 128 GB', 'Bateria 3 800 mAh (~10 h)', 'Lokalizator BLE', 'Złącze RFID 8-pin (eConnex)'],
+    pn: 'ZT41142-T0E00C0Z',
+    features: ['Rozdzielczość 203 dpi', 'RFID UHF (ISO 18000-63)', 'EPC gen. 2 v2.1 / RAIN', 'Wi-Fi 6/6E + Bluetooth 5.3', 'Kodowanie adaptacyjne'],
     defaultActive: false,
   },
 ]
@@ -44,7 +44,7 @@ export default function Warianty() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-6 lg:mb-12">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900">
-            Wybierz wariant Zebra TC22
+            Wybierz wariant Zebra ZT411
           </h2>
           <p className="mt-4 text-sm text-slate-500">
             Ceny netto za 1 szt. Przy większej ilości — <a href="#kontakt" className="font-semibold text-slate-700 underline">zapytaj o ofertę projektową</a> z dedykowaną ceną.
@@ -110,29 +110,7 @@ export default function Warianty() {
                   {plan.features.map((feature, i) => (
                     <li key={i} className={`flex items-start text-sm text-slate-700 ${feature === '—' ? 'invisible' : ''}`}>
                       <span className={`w-1.5 h-1.5 rounded-full mr-3 mt-2 shrink-0 transition-colors duration-300 ${isActive ? 'bg-brand-500' : 'bg-slate-300'}`} />
-                      {feature === 'Lokalizator BLE' ? (
-                        <span className="inline">
-                          Lokalizator BLE{' '}
-                          <span className="relative group/tip inline-flex items-center align-middle">
-                            <span className="w-4 h-4 bg-slate-200 rounded-full inline-flex items-center justify-center text-[10px] font-bold text-slate-600 cursor-help">?</span>
-                            <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-56 p-2.5 bg-slate-900 text-white text-xs rounded-lg shadow-lg opacity-0 invisible group-hover/tip:opacity-100 group-hover/tip:visible transition-all z-50 leading-relaxed pointer-events-none">
-                              Wbudowany nadajnik BLE pozwala lokalizować terminal w budynku za pomocą Zebra Device Tracker — znajdziesz zagubione urządzenie na mapie.
-                              <span className="absolute top-full left-1/2 -translate-x-1/2 w-2 h-2 bg-slate-900 rotate-45 -mt-1" />
-                            </span>
-                          </span>
-                        </span>
-                      ) : feature.includes('eConnex') ? (
-                        <span className="inline">
-                          Złącze RFID 8-pin (eConnex){' '}
-                          <span className="relative group/tip inline-flex items-center align-middle">
-                            <span className="w-4 h-4 bg-slate-200 rounded-full inline-flex items-center justify-center text-[10px] font-bold text-slate-600 cursor-help">?</span>
-                            <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-56 p-2.5 bg-slate-900 text-white text-xs rounded-lg shadow-lg opacity-0 invisible group-hover/tip:opacity-100 group-hover/tip:visible transition-all z-50 leading-relaxed pointer-events-none">
-                              Złącze 8-pin umożliwia podłączenie nakładki Zebra RFD40 UHF RFID Sled — odczyt do 700 tagów/s z odległości do 9 m.
-                              <span className="absolute top-full left-1/2 -translate-x-1/2 w-2 h-2 bg-slate-900 rotate-45 -mt-1" />
-                            </span>
-                          </span>
-                        </span>
-                      ) : feature}
+                      {feature}
                     </li>
                   ))}
                 </ul>

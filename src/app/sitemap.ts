@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: 'https://tc22.pl',
+      url: 'https://zt411.pl',
       lastModified,
       changeFrequency: 'weekly',
       priority: 1.0,
