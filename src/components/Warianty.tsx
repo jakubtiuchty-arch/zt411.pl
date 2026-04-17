@@ -154,17 +154,18 @@ export default function Warianty() {
           })}
         </div>
 
-        <div className="mt-10 lg:mt-12 pt-8 border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 max-w-4xl mx-auto">
-          <p className="text-sm text-slate-600">
-            Pokazaliśmy 4 warianty. ZT411 dostępna jest w <strong className="text-slate-900">16 konfiguracjach</strong>.
+        <div className="mt-10 lg:mt-12 text-center">
+          <p className="text-sm text-slate-500 mb-4">
+            Pokazaliśmy 4 z <strong className="text-slate-700">16 dostępnych wariantów</strong> ZT411
           </p>
           <a
             href="https://www.takma.com.pl/produkt/zebra-zt411"
             target="_blank"
             rel="noopener"
-            className="text-sm font-semibold text-slate-900 hover:text-brand-700 transition-colors whitespace-nowrap"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-white text-sm font-semibold rounded-full hover:bg-slate-800 transition-colors"
           >
-            Zobacz wszystkie w sklepie TAKMA →
+            Zobacz pełną listę na takma.com.pl
+            <span className="text-brand-500">→</span>
           </a>
         </div>
 
