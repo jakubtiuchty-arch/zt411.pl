@@ -1,40 +1,116 @@
 {
-  "lastSync": "2026-04-17T10:00:00.000Z",
-  "_comment": "PLACEHOLDER — do podmiany na rzeczywiste PN'y i ceny z Ingrama",
+  "lastSync": "2026-04-17T20:03:43.198Z",
   "variants": [
     {
       "pn": "ZT41142-T0E0000Z",
-      "name": "ZT411 203 dpi, Wi-Fi 6/6E + BT 5.3, obcinak",
-      "price": 6490,
+      "name": "ZT411 203 dpi, odrywanie",
+      "price": 5613.84,
       "availability": "available",
-      "stock": 0
+      "stock": 2149
     },
     {
-      "pn": "ZT41143-T0E0000Z",
-      "name": "ZT411 300 dpi, Wi-Fi 6/6E + BT 5.3, obcinak",
-      "price": 6990,
+      "pn": "ZT41142-T0EC000Z",
+      "name": "ZT411 203 dpi, odrywanie + Wi-Fi",
+      "price": 6983.82,
       "availability": "available",
-      "stock": 0
+      "stock": 96
     },
     {
-      "pn": "ZT41146-T0E0000Z",
-      "name": "ZT411 600 dpi, Wi-Fi 6/6E + BT 5.3, obcinak",
-      "price": 8490,
+      "pn": "ZT41142-T1E0000Z",
+      "name": "ZT411 203 dpi, odklejak",
+      "price": 6363.7,
       "availability": "available",
-      "stock": 0
-    },
-    {
-      "pn": "ZT41142-T0E00C0Z",
-      "name": "ZT411 203 dpi, RFID UHF, Wi-Fi 6/6E",
-      "price": 10490,
-      "availability": "available",
-      "stock": 0
+      "stock": 93
     },
     {
       "pn": "ZT41142-T2E0000Z",
-      "name": "ZT411 203 dpi, bezpodkładowy ZeroLiner",
-      "price": 11990,
-      "availability": "on_order",
+      "name": "ZT411 203 dpi, gilotyna",
+      "price": 7733.99,
+      "availability": "available",
+      "stock": 169
+    },
+    {
+      "pn": "ZT41142-T3E0000Z",
+      "name": "ZT411 203 dpi, odklejak + nawijak podkładu",
+      "price": 6927.46,
+      "availability": "available",
+      "stock": 591
+    },
+    {
+      "pn": "ZT41142-T4E0000Z",
+      "name": "ZT411 203 dpi, odklejak + nawijak etykiet",
+      "price": 7114.16,
+      "availability": "available",
+      "stock": 379
+    },
+    {
+      "pn": "ZT41142-D9E0000Z",
+      "name": "ZT411 203 dpi, gilotyna linerless",
+      "price": 8145.65,
+      "availability": "available",
+      "stock": 7
+    },
+    {
+      "pn": "ZT41143-T0E0000Z",
+      "name": "ZT411 300 dpi, odrywanie",
+      "price": 6740.81,
+      "availability": "available",
+      "stock": 2156
+    },
+    {
+      "pn": "ZT41143-T1E0000Z",
+      "name": "ZT411 300 dpi, odklejak",
+      "price": 7437.66,
+      "availability": "available",
+      "stock": 33
+    },
+    {
+      "pn": "ZT41143-T2E0000Z",
+      "name": "ZT411 300 dpi, gilotyna",
+      "price": 9044.62,
+      "availability": "available",
+      "stock": 214
+    },
+    {
+      "pn": "ZT41143-T3E0000Z",
+      "name": "ZT411 300 dpi, odklejak + nawijak podkładu",
+      "price": 8054.49,
+      "availability": "available",
+      "stock": 259
+    },
+    {
+      "pn": "ZT41143-T4E0000Z",
+      "name": "ZT411 300 dpi, odklejak + nawijak etykiet",
+      "price": 8241.15,
+      "availability": "available",
+      "stock": 1329
+    },
+    {
+      "pn": "ZT41143-D9E0000Z",
+      "name": "ZT411 300 dpi, gilotyna linerless",
+      "price": 9093.16,
+      "availability": "available",
+      "stock": 27
+    },
+    {
+      "pn": "ZT41146-T0E0000Z",
+      "name": "ZT411 600 dpi, odrywanie",
+      "price": 11097.21,
+      "availability": "available",
+      "stock": 183
+    },
+    {
+      "pn": "ZT41146-T4E0000Z",
+      "name": "ZT411 600 dpi, odklejak + nawijak etykiet",
+      "price": 12372.27,
+      "availability": "available",
+      "stock": 15
+    },
+    {
+      "pn": "ZT41146-D9E0000Z",
+      "name": "ZT411 600 dpi, gilotyna linerless",
+      "price": 11645.71,
+      "availability": "unavailable",
       "stock": 0
     }
   ]

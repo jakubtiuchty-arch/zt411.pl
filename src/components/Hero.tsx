@@ -18,16 +18,6 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-12 lg:pt-20 lg:pb-24">
         <div className="max-w-xl lg:max-w-2xl">
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4 }}
-            className="inline-flex items-center gap-2 px-3 py-1 bg-brand-500/10 border border-brand-500/30 rounded-full mb-4"
-          >
-            <span className="w-1.5 h-1.5 bg-brand-500 rounded-full animate-pulse" />
-            <span className="text-[11px] font-bold text-brand-500 tracking-wider uppercase">Seria ZT400 · Przemysłowa</span>
-          </motion.div>
-
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

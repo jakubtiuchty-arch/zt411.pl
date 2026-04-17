@@ -9,22 +9,22 @@ const prices = getPrices()
 const plans = [
   {
     pn: 'ZT41142-T0E0000Z',
-    features: ['Rozdzielczość 203 dpi', 'Szerokość druku 4" (104 mm)', 'Wi-Fi 6/6E + Bluetooth 5.3', 'Obcinak gilotynowy', 'Ekran dotykowy 4,3"'],
+    features: ['203 dpi', 'Odrywanie', '356 mm/s', 'Ethernet + USB + BT 4.2', '2× USB host'],
     defaultActive: true,
   },
   {
-    pn: 'ZT41143-T0E0000Z',
-    features: ['Rozdzielczość 300 dpi', 'Szerokość druku 4" (104 mm)', 'Wi-Fi 6/6E + Bluetooth 5.3', 'Obcinak gilotynowy', 'QR / DataMatrix małe'],
+    pn: 'ZT41143-T2E0000Z',
+    features: ['300 dpi', 'Gilotyna', '305 mm/s', 'Ethernet + USB + BT 4.2', '2× USB host'],
     defaultActive: false,
   },
   {
     pn: 'ZT41146-T0E0000Z',
-    features: ['Rozdzielczość 600 dpi', 'Mikrotekst, PCB, farma', 'Wi-Fi 6/6E + Bluetooth 5.3', 'Obcinak gilotynowy', 'Tylko w ZT411'],
+    features: ['600 dpi', 'Odrywanie', '152 mm/s', 'Ethernet + USB + BT 4.2', '2× USB host'],
     defaultActive: false,
   },
   {
-    pn: 'ZT41142-T0E00C0Z',
-    features: ['Rozdzielczość 203 dpi', 'RFID UHF (ISO 18000-63)', 'EPC gen. 2 v2.1 / RAIN', 'Wi-Fi 6/6E + Bluetooth 5.3', 'Kodowanie adaptacyjne'],
+    pn: 'ZT41142-D9E0000Z',
+    features: ['203 dpi', 'Gilotyna linerless', 'Termiczny bezpośredni', 'ZeroLiner', 'Ethernet + USB + BT 4.2'],
     defaultActive: false,
   },
 ]
@@ -131,6 +131,21 @@ export default function Warianty() {
               </div>
             )
           })}
+        </div>
+
+        <div className="mt-8 lg:mt-10 text-center">
+          <p className="text-sm text-slate-500 max-w-2xl mx-auto">
+            Pokazaliśmy 4 najpopularniejsze warianty. Zebra ZT411 dostępna jest w <strong className="text-slate-700">16 konfiguracjach</strong> (różne mechanizmy: odrywanie, odklejak, nawijak, gilotyna, linerless).
+            {' '}
+            <a
+              href="https://www.takma.com.pl/produkt/zebra-zt411"
+              target="_blank"
+              rel="noopener"
+              className="font-semibold text-brand-700 hover:text-brand-600 underline underline-offset-2"
+            >
+              Zobacz wszystkie warianty w sklepie TAKMA →
+            </a>
+          </p>
         </div>
 
       </div>

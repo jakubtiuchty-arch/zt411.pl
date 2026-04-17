@@ -2,14 +2,26 @@ import { NextResponse } from 'next/server'
 import { writeFileSync } from 'fs'
 import { join } from 'path'
 
-const TC22_PART_NUMBERS = [
-  'WLMT0-T22B6ABC2-A6',
-  'WLMT0-T22B6ABE2-A6',
-  'WLMT0-T22B8ABC8-A6',
-  'WLMT0-T22B6CBC2-A6',
-  'WLMT0-T22B8ABD8-A6',
-  'WLMT0-T22B6CBE2-A6',
-  'WLMT0-T22B8CBD8-A6',
+const ZT411_PART_NUMBERS = [
+  // 203 dpi
+  'ZT41142-T0E0000Z',
+  'ZT41142-T0EC000Z',
+  'ZT41142-T1E0000Z',
+  'ZT41142-T2E0000Z',
+  'ZT41142-T3E0000Z',
+  'ZT41142-T4E0000Z',
+  'ZT41142-D9E0000Z',
+  // 300 dpi
+  'ZT41143-T0E0000Z',
+  'ZT41143-T1E0000Z',
+  'ZT41143-T2E0000Z',
+  'ZT41143-T3E0000Z',
+  'ZT41143-T4E0000Z',
+  'ZT41143-D9E0000Z',
+  // 600 dpi
+  'ZT41146-T0E0000Z',
+  'ZT41146-T4E0000Z',
+  'ZT41146-D9E0000Z',
 ]
 
 const TAKMA_STOCK_API = 'https://www.takma.com.pl/api/stock'
@@ -22,9 +34,9 @@ export async function GET(request: Request) {
   }
 
   try {
-    const pnParam = TC22_PART_NUMBERS.join(',')
+    const pnParam = ZT411_PART_NUMBERS.join(',')
     const res = await fetch(`${TAKMA_STOCK_API}?pn=${pnParam}`, {
-      headers: { 'User-Agent': 'tc22.pl price-sync/1.0' },
+      headers: { 'User-Agent': 'zt411.pl price-sync/1.0' },
       next: { revalidate: 0 },
     })
 
@@ -72,13 +84,22 @@ export async function GET(request: Request) {
 
 function getVariantName(pn: string): string {
   const names: Record<string, string> = {
-    'WLMT0-T22B6ABC2-A6': 'TC22 SE4710, 6/64 GB, 3800 mAh',
-    'WLMT0-T22B6ABE2-A6': 'TC22 SE4710, 6/64 GB, 5200 mAh',
-    'WLMT0-T22B8ABC8-A6': 'TC22 SE4710, 8/128 GB, RFID-ready',
-    'WLMT0-T22B6CBC2-A6': 'TC22 SE55, 6/64 GB, 3800 mAh',
-    'WLMT0-T22B8ABD8-A6': 'TC22 SE4710, 8/128 GB, RFID+BLE',
-    'WLMT0-T22B6CBE2-A6': 'TC22 SE55, 6/64 GB, 5200 mAh',
-    'WLMT0-T22B8CBD8-A6': 'TC22 SE55, 8/128 GB, RFID+BLE',
+    'ZT41142-T0E0000Z': 'ZT411 203 dpi, odrywanie',
+    'ZT41142-T0EC000Z': 'ZT411 203 dpi, odrywanie + Wi-Fi',
+    'ZT41142-T1E0000Z': 'ZT411 203 dpi, odklejak',
+    'ZT41142-T2E0000Z': 'ZT411 203 dpi, gilotyna',
+    'ZT41142-T3E0000Z': 'ZT411 203 dpi, odklejak + nawijak podkładu',
+    'ZT41142-T4E0000Z': 'ZT411 203 dpi, odklejak + nawijak etykiet',
+    'ZT41142-D9E0000Z': 'ZT411 203 dpi, gilotyna linerless',
+    'ZT41143-T0E0000Z': 'ZT411 300 dpi, odrywanie',
+    'ZT41143-T1E0000Z': 'ZT411 300 dpi, odklejak',
+    'ZT41143-T2E0000Z': 'ZT411 300 dpi, gilotyna',
+    'ZT41143-T3E0000Z': 'ZT411 300 dpi, odklejak + nawijak podkładu',
+    'ZT41143-T4E0000Z': 'ZT411 300 dpi, odklejak + nawijak etykiet',
+    'ZT41143-D9E0000Z': 'ZT411 300 dpi, gilotyna linerless',
+    'ZT41146-T0E0000Z': 'ZT411 600 dpi, odrywanie',
+    'ZT41146-T4E0000Z': 'ZT411 600 dpi, odklejak + nawijak etykiet',
+    'ZT41146-D9E0000Z': 'ZT411 600 dpi, gilotyna linerless',
   }
   return names[pn] || pn
 }
