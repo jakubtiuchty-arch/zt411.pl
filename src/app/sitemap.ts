@@ -3,13 +3,20 @@ import { getPrices } from '@/data/prices'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date(getPrices().lastSync)
+  const base = 'https://www.zt411.pl'
 
   return [
     {
-      url: 'https://www.zt411.pl',
+      url: base,
       lastModified,
       changeFrequency: 'weekly',
       priority: 1.0,
+    },
+    {
+      url: `${base}/vs/zt421`,
+      lastModified: new Date('2026-04-18'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
     },
   ]
 }
