@@ -17,17 +17,25 @@ const ribbons = ribbonsData as Ribbon[]
 
 // Nicer display names for types
 const typeNames: Record<string, string> = {
-  '1600Wax': 'WAX 1600 Economy',
-  '2100Wax': 'WAX 2100 Performance',
-  '2300Wax': 'WAX 2300 Standard',
-  '5319Wax': 'WAX 5319 Performance',
-  '3200WaxResin': 'WAX/RESIN 3200',
-  '3400WaxResin': 'WAX/RESIN 3400',
-  '4800Resin': 'RESIN 4800',
-  '5095Resin': 'RESIN 5095',
-  '5100Resin': 'RESIN 5100 Premium',
-  'ChemResist': 'RESIN ChemResist 8000',
+  '1600Wax': 'Wosk 1600 Economy',
+  '2100Wax': 'Wosk 2100 Performance',
+  '2300Wax': 'Wosk 2300 Standard',
+  '5319Wax': 'Wosk 5319 Performance',
+  '3200WaxResin': 'Wosk-Żywica 3200',
+  '3400WaxResin': 'Wosk-Żywica 3400',
+  '4800Resin': 'Żywica 4800',
+  '5095Resin': 'Żywica 5095',
+  '5100Resin': 'Żywica 5100 Premium',
+  'ChemResist': 'Żywica ChemResist 8000',
 }
+
+const categoryNames: Record<string, string> = {
+  'Wax': 'Wosk',
+  'Wax/Resin': 'Wosk-Żywica',
+  'Resin': 'Żywica',
+}
+
+const CAT_ORDER: Record<string, number> = { 'Wax': 0, 'Wax/Resin': 1, 'Resin': 2 }
 
 const uniqueValues = <K extends keyof Ribbon>(key: K): Ribbon[K][] => {
   return Array.from(new Set(ribbons.map(r => r[key]))).sort((a, b) => {
@@ -44,7 +52,7 @@ export default function RibbonsTable() {
   const [lengthFilter, setLengthFilter] = useState<number | 'all'>('all')
   const [copied, setCopied] = useState<string | null>(null)
 
-  const categories = uniqueValues('category') as string[]
+  const categories = (uniqueValues('category') as string[]).sort((a, b) => (CAT_ORDER[a] ?? 9) - (CAT_ORDER[b] ?? 9))
   const types = uniqueValues('type') as string[]
   const widths = uniqueValues('widthMm') as number[]
   const lengths = uniqueValues('lengthM') as number[]
@@ -119,7 +127,7 @@ export default function RibbonsTable() {
             <option value="all">Wszystkie ({ribbons.length})</option>
             {categories.map(c => {
               const count = ribbons.filter(r => r.category === c).length
-              return <option key={c} value={c}>{c} ({count})</option>
+              return <option key={c} value={c}>{categoryNames[c] || c} ({count})</option>
             })}
           </select>
         </div>
