@@ -1,10 +1,10 @@
-# zt411.pl — Zebra ZT411 drukarka przemysłowa
+# zt411.pl — Zebra ZT411 drukarka etykiet
 
-> Strona produktowa przemysłowej drukarki termotransferowej Zebra ZT411, prowadzona przez TAKMA (autoryzowany partner Zebra Technologies od 2001 r.)
+> Strona produktowa drukarki etykiet Zebra ZT411, prowadzona przez TAKMA (autoryzowany partner Zebra Technologies od 2001 r.). Domena: https://www.zt411.pl
 
 ## Zebra ZT411 — podstawowe informacje
 
-Zebra ZT411 to przemysłowa drukarka termotransferowa i termiczna bezpośrednia z serii ZT400. Nowy poziom wydajności, elastyczności i łatwości obsługi. Trwała metalowa konstrukcja z kolorowym ekranem dotykowym 4,3".
+Zebra ZT411 to przemysłowa drukarka etykiet — termotransferowa i termiczna bezpośrednia — z serii ZT400. Nowy poziom wydajności, elastyczności i łatwości obsługi. Trwała metalowa konstrukcja z kolorowym ekranem dotykowym 4,3".
 
 ### Ceny netto PLN (kwiecień 2026, placeholder)
 

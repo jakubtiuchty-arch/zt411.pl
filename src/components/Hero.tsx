@@ -35,7 +35,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold text-white leading-tight tracking-tight"
           >
-            Drukarka przemysłowa{' '}
+            Drukarka etykiet{' '}
             <span className="text-brand-500 block sm:inline">Zebra ZT411</span>
             <span className="block text-xl sm:text-2xl mt-3 font-normal text-slate-300">
               Termotransferowa 4&quot;, do 600 dpi — od {formatPLN(lowPrice)} zł netto

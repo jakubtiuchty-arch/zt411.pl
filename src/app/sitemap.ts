@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: 'https://zt411.pl',
+      url: 'https://www.zt411.pl',
       lastModified,
       changeFrequency: 'weekly',
       priority: 1.0,

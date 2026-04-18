@@ -132,7 +132,7 @@ ${messageHtml}
 <tr><td style="padding:20px 28px 24px;background:#f8fafc;border-top:1px solid #e2e8f0">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
 <tr>
-<td style="color:#94a3b8;font-size:11px">Źródło: <a href="https://zt411.pl" style="color:#475569;text-decoration:none;font-weight:600">zt411.pl</a></td>
+<td style="color:#94a3b8;font-size:11px">Źródło: <a href="https://www.zt411.pl" style="color:#475569;text-decoration:none;font-weight:600">zt411.pl</a></td>
 <td style="color:#94a3b8;font-size:11px;text-align:right">TAKMA · partner Zebra od 2001</td>
 </tr>
 </table>

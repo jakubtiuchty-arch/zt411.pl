@@ -1,6 +1,7 @@
 # zt411.pl — pełny content strony produktowej Zebra ZT411
 
 > Wersja pełna dla LLM. Krótszy zarys dostępny w /llms.txt.
+> Domena: https://www.zt411.pl — landing drukarki etykiet Zebra ZT411.
 > Strona prowadzona przez TAKMA — autoryzowanego partnera Zebra Technologies od 2001 roku.
 
 ---
