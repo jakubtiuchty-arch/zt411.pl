@@ -1,0 +1,754 @@
+[
+  {
+    "pn": "01600BK06045",
+    "type": "1600Wax",
+    "category": "Wax",
+    "widthMm": 60,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 60mmx450m,1600; Economy Wax, 25mm core"
+  },
+  {
+    "pn": "01600BK08345",
+    "type": "1600Wax",
+    "category": "Wax",
+    "widthMm": 83,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 83mmx450m (3.27inx1476ft), 1600; Economy, 25mm (1in) core, 18/box"
+  },
+  {
+    "pn": "01600BK11030",
+    "type": "1600Wax",
+    "category": "Wax",
+    "widthMm": 110,
+    "lengthM": 300,
+    "desc": "Wax Ribbon, 110mmx300m (4.33inx984ft), 1600; economy wax, 25.4mm (1 inch) core, 18/box"
+  },
+  {
+    "pn": "01600BK11045",
+    "type": "1600Wax",
+    "category": "Wax",
+    "widthMm": 110,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 110mmx450m (4.33inx1476ft), 1600; Economy, 25mm (1in) core, 18/box"
+  },
+  {
+    "pn": "01600BK15645",
+    "type": "1600Wax",
+    "category": "Wax",
+    "widthMm": 156,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 156mmx450m (6.14inx1476ft), 1600; Economy, 25mm (1in) core, 18/box"
+  },
+  {
+    "pn": "01600BK22045",
+    "type": "1600Wax",
+    "category": "Wax",
+    "widthMm": 220,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 220mmx450m, 1600; Economy Wax, 25mm core"
+  },
+  {
+    "pn": "02100BK04045",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 40,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 40mmx450m (1.57inx1476ft), 2100; High Performance, 25mm (1in) core, 12/box"
+  },
+  {
+    "pn": "02100BK06045",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 60,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 60mmx450m (2.36inx1476ft), 2100; High Performance, 25mm (1in) core, 12/box"
+  },
+  {
+    "pn": "02100BK08045",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 80,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 80mmx450m (3.15inx1476ft), 2100; High Performance, 25mm (1in) core, 12/box"
+  },
+  {
+    "pn": "02100BK08945",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 89,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 89mmx450m (3.5inx1476ft), 2100; High Performance, 25mm (1in) core, 12/box"
+  },
+  {
+    "pn": "02100BK10245",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 102,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 102mmx450m (4.02inx1476ft), 2100; High Performance, 25mm (1in) core, 12/box"
+  },
+  {
+    "pn": "02100BK10645",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 106,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 106mmx450m (4.17inx1476ft), 2100; High Performance, 25mm (1in) core, 12/box"
+  },
+  {
+    "pn": "02100BK11045",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 110,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 110mmx450m (4.33inx1476ft), 2100; High Performance, 25mm (1in) core, 12/box"
+  },
+  {
+    "pn": "02100BK11060",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 110,
+    "lengthM": 600,
+    "desc": "Wax Ribbon, 110mmx600m (4.33inx1968.5ft), 2100; High Performance Wax, 25mm (1in) core, 10/box"
+  },
+  {
+    "pn": "02100BK13145",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 131,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 131mmx450m (5.16inx1476ft), 2100; High Performance, 25mm (1in) core, 12/box"
+  },
+  {
+    "pn": "02100BK15645",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 156,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 156mmx450m (6.14inx1476ft), 2100; High Performance, 25mm (1in) core, 12/box"
+  },
+  {
+    "pn": "02100BK15660",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 156,
+    "lengthM": 600,
+    "desc": "Wax Ribbon, 156mmx600m (6.14inx1968.5ft), 2100; High Performance Wax, 25mm (1in) core, 10/box"
+  },
+  {
+    "pn": "02100BK17445",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 174,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 174mmx450m (6.85inx1476ft), 2100; High Performance, 25mm (1in) core, 12/box"
+  },
+  {
+    "pn": "02100BK17460",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 174,
+    "lengthM": 600,
+    "desc": "Wax Ribbon, 174mmx600m (6.85inx1968.5ft), 2100; High Performance Wax, 25mm (1in) core, 10/box"
+  },
+  {
+    "pn": "02100BK22045",
+    "type": "2100Wax",
+    "category": "Wax",
+    "widthMm": 220,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 220mmx450m (8.66inx1476ft), 2100; High Performance, 25mm (1in) core, 12/box"
+  },
+  {
+    "pn": "02300BK04045",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 40,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 40mmx450m, 2300; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "02300BK06030",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 60,
+    "lengthM": 300,
+    "desc": "Wax Ribbon, 60mmx300m, 2300; European Wax, 25mm core"
+  },
+  {
+    "pn": "02300BK08330",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 83,
+    "lengthM": 300,
+    "desc": "Wax Ribbon, 83mmx300m, 2300; European Wax, 25mm core"
+  },
+  {
+    "pn": "02300BK08345",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 83,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 83mmx450m, 2300; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "02300BK08945",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 89,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 89mmx450m, 2300; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "02300BK10245",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 102,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 102mmx450m, 2300; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "02300BK11030",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 110,
+    "lengthM": 300,
+    "desc": "Wax Ribbon, 110mmx300m, 2300; European Wax, 25mm core"
+  },
+  {
+    "pn": "02300GT11030",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 110,
+    "lengthM": 300,
+    "desc": "Wax Ribbon, 110mmx300m, 2300; European Wax, 25mm core, with notches for GT800 printer, 12/box"
+  },
+  {
+    "pn": "02300BK11045",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 110,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 110mmx450m, 2300; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "02300BK11090",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 110,
+    "lengthM": 900,
+    "desc": "Wax Ribbon, 110mmx900m, 2300; Standard, 25mm core, 6/box"
+  },
+  {
+    "pn": "02300BK13145",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 131,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 131mmx450m, 2300; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "02300BK15645",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 156,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 156mmx450m, 2300; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "02300BK15690",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 156,
+    "lengthM": 900,
+    "desc": "Wax Ribbon, 156mmx900m, 2300; Standard, 25mm core, 6/box"
+  },
+  {
+    "pn": "02300BK17045",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 170,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 170mmx450m, 2300; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "02300BK17090",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 170,
+    "lengthM": 900,
+    "desc": "Wax Ribbon, 170mmx900m, 2300; Standard, 25mm core, 6/box"
+  },
+  {
+    "pn": "02300BK22045",
+    "type": "2300Wax",
+    "category": "Wax",
+    "widthMm": 220,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 220mmx450m, 2300; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "05319RD06045",
+    "type": "5319Wax",
+    "category": "Wax",
+    "widthMm": 60,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 60mmx450m (2.36inx1476ft), 5319; Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05319BK08345",
+    "type": "5319Wax",
+    "category": "Wax",
+    "widthMm": 83,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 83mmx450m (3.27inx1476ft), 5319; Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05319BK08945",
+    "type": "5319Wax",
+    "category": "Wax",
+    "widthMm": 89,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 89mmx450m (3.5inx1476ft), 5319; Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05319BK10245",
+    "type": "5319Wax",
+    "category": "Wax",
+    "widthMm": 102,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 102mmx450m (4.02inx1476ft), 5319; Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05319BK11045",
+    "type": "5319Wax",
+    "category": "Wax",
+    "widthMm": 110,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 110mmx450m (4.33inx1476ft), 5319; Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05319BK13145",
+    "type": "5319Wax",
+    "category": "Wax",
+    "widthMm": 131,
+    "lengthM": 450,
+    "desc": "Wax Ribbon, 131mmx450m (5.16inx1476ft), 5319; Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200BK04045",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 40,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 40mmx450m (1.57inx1476ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200BK06030",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 60,
+    "lengthM": 300,
+    "desc": "Wax/Resin Ribbon, 60mmx300m (2.36inx984ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200BK06045",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 60,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 60mmx450m (2.36inx1476ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200BK08045",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 80,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 80mmx450m (3.15inx1476ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200BK08330",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 83,
+    "lengthM": 300,
+    "desc": "Wax/Resin Ribbon, 83mmx300m (3.27inx984ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200BK08945",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 89,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 89mmx450m (3.5inx1476ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200BK10245",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 102,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 102mmx450m (4.02inx1476ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200BK11030",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 110,
+    "lengthM": 300,
+    "desc": "Wax/Resin Ribbon, 110mmx300m (4.33inx984ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200GT11030",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 110,
+    "lengthM": 300,
+    "desc": "Wax/Resin Ribbon, 110mmx300m, 3200; High Performance, 25mm core, with notches for GT800 printer, 12/box"
+  },
+  {
+    "pn": "03200BK11045",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 110,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 110mmx450m (4.33inx1476ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200BK13145",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 131,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 131mmx450m (5.16inx1476ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200BK15645",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 156,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 156mmx450m (6.14inx1476ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200BK17445",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 174,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 174mmx450m (6.85inx1476ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03200BK22045",
+    "type": "3200WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 220,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 220mmx450m (8.66inx1476ft), 3200; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "03400BK04045",
+    "type": "3400WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 40,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 40mmx450m, 3400; High Performance, 25mm core, 6/box"
+  },
+  {
+    "pn": "03400BK06045",
+    "type": "3400WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 60,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 60mmx450m, 3400; High Performance, 25mm core, 6/box"
+  },
+  {
+    "pn": "03400BK08345",
+    "type": "3400WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 83,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 83mmx450m, 3400; High Performance, 25mm core, 6/box"
+  },
+  {
+    "pn": "03400BK08945",
+    "type": "3400WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 89,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 89mmx450m, 3400; High Performance, 25mm core, 6/box"
+  },
+  {
+    "pn": "03400BK10245",
+    "type": "3400WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 102,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 102mmx450m, 3400; High Performance, 25mm core, 6/box"
+  },
+  {
+    "pn": "03400BK11045",
+    "type": "3400WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 110,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 110mmx450m, 3400; High Performance, 25mm core, 6/box"
+  },
+  {
+    "pn": "03400BK13145",
+    "type": "3400WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 131,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 131mmx450m, 3400; High Performance, 25mm core, 6/box"
+  },
+  {
+    "pn": "03400BK15645",
+    "type": "3400WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 156,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 156mmx450m, 3400; High Performance, 25mm core, 6/box"
+  },
+  {
+    "pn": "03400BK17445",
+    "type": "3400WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 174,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 174mmx450m, 3400; High Performance, 25mm core, 6/box"
+  },
+  {
+    "pn": "03400BK22045",
+    "type": "3400WaxResin",
+    "category": "Wax/Resin",
+    "widthMm": 220,
+    "lengthM": 450,
+    "desc": "Wax/Resin Ribbon, 220mmx450m, 3400; High Performance, 25mm core, 6/box"
+  },
+  {
+    "pn": "04800BK04045",
+    "type": "4800Resin",
+    "category": "Resins",
+    "widthMm": 40,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 40mmx450m, 4800; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "04800BK06045",
+    "type": "4800Resin",
+    "category": "Resins",
+    "widthMm": 60,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 60mmx450m, 4800; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "04800BK08045",
+    "type": "4800Resin",
+    "category": "Resins",
+    "widthMm": 80,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 80mmx450m, 4800; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "04800BK08945",
+    "type": "4800Resin",
+    "category": "Resins",
+    "widthMm": 89,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 89mmx450m, 4800; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "04800BK11045",
+    "type": "4800Resin",
+    "category": "Resins",
+    "widthMm": 110,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 110mmx450m, 4800; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "04800BK13145",
+    "type": "4800Resin",
+    "category": "Resins",
+    "widthMm": 131,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 131mmx450m, 4800; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "04800BK15645",
+    "type": "4800Resin",
+    "category": "Resins",
+    "widthMm": 156,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 156mmx450m, 4800; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "04800BK17445",
+    "type": "4800Resin",
+    "category": "Resins",
+    "widthMm": 174,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 174mmx450m, 4800; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "04800BK22045",
+    "type": "4800Resin",
+    "category": "Resins",
+    "widthMm": 220,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 220mmx450m, 4800; Standard, 25mm core, 12/box"
+  },
+  {
+    "pn": "05095BK04045",
+    "type": "5095Resin",
+    "category": "Resins",
+    "widthMm": 40,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 40mmx450m (1.57inx1476ft), 5095; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05095BK06030",
+    "type": "5095Resin",
+    "category": "Resins",
+    "widthMm": 60,
+    "lengthM": 300,
+    "desc": "Resin Ribbon, 60mmx300m (2.36inx984ft), 5095; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05095BK06045",
+    "type": "5095Resin",
+    "category": "Resins",
+    "widthMm": 60,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 60mmx450m (2.36inx1476ft), 5095; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05095BK08330",
+    "type": "5095Resin",
+    "category": "Resins",
+    "widthMm": 83,
+    "lengthM": 300,
+    "desc": "Resin Ribbon, 83mmx300m (3.27inx984ft), 5095; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05095BK08345",
+    "type": "5095Resin",
+    "category": "Resins",
+    "widthMm": 83,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 83mmx450m (3.27inx1476ft), 5095; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05095BK08945",
+    "type": "5095Resin",
+    "category": "Resins",
+    "widthMm": 89,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 89mmx450m (3.5inx1476ft), 5095; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05095BK11030",
+    "type": "5095Resin",
+    "category": "Resins",
+    "widthMm": 110,
+    "lengthM": 300,
+    "desc": "Resin Ribbon, 110mmx300m (4.33inx984ft), 5095; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05095BK11045",
+    "type": "5095Resin",
+    "category": "Resins",
+    "widthMm": 110,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 110mmx450m (4.33inx1476ft), 5095; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05095BK13145",
+    "type": "5095Resin",
+    "category": "Resins",
+    "widthMm": 131,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 131mmx450m (5.16inx1476ft), 5095; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05095BK15445",
+    "type": "5095Resin",
+    "category": "Resins",
+    "widthMm": 154,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 154mmx450m (6.06inx1476ft), 5095; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05095BK17445",
+    "type": "5095Resin",
+    "category": "Resins",
+    "widthMm": 174,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 174mmx450m (6.85inx1476ft), 5095; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05095BK22045",
+    "type": "5095Resin",
+    "category": "Resins",
+    "widthMm": 220,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 220mmx450m (8.66inx1476ft), 5095; High Performance, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05100BK04045",
+    "type": "5100Resin",
+    "category": "Resins",
+    "widthMm": 40,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 40mmx450m (1.57inx1476ft), 5100; Premium, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05100BK06045",
+    "type": "5100Resin",
+    "category": "Resins",
+    "widthMm": 60,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 60mmx450m (2.36inx1476ft), 5100; Premium, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05100BK08345",
+    "type": "5100Resin",
+    "category": "Resins",
+    "widthMm": 83,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 83mmx450m (3.27inx1476ft), 5100; Premium, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05100BK08945",
+    "type": "5100Resin",
+    "category": "Resins",
+    "widthMm": 89,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 89mmx450m (3.5inx1476ft), 5100; Premium, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05100BK11045",
+    "type": "5100Resin",
+    "category": "Resins",
+    "widthMm": 110,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 110mmx450m (4.33inx1476ft), 5100; Premium, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "05100BK15445",
+    "type": "5100Resin",
+    "category": "Resins",
+    "widthMm": 154,
+    "lengthM": 450,
+    "desc": "Resin Ribbon, 154mmx450m (6.06inx1476ft), 5100; Premium, 25mm (1in) core, 6/box"
+  },
+  {
+    "pn": "08000CR11030",
+    "type": "ChemResist",
+    "category": "Resins",
+    "widthMm": 110,
+    "lengthM": 300,
+    "desc": "ChemResist Resin Ribbon, 110mmx300m (4.33inx984ft), Resin; stocked, 645 mm (25.4in) core, Black, 6/box"
+  }
+]

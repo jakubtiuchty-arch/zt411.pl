@@ -278,6 +278,14 @@ export default function TasmyPage() {
               <strong className="text-white">10 kompatybilnych artykułów Zebra</strong> w 3 kategoriach: Wax, Wax-Resin, Resin.
               Długości 300, 450, 600 i 900 m. Szerokości 40-220 mm. Rdzeń 25 mm (1&quot;). Przewodnik doboru per etykieta i warunki.
             </p>
+            <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+              <Link
+                href="/tasmy/lista"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-bold text-slate-900 bg-brand-500 rounded-full hover:bg-brand-400 transition-all"
+              >
+                Zobacz pełną listę 94 Part Numbers →
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -338,7 +346,10 @@ export default function TasmyPage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-2">10 taśm Zebra kompatybilnych z ZT411</h2>
             <p className="text-sm text-slate-600 mb-6">
-              Kompletna lista taśm Zebra kompatybilnych z ZT411 — per kategoria, długości, szerokości i zastosowania.
+              Przegląd typów taśm. Potrzebujesz konkretnego Part Number?&nbsp;
+              <Link href="/tasmy/lista" className="text-brand-700 underline underline-offset-2 font-semibold">
+                Zobacz pełną listę 94 PNów z filtrem →
+              </Link>
             </p>
             <div className="space-y-3">
               {tapes.map((t, i) => {
