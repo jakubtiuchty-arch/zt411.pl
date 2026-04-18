@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'pl_PL',
     url: 'https://www.zt411.pl/tasmy',
     title: 'Taśmy termotransferowe Zebra ZT411 — Wax, Wax-Resin, Resin',
-    description: 'Dobór taśmy termotransferowej do Zebra ZT411 — jaki Wax, Wax-Resin, Resin dla jakiej etykiety. Ceny i długości 300-900 m.',
+    description: 'Dobór taśmy termotransferowej do Zebra ZT411 — jaki Wax, Wax-Resin, Resin dla jakiej etykiety. Długości 300-900 m.',
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Taśmy termotransferowe Zebra ZT411' }],
   },
 }
@@ -28,7 +28,6 @@ const tapes = [
     speed: 'do 254 mm/s',
     applications: 'Etykiety wysyłkowe, magazynowe, półkowe, retail. Papier powlekany i niepowlekany.',
     industries: ['Logistyka', 'Retail', 'E-commerce'],
-    priceRef: '199 EUR (110×450)',
     badge: 'Ekonomiczna',
   },
   {
@@ -40,7 +39,6 @@ const tapes = [
     speed: 'do 356 mm/s (14 ips)',
     applications: 'Szybkie druki, duże wolumeny. Lepsza odporność na ścieranie niż zwykły wosk.',
     industries: ['Logistyka wysokowydajna', 'Paletowanie', 'Cross-docking'],
-    priceRef: '243 EUR (110×450)',
     badge: 'Szybka',
   },
   {
@@ -52,7 +50,6 @@ const tapes = [
     speed: 'do 305 mm/s (12 ips)',
     applications: 'Bardzo dobra jakość obróconych kodów kreskowych. Standard magazynowy.',
     industries: ['Magazyn', 'Wysyłka', 'Retail'],
-    priceRef: '209 EUR (110×450)',
     badge: 'Rolka 900 m',
   },
   {
@@ -64,7 +61,6 @@ const tapes = [
     speed: 'do 203 mm/s (8 ips)',
     applications: 'Gęste kody kreskowe, rotated ladder barcodes, drobny tekst, grafika wysokiej rozdzielczości.',
     industries: ['Farmacja', 'Laboratoria', 'Precyzyjne znakowanie'],
-    priceRef: '212 EUR (110×450)',
     badge: 'Precyzyjna',
   },
   {
@@ -76,7 +72,6 @@ const tapes = [
     speed: 'do 203 mm/s',
     applications: 'Papier powlekany + syntetyki matowe. Odporność na rozpuszczalniki, chemię, wodę, kwasy/zasady. UL/cUL.',
     industries: ['Przemysł chemiczny', 'Beczki', 'Outdoor'],
-    priceRef: '216 EUR (110×450)',
     badge: 'UL/cUL',
   },
   {
@@ -88,8 +83,7 @@ const tapes = [
     speed: 'do 203 mm/s (8 ips)',
     applications: 'Gęste, trwałe obrazy na papierze powlekanym i syntetykach. Automotive, huty, tagowanie stali.',
     industries: ['Automotive', 'Huty', 'Dobra kapitałowe'],
-    priceRef: '171 EUR (110×450)',
-    badge: 'Najlepsza cena w klasie',
+    badge: 'Uniwersalna',
   },
   {
     category: 'RESIN',
@@ -100,7 +94,6 @@ const tapes = [
     speed: 'do 152 mm/s (6 ips)',
     applications: 'Matowe i błyszczące syntetyki. Doskonała odporność chemiczna i ścieranie. Gęste kody, grafika HR. UL/cUL.',
     industries: ['Przemysł chemiczny', 'Automotive'],
-    priceRef: '615 EUR (110×450)',
     badge: 'UL/cUL',
   },
   {
@@ -112,7 +105,6 @@ const tapes = [
     speed: 'do 152 mm/s',
     applications: 'Błyszczące syntetyki. Skrajnie ciężkie warunki: wilgoć, wysoka/niska temp., chemia, tarcie. UL/cUL.',
     industries: ['Beczki chemiczne', 'Outdoor', 'Magazyny mroźne'],
-    priceRef: '443 EUR (110×450)',
     badge: 'Wytrzymała',
   },
   {
@@ -124,7 +116,6 @@ const tapes = [
     speed: 'do 152 mm/s',
     applications: 'Ekstremalne temperatury + chemia + ścieranie. PCB, zamiennik etykiet laminowanych, Z-Supreme. UL/cUL.',
     industries: ['Elektronika', 'PCB', 'Ekstremalne warunki'],
-    priceRef: '700 EUR (110×450)',
     badge: 'Premium',
   },
   {
@@ -136,7 +127,6 @@ const tapes = [
     speed: 'do 152 mm/s',
     applications: 'Ekstremalna odporność na aceton, ksylen, silne rozpuszczalniki. Laboratoria, chemia, farmacja.',
     industries: ['Laboratoria', 'Chemia', 'Farmacja'],
-    priceRef: 'na zamówienie',
     badge: 'Aceton/ksylen',
   },
 ]
@@ -186,8 +176,8 @@ const faqs = [
     a: 'Do ZT411 pasują taśmy TT Zebra w rolkach 300, 450, 600 i 900 m (maksymalna długość), z rdzeniem wewnętrznym 25 mm (1&quot;), orientacja face-out (tusz na zewnątrz). Szerokość: 51-110 mm standardowo. Dostępne trzy typy: Wax (tania, standardowa), Wax-Resin (chemia lekka), Resin (ekstremalne warunki). Pełna kompatybilność z 10 artykułami Zebra.',
   },
   {
-    q: 'Która taśma Zebra jest najtańsza dla drukarki ZT411?',
-    a: 'Najtańsza opcja to WAX 1600 Economy — ~199 EUR netto za rolkę 110 mm × 450 m (List Price Zebra). Dla standardowych etykiet wysyłkowych, magazynowych i retailowych jest wystarczająca. WAX/RESIN 3400 jest najtańszy w kategorii Wax-Resin (~171 EUR) — świetna wartość dla automotive i przemysłu.',
+    q: 'Która taśma jest najtańsza dla drukarki ZT411?',
+    a: 'Najtańsza opcja to WAX 1600 Economy — wystarcza dla standardowych etykiet wysyłkowych, magazynowych i retailowych (papier, wewnątrz budynku, bez chemii). W kategorii uniwersalnej (Wax-Resin) warty rozważenia jest WAX/RESIN 3400 — dobra wartość dla automotive i przemysłu. Aktualne ceny i dostępność — skontaktuj się z TAKMA.',
   },
   {
     q: 'Kiedy wybrać taśmę Wax, kiedy Wax-Resin, kiedy Resin?',
@@ -348,7 +338,7 @@ export default function TasmyPage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-2">10 taśm Zebra kompatybilnych z ZT411</h2>
             <p className="text-sm text-slate-600 mb-6">
-              Kompletna tabela. Ceny referencyjne (Zebra List Price EUR netto za rolkę 110×450).
+              Kompletna lista taśm Zebra kompatybilnych z ZT411 — per kategoria, długości, szerokości i zastosowania.
             </p>
             <div className="space-y-3">
               {tapes.map((t, i) => {
@@ -369,10 +359,6 @@ export default function TasmyPage() {
                         </div>
                         <h3 className="text-lg font-bold text-slate-900">{t.name}</h3>
                         <p className="text-sm text-slate-500">{t.sub}</p>
-                      </div>
-                      <div className="text-right md:text-right">
-                        <div className="text-xs text-slate-400 uppercase tracking-wider">Cena ref.</div>
-                        <div className="text-sm font-bold text-slate-700">{t.priceRef}</div>
                       </div>
                     </div>
                     <p className="text-sm text-slate-700 leading-relaxed mb-3">{t.applications}</p>
@@ -411,9 +397,9 @@ export default function TasmyPage() {
                   <Droplet size={20} className="text-amber-700" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-1">Wax (Wosk)</h3>
-                <p className="text-xs text-amber-700 font-semibold mb-2">Najtańsze · Szybkie · Papier</p>
+                <p className="text-xs text-amber-700 font-semibold mb-2">Podstawowe · Szybkie · Papier</p>
                 <p className="text-sm text-slate-600 leading-relaxed mb-3">
-                  Barwnik wosku dobrze przylega do papieru powlekanego. Najszybszy druk, najniższa cena.
+                  Barwnik wosku dobrze przylega do papieru powlekanego. Najszybszy druk.
                   Nie wytrzyma chemii ani syntetyków.
                 </p>
                 <div className="text-xs text-slate-500">
