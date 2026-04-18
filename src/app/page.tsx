@@ -6,6 +6,7 @@ import Porownanie from '@/components/Porownanie'
 import Warianty from '@/components/Warianty'
 import BonusSection from '@/components/BonusSection'
 import Specyfikacja from '@/components/Specyfikacja'
+import PoznajZT411 from '@/components/PoznajZT411'
 import FAQ from '@/components/FAQ'
 import Serwis from '@/components/Serwis'
 import Kontakt from '@/components/Kontakt'
@@ -23,6 +24,7 @@ export default function Home() {
         <Warianty />
         <BonusSection />
         <Specyfikacja />
+        <PoznajZT411 />
         <Serwis />
         <Kontakt />
         <FAQ />

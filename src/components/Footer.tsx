@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 function PhoneIcon({ size = 16, className = '' }: { size?: number; className?: string }) {
   return <svg className={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -14,11 +15,13 @@ function ClockSvg({ className }: { className?: string }) {
 
 const footerLinks = {
   tc22: [
-    { name: 'ZT411 w sklepie', href: 'https://takma.com.pl/produkt/zebra-zt411' },
-    { name: 'ZT421 (wersja 6")', href: 'https://takma.com.pl/produkt/zebra-zt421' },
-    { name: 'Drukarki przemysłowe', href: 'https://takma.com.pl/drukarki-przemyslowe' },
-    { name: 'Instrukcja ZT411 (PL)', href: 'https://serwis-zebry.pl/instrukcje/zebra-zt411' },
-    { name: 'Datasheet Zebra (EN)', href: 'https://www.zebra.com/pl/pl/products/printers/industrial/zt400.html' },
+    { name: 'RFID UHF', href: '/rfid' },
+    { name: 'ZeroLiner (bezpodkładowy)', href: '/zeroliner' },
+    { name: '600 dpi — mikrotekst', href: '/600-dpi' },
+    { name: '300 dpi — standard', href: '/300-dpi' },
+    { name: '203 dpi — logistyka', href: '/203-dpi' },
+    { name: 'Taśmy termotransferowe', href: '/tasmy' },
+    { name: 'ZT411 vs ZT421', href: '/vs/zt421' },
   ],
   serwis: [
     { name: 'Serwis drukarek Zebra', href: 'https://serwis-zebry.pl/serwis-drukarek-zebra' },
@@ -28,12 +31,12 @@ const footerLinks = {
     { name: 'Poradniki wideo', href: 'https://serwis-zebry.pl/poradniki-wideo' },
   ],
   firma: [
+    { name: 'ZT411 w sklepie', href: 'https://takma.com.pl/produkt/zebra-zt411' },
+    { name: 'ZT421 (wersja 6")', href: 'https://takma.com.pl/produkt/zebra-zt421' },
+    { name: 'Drukarki przemysłowe', href: 'https://takma.com.pl/drukarki-przemyslowe' },
     { name: 'O nas', href: 'https://takma.com.pl/o-nas' },
-    { name: 'Serwis urządzeń', href: 'https://takma.com.pl/serwis' },
     { name: 'Kontakt', href: 'https://takma.com.pl/kontakt' },
-    { name: 'Poradniki', href: 'https://takma.com.pl/poradnik' },
     { name: 'Regulamin sklepu', href: 'https://takma.com.pl/regulamin' },
-    { name: 'Polityka prywatności', href: 'https://takma.com.pl/polityka-prywatnosci' },
   ],
 }
 
@@ -98,15 +101,15 @@ export default function Footer() {
         {/* Links section */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 lg:gap-10">
-            {/* TC22 */}
+            {/* Poznaj ZT411 — wewnętrzne linki */}
             <div className="text-center">
-              <h4 className="text-[10px] sm:text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-3 sm:mb-5">Zebra ZT411</h4>
+              <h4 className="text-[10px] sm:text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-3 sm:mb-5">Poznaj ZT411</h4>
               <ul className="space-y-2 sm:space-y-3">
                 {footerLinks.tc22.map((link) => (
                   <li key={link.href}>
-                    <a href={link.href} target="_blank" rel="noopener" className="text-xs sm:text-sm text-gray-400 hover:text-white transition-colors duration-200">
+                    <Link href={link.href} className="text-xs sm:text-sm text-gray-400 hover:text-white transition-colors duration-200">
                       {link.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
