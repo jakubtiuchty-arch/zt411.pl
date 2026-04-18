@@ -207,14 +207,20 @@ export default function Dpi300Page() {
         </nav>
 
         {/* Hero */}
-        <section className="relative bg-gradient-to-br from-[#0A1A2F] via-slate-900 to-[#142640] py-14 lg:py-20 overflow-hidden">
-          <div className="absolute inset-0 opacity-[0.06]" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4h-4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")" }} />
-          <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <section className="relative bg-black py-14 lg:py-20 overflow-hidden">
+          <div
+            className="absolute inset-0 bg-no-repeat bg-right"
+            style={{ backgroundImage: 'url(/images/zt411_300dpi_hero.jpg)', backgroundSize: 'contain' }}
+            aria-hidden="true"
+          />
+          <div className="absolute inset-0 bg-gradient-to-l from-transparent via-black/30 to-black" aria-hidden="true" />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ textShadow: '0 2px 16px rgba(0,0,0,0.7)' }}>
+            <div className="max-w-full lg:max-w-[55%] text-center lg:text-left">
 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">
               <span className="text-brand-500">Zebra ZT411 300 dpi</span><br />
               Najpopularniejsza rozdzielczość drukarki etykiet
             </h1>
-            <p className="mt-5 text-base sm:text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed">
+            <p className="mt-5 text-base sm:text-lg text-slate-300 leading-relaxed">
               <strong className="text-white">12 pkt/mm, kod 2D od 5×5 mm, szybkość 305 mm/s</strong>.
               Złoty środek między szybkością a jakością —
               standard dla GS1 DataMatrix, kosmetyków GHS, etykiet laboratoryjnych i farmaceutycznych.
@@ -226,6 +232,7 @@ export default function Dpi300Page() {
                 <span className="text-lg font-bold text-white">od {price300Display} zł netto</span>
               </div>
             )}
+            </div>
           </div>
         </section>
 
