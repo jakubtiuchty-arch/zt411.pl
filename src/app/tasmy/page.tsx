@@ -208,7 +208,7 @@ const faqs = [
 const category = (c: string) => {
   if (c === 'WAX') return { color: 'text-amber-700', bg: 'bg-amber-50', border: 'border-amber-200', name: 'Wosk (Wax)' }
   if (c === 'WAX/RESIN') return { color: 'text-orange-700', bg: 'bg-orange-50', border: 'border-orange-200', name: 'Wosk-Żywica (Wax/Resin)' }
-  return { color: 'text-slate-700', bg: 'bg-slate-100', border: 'border-slate-300', name: 'Żywica (Resin)' }
+  return { color: 'text-slate-700', bg: 'bg-slate-100', border: 'border-slate-200', name: 'Żywica (Resin)' }
 }
 
 export default function TasmyPage() {
@@ -344,7 +344,7 @@ export default function TasmyPage() {
               {tapes.map((t, i) => {
                 const cat = category(t.category)
                 return (
-                  <div key={i} className={`bg-white rounded-xl border-l-4 ${cat.border} border-t border-r border-b border-slate-200 p-5 lg:p-6 hover:shadow-md transition-shadow`}>
+                  <div key={i} className="bg-white rounded-xl border border-slate-200 p-5 lg:p-6 hover:shadow-md transition-shadow">
                     <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3 mb-3">
                       <div className="flex-1">
                         <div className="flex items-center gap-2 mb-1">
@@ -392,7 +392,7 @@ export default function TasmyPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">3 kategorie taśm Zebra — różnice</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6">
-              <div className="bg-white rounded-2xl border-l-4 border-amber-400 border-t border-r border-b border-slate-200 p-5 lg:p-6">
+              <div className="bg-white rounded-2xl border border-slate-200 p-5 lg:p-6">
                 <div className="w-11 h-11 rounded-xl bg-amber-50 flex items-center justify-center mb-3">
                   <Droplet size={20} className="text-amber-700" />
                 </div>
@@ -410,7 +410,7 @@ export default function TasmyPage() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-2xl border-l-4 border-orange-400 border-t border-r border-b border-slate-200 p-5 lg:p-6">
+              <div className="bg-white rounded-2xl border border-slate-200 p-5 lg:p-6">
                 <div className="w-11 h-11 rounded-xl bg-orange-50 flex items-center justify-center mb-3">
                   <FlameKindling size={20} className="text-orange-700" />
                 </div>
@@ -428,7 +428,7 @@ export default function TasmyPage() {
                 </div>
               </div>
 
-              <div className="bg-white rounded-2xl border-l-4 border-slate-700 border-t border-r border-b border-slate-200 p-5 lg:p-6">
+              <div className="bg-white rounded-2xl border border-slate-200 p-5 lg:p-6">
                 <div className="w-11 h-11 rounded-xl bg-slate-100 flex items-center justify-center mb-3">
                   <Shield size={20} className="text-slate-700" />
                 </div>
