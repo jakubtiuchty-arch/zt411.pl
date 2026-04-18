@@ -9,16 +9,16 @@ import ribbonsData from '@/data/ribbons.json'
 const ribbonsCount = ribbonsData.length
 
 export const metadata: Metadata = {
-  title: `Lista ${ribbonsCount} taśm TT do ZT411 — Part Numbers Zebra`,
-  description: `Kompletna, filtrowalna lista ${ribbonsCount} Part Numbers taśm termotransferowych Zebra kompatybilnych z drukarką ZT411. Wax, Wax-Resin, Resin. Szerokości 40-220 mm, długości 300-900 m.`,
+  title: `Wyszukiwarka taśm Zebra do ZT411 — katalog ${ribbonsCount} wariantów`,
+  description: `Przeszukaj katalog ${ribbonsCount} taśm termotransferowych Zebra kompatybilnych z drukarką ZT411. Filtruj po typie (Wosk, Wosk-Żywica, Żywica), szerokości (40-220 mm) i długości (300-900 m).`,
   alternates: { canonical: 'https://www.zt411.pl/tasmy/lista' },
   openGraph: {
     type: 'article',
     locale: 'pl_PL',
     url: 'https://www.zt411.pl/tasmy/lista',
-    title: `Lista ${ribbonsCount} taśm TT do ZT411 — Part Numbers Zebra`,
-    description: `Filtrowalna lista ${ribbonsCount} taśm Zebra dla ZT411 — szukaj po szerokości, długości, typie. Kopiuj Part Number jednym kliknięciem.`,
-    images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Lista taśm TT Zebra do ZT411' }],
+    title: `Wyszukiwarka taśm Zebra do ZT411 — katalog ${ribbonsCount} wariantów`,
+    description: `Przeszukaj katalog ${ribbonsCount} taśm Zebra dla ZT411. Filtruj po szerokości, długości i typie. Kopiuj Part Number jednym kliknięciem.`,
+    images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Wyszukiwarka taśm Zebra do ZT411' }],
   },
 }
 
@@ -73,11 +73,12 @@ export default function TasmyListaPage() {
           <div className="absolute inset-0 opacity-[0.06]" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4h-4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")" }} />
           <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">
-              <span className="text-brand-500">{ribbonsCount} Part Numbers</span> taśm do ZT411
+              Wyszukiwarka taśm Zebra<br />
+              <span className="text-brand-500">dla drukarki ZT411</span>
             </h1>
             <p className="mt-4 text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-              Kompletny katalog taśm termotransferowych Zebra kompatybilnych z drukarką ZT411.
-              Filtruj po typie, szerokości, długości. Kopiuj PN jednym kliknięciem i wyślij zapytanie.
+              Przeszukaj katalog <strong className="text-white">{ribbonsCount} taśm termotransferowych</strong> kompatybilnych z ZT411.
+              Filtruj po typie (Wosk, Wosk-Żywica, Żywica), szerokości i długości rolki. Skopiuj Part Number jednym kliknięciem.
             </p>
           </div>
         </section>
