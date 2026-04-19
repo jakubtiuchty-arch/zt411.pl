@@ -81,16 +81,18 @@ export default function VsIndexPage() {
                 </Link>
               ))}
 
-              <div className="p-6 rounded-2xl border border-slate-200 border-dashed bg-slate-50">
-                <h3 className="text-base font-bold text-slate-700 mb-2">W przygotowaniu</h3>
-                <ul className="text-sm text-slate-600 space-y-1.5">
-                  <li>• ZT411 vs ZT410 (upgrade path)</li>
-                  <li>• ZT411 vs Honeywell PM45</li>
-                  <li>• ZT411 vs Citizen CL-S621</li>
-                </ul>
-                <p className="text-xs text-slate-500 mt-3">
-                  Potrzebujesz konkretnego porównania? <Link href="/#kontakt" className="text-brand-700 font-semibold underline">Napisz do nas</Link> — dobierzemy parametry pod Twój proces.
+              <div className="p-6 rounded-2xl border border-slate-200 bg-slate-50">
+                <h3 className="text-base font-bold text-slate-900 mb-2">Nie wiesz który model wybrać?</h3>
+                <p className="text-sm text-slate-600 leading-relaxed mb-3">
+                  Doradzimy, która drukarka pasuje do Twojego procesu — szerokość etykiet, wolumen, rodzaj nośników, RFID, integracja z MDM/ERP.
                 </p>
+                <Link
+                  href="/#kontakt"
+                  className="inline-flex items-center gap-1.5 px-4 py-2 bg-brand-500 text-slate-900 rounded-lg text-sm font-semibold hover:bg-brand-400 transition-colors"
+                >
+                  Skontaktuj się z nami
+                  <ArrowRight size={14} />
+                </Link>
               </div>
             </div>
           </div>
