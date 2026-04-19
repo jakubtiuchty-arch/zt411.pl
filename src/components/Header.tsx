@@ -33,7 +33,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-1.5">
             <a href="#" className="flex items-center gap-2">
-              <Image src="/images/takma_logo.png" alt="TAKMA — Centrum Systemów Mobilnych" width={120} height={36} className="h-16 w-auto" />
+              <Image src="/images/takma_logo.webp" alt="TAKMA — Centrum Systemów Mobilnych" width={120} height={36} className="h-16 w-auto" />
             </a>
 
             {/* Desktop Nav */}

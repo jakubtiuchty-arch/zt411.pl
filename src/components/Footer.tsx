@@ -69,7 +69,7 @@ export default function Footer() {
               <div className="flex items-center gap-4 sm:gap-6">
                 <a href="https://takma.com.pl" target="_blank" rel="noopener" className="shrink-0">
                   <Image
-                    src="/images/takma_logo.png"
+                    src="/images/takma_logo.webp"
                     alt="TAKMA — Autoryzowany partner Zebra"
                     width={176}
                     height={70}

@@ -7,9 +7,9 @@ import { Wrench, Clock, Shield, PhoneCall, ExternalLink } from 'lucide-react'
 const TAKMA_ZEBRA_URL = 'https://www.zebra.com/pl/pl/partners/partner-application-locator/partner-details.html?id=001i0000019OwOUAA0&viewType=nav'
 
 const certyfikaty = [
-  { src: '/images/certyfikat-1-zebra.png', alt: 'Zebra Premier Solution Partner — Printer Repair Specialist' },
-  { src: '/images/certyfikat-3-zebra.png', alt: 'Zebra Premier Solution Partner' },
-  { src: '/images/certyfikat-2-zebra.png', alt: 'Zebra Premier Solution Partner — Public Sector Specialist' },
+  { src: '/images/certyfikat-1-zebra.webp', alt: 'Zebra Premier Solution Partner — Printer Repair Specialist' },
+  { src: '/images/certyfikat-3-zebra.webp', alt: 'Zebra Premier Solution Partner' },
+  { src: '/images/certyfikat-2-zebra.webp', alt: 'Zebra Premier Solution Partner — Public Sector Specialist' },
 ]
 
 export default function Serwis() {

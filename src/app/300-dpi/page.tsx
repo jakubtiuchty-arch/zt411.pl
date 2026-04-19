@@ -210,7 +210,7 @@ export default function Dpi300Page() {
         <section className="relative bg-black py-14 lg:py-20 overflow-hidden">
           <div
             className="absolute inset-0 bg-no-repeat bg-right"
-            style={{ backgroundImage: 'url(/images/zt411_300dpi_hero.jpg)', backgroundSize: 'contain' }}
+            style={{ backgroundImage: 'url(/images/zt411_300dpi_hero.webp)', backgroundSize: 'contain' }}
             aria-hidden="true"
           />
           <div className="absolute inset-0 bg-gradient-to-l from-transparent via-black/30 to-black" aria-hidden="true" />
