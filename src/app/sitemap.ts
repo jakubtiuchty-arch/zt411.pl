@@ -19,7 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${base}/rfid`,
+      url: `${base}/zt411-rfid`,
       lastModified: new Date('2026-04-18'),
       changeFrequency: 'monthly',
       priority: 0.9,

@@ -6,7 +6,7 @@ import { Radio, Leaf, Microscope, ScanBarcode, Rocket, FlameKindling, GitCompare
 
 const cards = [
   {
-    href: '/rfid',
+    href: '/zt411-rfid',
     icon: Radio,
     title: 'RFID UHF',
     desc: 'EPC gen. 2 v2.1, ISO/IEC 18000-63. Adaptive Encoding automatycznie dobiera ustawienia tagu. Wariant On-Metal do powierzchni metalowych.',

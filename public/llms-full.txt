@@ -308,7 +308,7 @@ Produkcja, Transport i logistyka, Handel detaliczny, Ochrona zdrowia (laboratori
 
 ---
 
-## 11. RFID UHF w ZT411 (podstrona /rfid)
+## 11. RFID UHF w ZT411 (podstrona /zt411-rfid)
 
 Zebra ZT411 RFID to zintegrowany koder UHF — drukarka jednocześnie drukuje etykietę i zapisuje dane do chipa RFID osadzonego w tej etykiecie.
 

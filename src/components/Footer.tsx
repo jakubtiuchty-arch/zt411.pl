@@ -15,7 +15,7 @@ function ClockSvg({ className }: { className?: string }) {
 
 const footerLinks = {
   tc22: [
-    { name: 'RFID UHF', href: '/rfid' },
+    { name: 'RFID UHF', href: '/zt411-rfid' },
     { name: 'ZeroLiner (bezpodkładowy)', href: '/zeroliner' },
     { name: '600 dpi — mikrotekst', href: '/600-dpi' },
     { name: '300 dpi — standard', href: '/300-dpi' },
