@@ -199,6 +199,8 @@ export default function Dpi203Page() {
     ],
   }
 
+
+
   return (
     <>
       <Header />
@@ -262,12 +264,23 @@ export default function Dpi203Page() {
         <section className="py-10 lg:py-14 bg-slate-50 border-b border-slate-200">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-2">203 dpi vs 300 dpi vs 600 dpi</h2>
-            <p className="text-sm text-slate-600 mb-6">
-              Więcej informacji:&nbsp;
-              <Link href="/300-dpi" className="text-brand-700 underline underline-offset-2 font-medium">300 dpi</Link>
-              {' · '}
-              <Link href="/600-dpi" className="text-brand-700 underline underline-offset-2 font-medium">600 dpi</Link>
-            </p>
+            <div className="flex flex-wrap items-center gap-2 mb-6">
+              <span className="text-sm text-slate-500 mr-1">Więcej informacji:</span>
+              <Link
+                href="/300-dpi"
+                className="group inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-sm font-semibold text-slate-900 hover:border-brand-500 hover:bg-brand-500/5 hover:text-brand-700 transition-colors"
+              >
+                300 dpi
+                <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+              </Link>
+              <Link
+                href="/600-dpi"
+                className="group inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-sm font-semibold text-slate-900 hover:border-brand-500 hover:bg-brand-500/5 hover:text-brand-700 transition-colors"
+              >
+                600 dpi
+                <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+              </Link>
+            </div>
             <div className="overflow-x-auto rounded-xl border border-slate-200">
               <table className="w-full text-sm border-collapse min-w-[600px]">
                 <thead>

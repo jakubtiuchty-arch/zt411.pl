@@ -5,7 +5,7 @@ import { Gauge, Printer, Radio, Leaf } from 'lucide-react'
 
 const features = [
   { id: '01', icon: Gauge, title: 'Szybkość druku', stat: '356 mm/s', desc: 'Najwyższa w klasie 4" przemysłowej. Krótki czas wydruku pierwszej etykiety, wysoka przepustowość dla 24/7 produkcji.' },
-  { id: '02', icon: Printer, title: 'Rozdzielczość', stat: 'do 600 dpi', desc: 'Trzy opcje: 203 dpi (logistyka), 300 dpi (QR/DataMatrix), 600 dpi (mikrotekst, PCB, farma). 600 dpi tylko w ZT411.' },
+  { id: '02', icon: Printer, title: 'Rozdzielczość', stat: 'do 600 dpi', desc: 'Trzy opcje: 203 dpi (logistyka), 300 dpi (QR/DataMatrix), 600 dpi (mikrotekst, PCB, farma). W serii ZT400: 600 dpi tylko w ZT411.' },
   { id: '03', icon: Radio, title: 'RFID UHF', stat: 'EPC gen.2', desc: 'Zintegrowany koder RFID UHF (ISO/IEC 18000-63) z adaptacyjnym kodowaniem. Wersja On-Metal do powierzchni metalowych.' },
   { id: '04', icon: Leaf, title: 'ZeroLiner', stat: '+50% etykiet', desc: 'Druk bezpodkładowy: 50% więcej etykiet na rolkę, zero odpadów z podkładu, redukcja emisji CO2. Tylko w ZT411.' },
 ]

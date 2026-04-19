@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: 'Jaką rozdzielczość druku wybrać: 203, 300 czy 600 dpi?',
-    a: '203 dpi — standardowe etykiety logistyczne, kody kreskowe, adresy wysyłki. 300 dpi — mniejsze czcionki, QR, DataMatrix, etykiety laboratoryjne. 600 dpi — mikrotekst, znakowanie PCB, etykiety farmaceutyczne, najdrobniejsze kody 2D. Rozdzielczość 600 dpi dostępna wyłącznie w ZT411 (nie w ZT421).',
+    a: '203 dpi — standardowe etykiety logistyczne, kody kreskowe, adresy wysyłki. 300 dpi — mniejsze czcionki, QR, DataMatrix, etykiety laboratoryjne. 600 dpi — mikrotekst, znakowanie PCB, etykiety farmaceutyczne, najdrobniejsze kody 2D. W serii ZT400: 600 dpi tylko w ZT411 — ZT421 (6″) nie oferuje tej rozdzielczości.',
   },
   {
     q: 'Czym różni się Zebra ZT411 od ZT421?',

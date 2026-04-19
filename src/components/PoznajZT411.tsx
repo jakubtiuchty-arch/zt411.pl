@@ -55,7 +55,7 @@ export default function PoznajZT411() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-8 lg:mb-12">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900">
-            Poznaj Zebra ZT411 głębiej
+            Poznaj Zebra ZT411 bliżej
           </h2>
           <p className="mt-3 text-sm sm:text-base text-slate-600">
             Kluczowe funkcje, rozdzielczości i materiały — szczegółowe przewodniki po każdym aspekcie drukarki.
