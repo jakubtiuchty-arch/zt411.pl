@@ -32,7 +32,7 @@ const useCases = [
   {
     icon: Sparkles,
     title: 'Kosmetyki i chemia gospodarcza',
-    desc: 'Etykiety kosmetyczne z symbolami GHS (pictogramy), INCI składników 5-6 pt i kodami 2D. Powierzchnia 30×80 mm musi zmieścić 2-3 języki — 300 dpi zapewnia czytelność.',
+    desc: 'Etykiety kosmetyczne z symbolami GHS (piktogramy), INCI składników 5-6 pt i kodami 2D. Powierzchnia 30×80 mm musi zmieścić 2–3 języki — 300 dpi zapewnia czytelność.',
   },
   {
     icon: FlaskConical,
@@ -57,7 +57,7 @@ const useCases = [
   {
     icon: Zap,
     title: 'Standardowe etykiety logistyczne 2D',
-    desc: 'Etykiety GS1-128 + dodatkowy kod 2D (np. DataMatrix) — nowoczesny trend w T&L. 300 dpi obsługuje oba formaty bez utraty szybkości na produkcji.',
+    desc: 'Etykiety GS1-128 + dodatkowy kod 2D (np. DataMatrix) — nowoczesny trend w transporcie i logistyce. 300 dpi obsługuje oba formaty bez utraty szybkości na produkcji.',
   },
 ]
 
@@ -134,7 +134,7 @@ const faqs = [
   },
   {
     q: 'Kiedy wybrać 300 dpi zamiast 600 dpi?',
-    a: 'Wybierz 300 dpi, gdy: (1) zależy ci na szybkości druku (305 vs 152 mm/s — 2× szybciej), (2) cena ma znaczenie (300 dpi jest o ok. 2 000-3 000 zł tańsza), (3) etykiety nie mają detali mniejszych niż 5 mm, (4) nie drukujesz PCB/UDI/jubilerstwa. Dla 90% zastosowań B2B 300 dpi jest optymalne.',
+    a: 'Wybierz 300 dpi, gdy: (1) zależy Ci na szybkości druku (305 vs 152 mm/s — 2× szybciej), (2) cena ma znaczenie (300 dpi jest o ok. 2 000–3 000 zł tańsza), (3) etykiety nie mają detali mniejszych niż 5 mm, (4) nie drukujesz PCB/UDI/jubilerstwa. Dla 90% zastosowań B2B 300 dpi jest optymalne.',
   },
   {
     q: 'Ile kosztuje ZT411 300 dpi?',

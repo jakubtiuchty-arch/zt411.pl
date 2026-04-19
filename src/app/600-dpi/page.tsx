@@ -57,7 +57,7 @@ const dpiComparison = [
     minQr: '2×2 mm',
     speed: '152 mm/s',
     usecase: 'PCB, farmacja UDI, jubilerstwo, mikrotekst',
-    available: 'TYLKO ZT411',
+    available: 'Tylko ZT411',
     highlight: true,
   },
 ]

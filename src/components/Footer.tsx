@@ -155,7 +155,7 @@ export default function Footer() {
                   </span>
                   <div className="text-left">
                     <p className="text-xs sm:text-sm text-white font-medium">Pon – Pt</p>
-                    <p className="text-[10px] sm:text-xs text-gray-500">7:30 – 15:30</p>
+                    <p className="text-[10px] sm:text-xs text-gray-500">7:30–15:30</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">

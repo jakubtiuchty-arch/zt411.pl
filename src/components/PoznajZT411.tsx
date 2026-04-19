@@ -10,14 +10,14 @@ const cards = [
     icon: Radio,
     title: 'RFID UHF',
     desc: 'EPC gen. 2 v2.1, ISO/IEC 18000-63. Adaptive Encoding automatycznie dobiera ustawienia tagu. Wariant On-Metal do powierzchni metalowych.',
-    label: 'Feature',
+    label: 'Funkcja',
   },
   {
     href: '/zeroliner',
     icon: Leaf,
     title: 'ZeroLiner — druk bezpodkładowy',
     desc: '+50% etykiet na rolkę, zero odpadów podkładu, redukcja CO2. Unikalna technologia Zebra dostępna tylko w ZT411.',
-    label: 'Feature',
+    label: 'Funkcja',
   },
   {
     href: '/600-dpi',

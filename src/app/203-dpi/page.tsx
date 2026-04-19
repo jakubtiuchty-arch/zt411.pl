@@ -52,7 +52,7 @@ const useCases = [
   {
     icon: Rocket,
     title: 'Wysokie wolumeny',
-    desc: 'Gdy drukujesz 5 000-20 000 etykiet dziennie, szybkość 356 mm/s (14 ips) oszczędza godziny vs. 300 dpi. Dla fulfillment center jest to decydujący parametr.',
+    desc: 'Gdy drukujesz 5 000–20 000 etykiet dziennie, szybkość 356 mm/s (14 ips) oszczędza godziny vs. 300 dpi. Dla fulfillment center jest to decydujący parametr.',
   },
   {
     icon: Gauge,

@@ -59,7 +59,7 @@ export default function Hero() {
             className="mt-5 space-y-2 lg:space-y-3 text-white"
           >
             {[
-              'Rozdzielczości: 203 / 300 / 600 dpi — najdrobniejszy mikrotekst',
+              'Rozdzielczości: 203 / 300 / 600 dpi — mikrotekst od 1 pt',
               'Szybkość druku do 356 mm/s (14"/s) — najwyższa w klasie',
               'Opcje: Wi-Fi 6/6E, RFID UHF, druk bezpodkładowy ZeroLiner',
             ].map((item, idx) => (

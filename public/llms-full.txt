@@ -14,19 +14,24 @@ Kluczowa zaleta ZT411 w porównaniu z ZT410: kolorowy ekran dotykowy 4,3", Wi-Fi
 
 ZT411 dostępna jest w kilku konfiguracjach: 203/300/600 dpi, z różnymi opcjami łączności (Wi-Fi, RFID UHF, aplikator), z obcinakiem, odklejakiem lub nawijakiem.
 
-## 2. Cennik (netto PLN, placeholder — do weryfikacji)
+## 2. Cennik (netto PLN, aktualizowany z API TAKMA)
 
-| Part Number | Rozdzielczość | Specjalne | Cena netto |
+Zakres cen: od **5 614 zł** (wariant bazowy 203 dpi, odrywanie) do **12 372 zł** (600 dpi, odklejak + nawijak etykiet). 16 wariantów łącznie: 7 w 203 dpi, 6 w 300 dpi, 3 w 600 dpi.
+
+Przykładowe warianty:
+| Part Number | Rozdzielczość | Specjalne | Cena orientacyjna |
 |---|---|---|---|
-| ZT41142-T0E0000Z | 203 dpi | Wi-Fi 6/6E + BT 5.3, obcinak | 6 490 zł |
-| ZT41143-T0E0000Z | 300 dpi | Wi-Fi 6/6E + BT 5.3, obcinak | 6 990 zł |
-| ZT41146-T0E0000Z | 600 dpi | Wi-Fi 6/6E + BT 5.3, obcinak | 8 490 zł |
-| ZT41142-T0E00C0Z | 203 dpi | RFID UHF | 10 490 zł |
-| ZT41142-T2E0000Z | 203 dpi | Bezpodkładowy ZeroLiner | 11 990 zł |
+| ZT41142-T0E0000Z | 203 dpi | Odrywanie (bazowy) | od 5 614 zł |
+| ZT41142-T0EC000Z | 203 dpi | Odrywanie + Wi-Fi 6/6E | ok. 6 984 zł |
+| ZT41142-T2E0000Z | 203 dpi | Gilotyna | ok. 7 734 zł |
+| ZT41142-D9E0000Z | 203 dpi | Gilotyna linerless (ZeroLiner) | ok. 8 146 zł |
+| ZT41143-T0E0000Z | 300 dpi | Odrywanie (bazowy) | ok. 6 741 zł |
+| ZT41146-T0E0000Z | 600 dpi | Odrywanie (bazowy) | ok. 11 097 zł |
 
-**Zakres cen:** 6 490 zł – 11 990 zł netto.
-**Rabaty projektowe:** od 5 szt. Indywidualna wycena przez formularz na zt411.pl lub e-mail kontakt@zt411.pl.
-**GRATIS do każdego ZT411:** 2× taśma barwiąca Wax + konfiguracja ZPL.
+Pełna lista 16 wariantów z aktualnymi cenami i stockiem: https://www.zt411.pl/#warianty
+
+**Rabaty projektowe:** od 5 szt. Indywidualna wycena przez formularz na zt411.pl.
+**GRATIS do każdej drukarki ZT411:** rolka etykiet + taśma termotransferowa.
 
 ## 3. Pełna specyfikacja techniczna
 

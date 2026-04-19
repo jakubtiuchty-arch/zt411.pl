@@ -23,7 +23,7 @@ const specs = [
   { label: 'Języki programowania', value: 'ZPL, ZPL II, ZBI 2.0, EPL/EPL2 (tylko 203 dpi)' },
   { label: 'Kody kreskowe liniowe', value: 'Code 39, Code 128, UPC/EAN, Codabar, Interleaved 2z5, Postnet i in.' },
   { label: 'Kody 2D', value: 'DataMatrix, QR Code, PDF417, MaxiCode, Aztec, MicroPDF, RSS-14' },
-  { label: 'Zasilanie', value: 'Zasilacz samonastawny 100-240 V AC, 50-60 Hz (ENERGY STAR)' },
+  { label: 'Zasilanie', value: 'Zasilacz samonastawny 100–240 V AC, 50–60 Hz (ENERGY STAR)' },
   { label: 'Temperatura pracy', value: '5°C do 40°C (termotransfer) · 0°C do 40°C (termiczny)' },
   { label: 'Temperatura przechowywania', value: '-40°C do +60°C' },
   { label: 'Wilgotność pracy', value: '20% do 85% bez kondensacji' },
