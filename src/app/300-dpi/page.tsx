@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import WariantyDpi from '@/components/WariantyDpi'
+import PodstronaInfo from '@/components/PodstronaInfo'
 import { getPrices } from '@/data/prices'
 import { ArrowRight, Home, ChevronRight, Zap, ScanBarcode, Sparkles, FlaskConical, Package, TrendingUp } from 'lucide-react'
 
@@ -13,7 +15,7 @@ const fmtPLN = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
 const price300Display = price300 ? fmtPLN(price300) : '—'
 
 export const metadata: Metadata = {
-  title: `ZT411 300 dpi — drukarka GS1 DataMatrix | od ${price300Display} zł netto`,
+  title: `ZT411 300 dpi — drukarka GS1 DataMatrix | od ${price300Display} zł`,
   description: `Zebra ZT411 300 dpi: 12 pkt/mm, kod 2D od 5 mm, szybkość 305 mm/s. Najpopularniejsza rozdzielczość — kosmetyki GHS, laboratoria, farmacja. Od ${price300Display} zł netto.`,
   alternates: { canonical: 'https://www.zt411.pl/300-dpi' },
   openGraph: {
@@ -21,7 +23,7 @@ export const metadata: Metadata = {
     locale: 'pl_PL',
     url: 'https://www.zt411.pl/300-dpi',
     title: 'Zebra ZT411 300 dpi — drukarka GS1 DataMatrix',
-    description: 'Deep dive w rozdzielczość 300 dpi w ZT411. Zastosowania, kiedy wybrać 300 dpi vs 203 dpi vs 600 dpi.',
+    description: 'Szczegółowy przewodnik po rozdzielczości 300 dpi w ZT411. Zastosowania, kiedy wybrać 300 dpi vs 203 dpi vs 600 dpi.',
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Zebra ZT411 300 dpi' }],
   },
 }
@@ -253,12 +255,23 @@ export default function Dpi300Page() {
         <section className="py-10 lg:py-14 bg-slate-50 border-b border-slate-200">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-2">300 dpi vs 203 dpi vs 600 dpi</h2>
-            <p className="text-sm text-slate-600 mb-6">
-              Porównanie wszystkich rozdzielczości dostępnych w ZT411. Więcej:&nbsp;
-              <Link href="/203-dpi" className="text-brand-700 underline underline-offset-2 font-medium">203 dpi</Link>
-              {' · '}
-              <Link href="/600-dpi" className="text-brand-700 underline underline-offset-2 font-medium">600 dpi</Link>
-            </p>
+            <div className="flex flex-wrap items-center gap-2 mb-6">
+              <span className="text-sm text-slate-500 mr-1">Porównaj z innymi rozdzielczościami:</span>
+              <Link
+                href="/203-dpi"
+                className="group inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-sm font-semibold text-slate-900 hover:border-brand-500 hover:bg-brand-500/5 hover:text-brand-700 transition-colors"
+              >
+                203 dpi
+                <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+              </Link>
+              <Link
+                href="/600-dpi"
+                className="group inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-sm font-semibold text-slate-900 hover:border-brand-500 hover:bg-brand-500/5 hover:text-brand-700 transition-colors"
+              >
+                600 dpi
+                <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+              </Link>
+            </div>
             <div className="overflow-x-auto rounded-xl border border-slate-200">
               <table className="w-full text-sm border-collapse min-w-[600px]">
                 <thead>
@@ -291,10 +304,7 @@ export default function Dpi300Page() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {useCases.map((u, i) => (
                 <div key={i} className="bg-slate-50 rounded-xl border border-slate-200 p-5">
-                  <div className="w-10 h-10 rounded-xl bg-brand-500/10 flex items-center justify-center mb-3">
-                    <u.icon size={20} className="text-brand-700" />
-                  </div>
-                  <h3 className="font-bold text-slate-900 mb-1">{u.title}</h3>
+                  <h3 className="font-bold text-slate-900 mb-2">{u.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{u.desc}</p>
                 </div>
               ))}
@@ -335,12 +345,18 @@ export default function Dpi300Page() {
                   ))}
                 </ul>
                 <Link href="/600-dpi" className="inline-flex items-center gap-1 text-sm text-brand-700 font-semibold mt-4 hover:underline">
-                  Zobacz deep dive 600 dpi <ArrowRight size={12} />
+                  Zobacz szczegóły 600 dpi <ArrowRight size={12} />
                 </Link>
               </div>
             </div>
           </div>
         </section>
+
+        {/* Warianty */}
+        <WariantyDpi dpi={300} />
+
+        {/* Info podstrony: oferta projektowa + serwis/instrukcje */}
+        <PodstronaInfo />
 
         {/* FAQ */}
         <section className="py-10 lg:py-14 bg-white border-b border-slate-200">

@@ -18,7 +18,30 @@ export default function Serwis() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Dlaczego TAKMA — zielony box z certyfikatami */}
         <div className="relative overflow-hidden rounded-2xl lg:rounded-3xl shadow-xl bg-gradient-to-br from-[#A8F000] to-[#8dbd00] mb-8 lg:mb-10">
-          <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:16px_16px]" />
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 grid pointer-events-none"
+            style={{
+              gridTemplateColumns: 'repeat(40, 1fr)',
+              gridAutoRows: '16px',
+              padding: '8px',
+              maskImage: 'radial-gradient(ellipse 60% 80% at center, transparent 0%, transparent 40%, black 85%)',
+              WebkitMaskImage: 'radial-gradient(ellipse 60% 80% at center, transparent 0%, transparent 40%, black 85%)',
+            }}
+          >
+            {Array.from({ length: 40 * 14 }).map((_, i) => {
+              const col = i % 40
+              const row = Math.floor(i / 40)
+              const delay = -((col + row * 0.6) * 0.15)
+              return (
+                <span
+                  key={i}
+                  className="w-1 h-1 rounded-full bg-slate-900 animate-twinkle justify-self-center self-center"
+                  style={{ animationDelay: `${delay}s` }}
+                />
+              )
+            })}
+          </div>
           <div className="relative z-10 px-5 py-4 sm:px-8 sm:py-5 lg:px-10 lg:py-6 text-center">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#0A1A2F] tracking-tight mb-1 lg:mb-2">
               Dlaczego TAKMA?
@@ -67,14 +90,18 @@ export default function Serwis() {
               <h3 className="text-lg font-semibold text-slate-900">serwis-zebry.pl</h3>
             </div>
             <p className="text-sm text-slate-600 mb-4 leading-relaxed">
-              Dedykowany portal serwisowy TAKMA dla urządzeń Zebra. Zgłaszanie napraw online, śledzenie statusu, baza wiedzy z instrukcjami i poradnikami konfiguracji.
+              Dedykowany portal serwisowy TAKMA dla urządzeń Zebra. Zgłaszanie napraw online, śledzenie statusu, baza wiedzy z instrukcjami po polsku, poradniki diagnostyki i konfiguracji ZPL/DataWedge.
             </p>
-            <ul className="space-y-2 text-sm text-slate-600 mb-4">
-              <li>• Zgłoszenie naprawy online 24/7</li>
-              <li>• Instrukcje obsługi po polsku (ZT411, ZT421, ZD621 i inne)</li>
-              <li>• Poradniki konfiguracji ZPL, Print DNA, MDM</li>
-              <li>• Diagnostyka zdalna przed wysyłką do serwisu</li>
-            </ul>
+            <div className="space-y-2 mb-4">
+              <a href="https://www.serwis-zebry.pl/instrukcje/zebra-zt411" target="_blank" rel="noopener" className="block p-3 bg-white border border-slate-200 rounded-lg hover:border-brand-500 hover:bg-brand-500/5 transition-colors group">
+                <div className="text-sm font-semibold text-slate-900 group-hover:text-brand-700">Instrukcja obsługi Zebra ZT411 →</div>
+                <div className="text-xs text-slate-500 mt-0.5">Pełna instrukcja po polsku: uruchomienie, ZPL, sieć, rozwiązywanie problemów</div>
+              </a>
+              <a href="https://www.serwis-zebry.pl/blog/serwis-drukarki-zebra-zt411-zt421-diagnostyka-naprawa" target="_blank" rel="noopener" className="block p-3 bg-white border border-slate-200 rounded-lg hover:border-brand-500 hover:bg-brand-500/5 transition-colors group">
+                <div className="text-sm font-semibold text-slate-900 group-hover:text-brand-700">Diagnostyka i naprawa ZT411/ZT421 →</div>
+                <div className="text-xs text-slate-500 mt-0.5">Poradnik: najczęstsze usterki, autodiagnostyka, kiedy do serwisu</div>
+              </a>
+            </div>
             <a href="https://www.serwis-zebry.pl" target="_blank" rel="noopener" className="inline-flex items-center gap-1 text-sm text-brand-700 font-semibold hover:underline">
               Przejdź do serwis-zebry.pl →
             </a>

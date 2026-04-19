@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import WariantyDpi from '@/components/WariantyDpi'
+import PodstronaInfo from '@/components/PodstronaInfo'
 import { getPrices } from '@/data/prices'
 import { ArrowRight, Home, ChevronRight, Truck, Warehouse, ShoppingCart, MapPin, Rocket, Gauge } from 'lucide-react'
 
@@ -13,7 +15,7 @@ const fmtPLN = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
 const price203Display = price203 ? fmtPLN(price203) : '—'
 
 export const metadata: Metadata = {
-  title: `ZT411 203 dpi — drukarka etykiet logistycznych | od ${price203Display} zł`,
+  title: `ZT411 203 dpi — drukarka logistyczna od ${price203Display} zł`,
   description: `Zebra ZT411 203 dpi: 8 pkt/mm, 356 mm/s — najszybszy i najtańszy wariant. Etykiety wysyłkowe, adresy, GS1-128, magazyn, retail. Od ${price203Display} zł netto. Partner Zebra — TAKMA.`,
   alternates: { canonical: 'https://www.zt411.pl/203-dpi' },
   openGraph: {
@@ -21,7 +23,7 @@ export const metadata: Metadata = {
     locale: 'pl_PL',
     url: 'https://www.zt411.pl/203-dpi',
     title: 'Zebra ZT411 203 dpi — drukarka etykiet logistycznych',
-    description: 'Deep dive w 203 dpi w ZT411. Standardowa rozdzielczość dla logistyki, e-commerce, magazynu. Najniższa cena i najwyższa szybkość.',
+    description: 'Szczegółowy przewodnik po rozdzielczości 203 dpi w ZT411. Standardowa rozdzielczość dla logistyki, e-commerce, magazynu. Najniższa cena i najwyższa szybkość.',
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Zebra ZT411 203 dpi' }],
   },
 }
@@ -313,10 +315,7 @@ export default function Dpi203Page() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {useCases.map((u, i) => (
                 <div key={i} className="bg-slate-50 rounded-xl border border-slate-200 p-5">
-                  <div className="w-10 h-10 rounded-xl bg-brand-500/10 flex items-center justify-center mb-3">
-                    <u.icon size={20} className="text-brand-700" />
-                  </div>
-                  <h3 className="font-bold text-slate-900 mb-1">{u.title}</h3>
+                  <h3 className="font-bold text-slate-900 mb-2">{u.title}</h3>
                   <p className="text-sm text-slate-600 leading-relaxed">{u.desc}</p>
                 </div>
               ))}
@@ -357,7 +356,7 @@ export default function Dpi203Page() {
                   ))}
                 </ul>
                 <Link href="/300-dpi" className="inline-flex items-center gap-1 text-sm text-brand-700 font-semibold mt-4 hover:underline">
-                  Zobacz deep dive 300 dpi <ArrowRight size={12} />
+                  Zobacz szczegóły 300 dpi <ArrowRight size={12} />
                 </Link>
               </div>
             </div>
@@ -396,6 +395,12 @@ export default function Dpi203Page() {
             </ul>
           </div>
         </section>
+
+        {/* Warianty */}
+        <WariantyDpi dpi={203} />
+
+        {/* Info podstrony: oferta projektowa + serwis/instrukcje */}
+        <PodstronaInfo />
 
         {/* FAQ */}
         <section className="py-10 lg:py-14 bg-slate-50 border-b border-slate-200">

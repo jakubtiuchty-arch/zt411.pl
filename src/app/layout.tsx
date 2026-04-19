@@ -87,7 +87,7 @@ function JsonLd() {
     category: 'Drukarki przemysłowe',
     sku: sortedByPrice[0].pn,
     mpn: 'ZT411',
-    image: ['https://www.zt411.pl/images/zt411-1.png', 'https://www.zt411.pl/images/zt411-2.png', 'https://www.zt411.pl/images/zt411-3.png'],
+    image: ['https://www.zt411.pl/images/zt411-hero.jpg'],
     url: 'https://www.zt411.pl',
     sameAs: 'https://www.zebra.com/pl/pl/products/printers/industrial/zt400.html',
     additionalProperty: [
@@ -157,7 +157,7 @@ function JsonLd() {
     inLanguage: 'pl-PL',
     isPartOf: { '@id': 'https://takma.com.pl/#website' },
     about: { '@id': 'https://www.zt411.pl/#product' },
-    primaryImageOfPage: { '@type': 'ImageObject', url: 'https://www.zt411.pl/images/zt411-1.png' },
+    primaryImageOfPage: { '@type': 'ImageObject', url: 'https://www.zt411.pl/images/zt411-hero.jpg' },
     dateModified: lastModifiedISO,
     author: { '@id': 'https://takma.com.pl/#organization' },
     publisher: { '@id': 'https://takma.com.pl/#organization' },

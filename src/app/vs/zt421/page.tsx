@@ -11,7 +11,7 @@ const fmtPLN = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
 const zt411Low = fmtPLN(lowPrice)
 
 export const metadata: Metadata = {
-  title: `Zebra ZT411 vs ZT421 — porównanie, różnice, kiedy wybrać | 2026`,
+  title: `Zebra ZT411 vs ZT421 — porównanie i różnice 2026`,
   description: `Zebra ZT411 (4", 203/300/600 dpi, ZeroLiner) vs ZT421 (6", etykiety paletowe). Szczegółowe porównanie specyfikacji, cen, zastosowań. Partner Zebra — TAKMA.`,
   alternates: { canonical: 'https://www.zt411.pl/vs/zt421' },
   openGraph: {
@@ -79,12 +79,12 @@ const diffs = [
     zt411: '25,4–114 mm',
     zt421: '51–178 mm',
     winner: 'zt421',
-    note: 'ZT421 obsługuje węższą minimalną szerokość etykiety niż 51 mm nie drukuje (ZT411 od 25 mm).',
+    note: 'ZT421 nie zadrukuje etykiety węższej niż 51 mm — ZT411 radzi sobie od 25 mm.',
   },
   {
     feature: 'Długość ciągłego druku',
-    zt411: '3 988 mm / 1 854 mm / 991 mm',
-    zt421: '2 591 mm / 1 143 mm / —',
+    zt411: '203 dpi: 3 988 · 300: 1 854 · 600: 991 mm',
+    zt421: '203 dpi: 2 591 · 300: 1 143 · 600: —',
     winner: 'zt411',
     note: 'Dla 203 i 300 dpi ZT411 drukuje znacznie dłuższe ciągłe etykiety (większa pamięć RAM używana).',
   },
@@ -107,7 +107,7 @@ const diffs = [
     zt411: true,
     zt421: true,
     winner: 'tie',
-    note: 'Obie modele obsługują dwupasmową kartę Wi-Fi 802.11ax jako opcję.',
+    note: 'Oba modele obsługują dwupasmową kartę Wi-Fi 802.11ax jako opcję.',
   },
   {
     feature: 'RFID UHF (opcja)',
@@ -135,7 +135,7 @@ const diffs = [
     zt411: true,
     zt421: true,
     winner: 'tie',
-    note: 'Obie modele mają certyfikat energooszczędności.',
+    note: 'Oba modele mają certyfikat energooszczędności.',
   },
 ]
 
@@ -185,7 +185,7 @@ const faqs = [
   },
   {
     q: 'ZT411 vs ZT421 — która ma większą pamięć?',
-    a: 'Identyczną. Obie modele mają 256 MB SDRAM + 512 MB liniowy Flash. Różnica w długości ciągłego druku (3988 mm w ZT411 vs 2591 mm w ZT421 @ 203 dpi) wynika z mniejszej szerokości druku ZT411 — ta sama pamięć przechowuje dłuższą etykietę wąską.',
+    a: 'Identyczną. Oba modele mają 256 MB SDRAM + 512 MB liniowy Flash. Różnica w długości ciągłego druku (3988 mm w ZT411 vs 2591 mm w ZT421 @ 203 dpi) wynika z mniejszej szerokości druku ZT411 — ta sama pamięć przechowuje dłuższą etykietę wąską.',
   },
   {
     q: 'Czy można upgradować ZT411 do 6" (ZT421)?',
@@ -193,7 +193,7 @@ const faqs = [
   },
   {
     q: 'Czy ZT411 i ZT421 mają ten sam ekran i oprogramowanie?',
-    a: 'Tak. Obie modele mają identyczny kolorowy ekran dotykowy 4,3" z intuicyjnym menu ikonowym, działają pod Link-OS, obsługują Print DNA (Printer Profile Manager, MDM Connectors, ZBI 2.0) i mają tę samą procedurę konfiguracji. Różnica tylko w części mechanicznej i szerokości.',
+    a: 'Tak. Oba modele mają identyczny kolorowy ekran dotykowy 4,3" z intuicyjnym menu ikonowym, działają pod Link-OS, obsługują Print DNA (Printer Profile Manager, MDM Connectors, ZBI 2.0) i mają tę samą procedurę konfiguracji. Różnica tylko w części mechanicznej i szerokości.',
   },
 ]
 

@@ -19,6 +19,15 @@ export default function Kontakt() {
   const [addedAccessories, setAddedAccessories] = useState<string[]>([])
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    const pnFromUrl = params.get('pn')
+    if (pnFromUrl && prices.variants.some(v => v.pn === pnFromUrl)) {
+      setSelectedVariant(pnFromUrl)
+      setTimeout(() => {
+        document.getElementById('kontakt')?.scrollIntoView({ behavior: 'smooth' })
+      }, 100)
+    }
+
     function handleVariantSelect(e: CustomEvent<string>) {
       setSelectedVariant(e.detail)
     }

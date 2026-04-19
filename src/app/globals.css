@@ -32,6 +32,15 @@ body {
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
+
+  .animate-twinkle {
+    animation: twinkle 6s ease-in-out infinite;
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.04; }
+  50% { opacity: 0.28; }
 }
 
 /* Custom range slider */

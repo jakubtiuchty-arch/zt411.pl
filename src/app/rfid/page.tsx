@@ -12,7 +12,7 @@ const fmtPLN = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
 const rfidPriceDisplay = rfidPrice ? fmtPLN(rfidPrice) : '—'
 
 export const metadata: Metadata = {
-  title: `Zebra ZT411 RFID — drukarka RFID UHF EPC gen. 2 | od ${rfidPriceDisplay} zł`,
+  title: `Zebra ZT411 RFID UHF — EPC gen. 2 | od ${rfidPriceDisplay} zł`,
   description: `ZT411 RFID: koder UHF EPC gen. 2 v2.1, ISO/IEC 18000-63, RAIN RFID. Adaptive encoding, wariant On-Metal. Cena od ${rfidPriceDisplay} zł netto. Partner Zebra — TAKMA.`,
   alternates: { canonical: 'https://www.zt411.pl/rfid' },
   openGraph: {
@@ -102,15 +102,15 @@ const useCases = [
 const faqs = [
   {
     q: 'Co to jest RFID UHF w drukarce Zebra ZT411?',
-    a: 'RFID UHF (Ultra High Frequency) w ZT411 to zintegrowany koder, który jednocześnie drukuje etykietę i zapisuje dane do chipa RFID osadzonego w tej etykiecie. Działa w pasmach 865-928 MHz (EU/US), używa protokołu EPC gen. 2 v2.1 oraz standardu ISO/IEC 18000-63. Zasięg odczytu: do 9 m przy odpowiednich tagach.',
+    a: 'RFID UHF (Ultra High Frequency) w ZT411 to zintegrowany koder, który jednocześnie drukuje etykietę i zapisuje dane do chipa RFID osadzonego w tej etykiecie. Działa w pasmach 865,6–867,6 MHz (ETSI EU) oraz 902–928 MHz (FCC US), używa protokołu EPC gen. 2 v2.1 oraz standardu ISO/IEC 18000-63. Zasięg odczytu: do 9 m przy odpowiednich tagach.',
   },
   {
     q: 'Czym jest Adaptive Encoding w ZT411?',
-    a: 'Adaptive Encoding to technologia Zebra, która automatycznie dobiera optymalną moc transmisji i pozycję kodowania dla każdego typu tagu RFID. Eliminuje konieczność ręcznej kalibracji — drukarka rozpoznaje tag i sama znajduje najlepsze ustawienia. W praktyce oznacza to mniej błędów kodowania i szybsze wdrożenie nowych tagów bez przerwy produkcji.',
+    a: 'Adaptive Encoding to technologia Zebra, która automatycznie dobiera optymalną moc transmisji i pozycję kodowania dla każdego typu tagu RFID. Eliminuje konieczność ręcznej kalibracji — drukarka rozpoznaje tag i sama znajduje najlepsze ustawienia. W praktyce oznacza to mniej błędów kodowania i szybsze wdrożenie nowych tagów bez przerywania produkcji.',
   },
   {
     q: 'Czym jest wariant On-Metal w ZT411 RFID?',
-    a: 'On-Metal to specjalna wersja ZT411 RFID do znakowania powierzchni metalowych — kontenerów, pojemników przemysłowych, narzędzi. Standardowy RFID UHF nie działa na metalu (interferencje), dlatego używa się dedykowanych tagów on-metal z izolatorem. Wariant dostępny wyłącznie dla ZT411 (nie dla ZT421) i nie łączy się z rozdzielczością 600 dpi.',
+    a: 'On-Metal to specjalna wersja ZT411 RFID do znakowania powierzchni metalowych — kontenerów, pojemników przemysłowych, narzędzi. Standardowy RFID UHF nie działa na metalu (interferencje), dlatego używa się dedykowanych tagów on-metal z izolatorem. Wariant dostępny wyłącznie w ZT411 (ZT421 nie obsługuje On-Metal) i niekompatybilny z rozdzielczością 600 dpi.',
   },
   {
     q: 'Czy można dokupić RFID do istniejącej ZT411 bez RFID?',
@@ -217,7 +217,7 @@ export default function RfidPage() {
             <p className="text-slate-700 leading-relaxed">
               RFID UHF (Ultra High Frequency) to technologia bezprzewodowej identyfikacji, która pozwala zapisywać dane do chipa osadzonego
               w etykiecie. Drukarka Zebra ZT411 jednocześnie <strong>drukuje wizualny kod kreskowy</strong> i <strong>koduje dane do tagu RFID</strong> —
-              oba elementy w jednej etykiecie. Zasięg odczytu: do 9 metrów przy odpowiednich tagach i czytnikach. Pasma ETSI EU (865-868 MHz) i FCC US (902-928 MHz).
+              oba elementy w jednej etykiecie. Zasięg odczytu: do 9 metrów przy odpowiednich tagach i czytnikach. Pasma ETSI EU (865,6–867,6 MHz) i FCC US (902–928 MHz).
             </p>
           </div>
         </section>
