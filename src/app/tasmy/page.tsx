@@ -265,23 +265,30 @@ export default function TasmyPage() {
         </nav>
 
         {/* Hero */}
-        <section className="relative bg-gradient-to-br from-[#0A1A2F] via-slate-900 to-[#142640] py-14 lg:py-20 overflow-hidden">
-          <div className="absolute inset-0 opacity-[0.06]" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4h-4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")" }} />
-          <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-<h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">
-              Taśmy termotransferowe do <span className="text-brand-500">Zebra ZT411</span>
-            </h1>
-            <p className="mt-5 text-base sm:text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed">
-              <strong className="text-white">10 kompatybilnych artykułów Zebra</strong> w 3 kategoriach: Wax, Wax-Resin, Resin.
-              Długości 300, 450, 600 i 900 m. Szerokości 40-220 mm. Rdzeń 25 mm (1&quot;). Przewodnik doboru per etykieta i warunki.
-            </p>
-            <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
-              <Link
-                href="/tasmy/lista"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-bold text-slate-900 bg-brand-500 rounded-full hover:bg-brand-400 transition-all"
-              >
-                Przeszukaj katalog 94 taśm →
-              </Link>
+        <section className="relative bg-black py-14 lg:py-20 overflow-hidden">
+          <div
+            className="absolute inset-0 bg-no-repeat bg-right"
+            style={{ backgroundImage: 'url(/images/zt411_tasmy_hero.webp)', backgroundSize: 'contain' }}
+            aria-hidden="true"
+          />
+          <div className="absolute inset-0 bg-gradient-to-l from-transparent via-black/30 to-black" aria-hidden="true" />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ textShadow: '0 2px 16px rgba(0,0,0,0.7)' }}>
+            <div className="max-w-full lg:max-w-[55%] text-center lg:text-left">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">
+                Taśmy termotransferowe do <span className="text-brand-500">Zebra ZT411</span>
+              </h1>
+              <p className="mt-5 text-base sm:text-lg text-slate-300 leading-relaxed">
+                <strong className="text-white">10 kompatybilnych artykułów Zebra</strong> w 3 kategoriach: Wax, Wax-Resin, Resin.
+                Długości 300, 450, 600 i 900 m. Szerokości 40–220 mm. Rdzeń 25 mm (1&quot;). Przewodnik doboru per etykieta i warunki.
+              </p>
+              <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
+                <Link
+                  href="/tasmy/lista"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-bold text-slate-900 bg-brand-500 rounded-full hover:bg-brand-400 transition-all"
+                >
+                  Przeszukaj katalog 94 taśm →
+                </Link>
+              </div>
             </div>
           </div>
         </section>
