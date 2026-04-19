@@ -142,7 +142,7 @@ function JsonLd() {
       { '@type': 'Question', name: 'Jak szybka jest Zebra ZT411?', acceptedAnswer: { '@type': 'Answer', text: 'Maksymalna prędkość druku: 356 mm/s (14"/s) przy 203 dpi. Przy 300 dpi: ok. 305 mm/s. Przy 600 dpi: ok. 152 mm/s. Krótki czas wydruku pierwszej etykiety (<1 s). Najwyższa wydajność w tej klasie urządzeń. Długość ciągłego druku: 3988 mm przy 203 dpi, 1854 mm przy 300 dpi, 991 mm przy 600 dpi.' } },
       { '@type': 'Question', name: 'Jakie akcesoria i materiały eksploatacyjne pasują do ZT411?', acceptedAnswer: { '@type': 'Answer', text: 'Taśmy barwiące Wax/Wax-Resin/Resin (szerokość 51–110 mm, długość do 450 m). Głowice drukujące 203/300/600 dpi (wymienne u klienta). Nawijak pełnej rolki, odklejak, obcinak gilotynowy, klawiatura ZKDU, interfejs aplikatora. Etykiety certyfikowane Zebra (ciągłe, sztancowane, z czarnymi znacznikami, ZeroLiner).' } },
       { '@type': 'Question', name: 'Gdzie serwisować Zebra ZT411 w Polsce?', acceptedAnswer: { '@type': 'Answer', text: 'Autoryzowany serwis Zebra w Polsce: TAKMA (Poznań, Premier Solution Partner) oraz portal serwis-zebry.pl. Czas naprawy gwarancyjnej: 3–5 dni roboczych. Kontrakty Zebra OneCare: Essential (naprawa 3 dni, priorytet 8×5), Select (priorytet 24×7, wymiana urządzenia następnego dnia). Wymiana głowic, konserwacja prewencyjna, diagnostyka zdalna przez Printer Profile Manager.' } },
-      { '@type': 'Question', name: 'Do jakich zastosowań jest Zebra ZT411?', acceptedAnswer: { '@type': 'Answer', text: 'Produkcja (WIP, oznaczenia identyfikacyjne, numery seryjne, etykiety odbiorcze). Transport i logistyka (kompletacja, wysyłka, przeładunek, etykiety zgodności). Retail (centra dystrybucji, obsługa zaplecza). Ochrona zdrowia (etykiety laboratoryjne, banki krwi, śledzenie zasobów, apteki). Szczególnie rekomendowana gdzie wymagana niezawodność 24/7 i duża ilość drukowanych etykiet dziennie.' } },
+      { '@type': 'Question', name: 'Do jakich zastosowań jest Zebra ZT411?', acceptedAnswer: { '@type': 'Answer', text: 'Produkcja (WIP, oznaczenia identyfikacyjne, numery seryjne, etykiety odbiorcze). Transport i logistyka (kompletacja, wysyłka, przeładunek, etykiety zgodności). Retail (centra dystrybucji, obsługa zaplecza). Ochrona zdrowia (etykiety laboratoryjne, banki krwi, śledzenie zasobów, apteki). Szczególnie rekomendowana gdzie wymagana niezawodność 24/7 i duża liczba drukowanych etykiet dziennie.' } },
       { '@type': 'Question', name: 'Jakie są warunki środowiskowe pracy ZT411?', acceptedAnswer: { '@type': 'Answer', text: 'Druk termotransferowy: 5°C do 40°C. Druk termiczny: 0°C do 40°C. Przechowywanie/transport: -40°C do +60°C. Wilgotność pracy: 20–85% bez kondensacji. Metalowa rama i składana pokrywa z dużym przezroczystym okienkiem. Certyfikat ENERGY STAR (energooszczędna). Trwała powłoka ochraniająca głowicę w trybie druku termicznego.' } },
     ],
   }
@@ -155,7 +155,7 @@ function JsonLd() {
     name: `Zebra ZT411 — drukarka etykiet od ${lowDisplay} zł netto | TAKMA`,
     description: 'Strona produktowa drukarki etykiet Zebra ZT411 prowadzona przez autoryzowanego partnera Zebra — TAKMA.',
     inLanguage: 'pl-PL',
-    isPartOf: { '@id': 'https://takma.com.pl/#website' },
+    isPartOf: { '@id': 'https://www.zt411.pl/#website' },
     about: { '@id': 'https://www.zt411.pl/#product' },
     primaryImageOfPage: { '@type': 'ImageObject', url: 'https://www.zt411.pl/images/zt411-hero.jpg' },
     dateModified: lastModifiedISO,
@@ -163,19 +163,28 @@ function JsonLd() {
     publisher: { '@id': 'https://takma.com.pl/#organization' },
   }
 
+  const website = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': 'https://www.zt411.pl/#website',
+    url: 'https://www.zt411.pl',
+    name: 'Zebra ZT411 — zt411.pl',
+    inLanguage: 'pl-PL',
+    publisher: { '@id': 'https://takma.com.pl/#organization' },
+  }
+
   const breadcrumb = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'TAKMA', item: 'https://takma.com.pl' },
-      { '@type': 'ListItem', position: 2, name: 'Drukarki przemysłowe', item: 'https://takma.com.pl/drukarki-przemyslowe' },
-      { '@type': 'ListItem', position: 3, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
+      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
     ],
   }
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(product) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webpage) }} />

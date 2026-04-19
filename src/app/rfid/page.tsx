@@ -142,7 +142,7 @@ export default function RfidPage() {
     description: 'Przewodnik po funkcji RFID UHF w drukarce Zebra ZT411. EPC gen. 2 v2.1, ISO/IEC 18000-63, RAIN RFID, Adaptive Encoding, wariant On-Metal dla powierzchni metalowych. Specyfikacja, zastosowania, tagi kompatybilne, cena.',
     datePublished: '2026-04-18',
     dateModified: '2026-04-18',
-    author: { '@type': 'Organization', name: 'TAKMA', url: 'https://takma.com.pl' },
+    author: { '@id': 'https://takma.com.pl/#organization' },
     publisher: {
       '@type': 'Organization',
       name: 'TAKMA',

@@ -14,7 +14,7 @@ const linerlessPriceDisplay = linerlessPrice ? fmtPLN(linerlessPrice) : '—'
 
 export const metadata: Metadata = {
   title: `ZT411 ZeroLiner — druk bezpodkładowy | od ${linerlessPriceDisplay} zł`,
-  description: `Zebra ZT411 ZeroLiner: druk etykiet bez podkładu. +50% etykiet na rolkę, zero odpadów, redukcja CO2. Dedykowana gilotyna linerless, direct thermal. Cena od ${linerlessPriceDisplay} zł netto.`,
+  description: `ZT411 ZeroLiner: druk bez podkładu. +50% etykiet na rolkę, zero odpadów, redukcja CO2. Gilotyna linerless. Od ${linerlessPriceDisplay} zł netto.`,
   alternates: { canonical: 'https://www.zt411.pl/zeroliner' },
   openGraph: {
     type: 'article',
@@ -43,34 +43,34 @@ const roiScenarios = [
   {
     volume: '1 000 etykiet/dzień',
     volumeDetail: 'Mała apteka / lokalny sklep',
-    standard: '8 rolek/mc',
-    linerless: '5,3 rolek/mc',
+    standard: '8 rolek/mies.',
+    linerless: '5,3 rolek/mies.',
     saving: '~33% rolek',
-    savingCost: 'ok. 150 zł/mc',
+    savingCost: 'ok. 150 zł/mies.',
   },
   {
     volume: '5 000 etykiet/dzień',
     volumeDetail: 'Średni magazyn / centrum dystrybucji',
-    standard: '40 rolek/mc',
-    linerless: '26,6 rolek/mc',
+    standard: '40 rolek/mies.',
+    linerless: '26,6 rolek/mies.',
     saving: '~33% rolek',
-    savingCost: 'ok. 750 zł/mc',
+    savingCost: 'ok. 750 zł/mies.',
   },
   {
     volume: '10 000 etykiet/dzień',
     volumeDetail: 'Duży e-commerce / cross-docking',
-    standard: '80 rolek/mc',
-    linerless: '53,3 rolek/mc',
+    standard: '80 rolek/mies.',
+    linerless: '53,3 rolek/mies.',
     saving: '~33% rolek',
-    savingCost: 'ok. 1 500 zł/mc',
+    savingCost: 'ok. 1 500 zł/mies.',
   },
   {
     volume: '20 000 etykiet/dzień',
     volumeDetail: 'Fulfillment center',
-    standard: '160 rolek/mc',
-    linerless: '106,6 rolek/mc',
+    standard: '160 rolek/mies.',
+    linerless: '106,6 rolek/mies.',
     saving: '~33% rolek',
-    savingCost: 'ok. 3 000 zł/mc',
+    savingCost: 'ok. 3 000 zł/mies.',
   },
 ]
 
@@ -139,7 +139,7 @@ const faqs = [
   },
   {
     q: 'Jak ZeroLiner wpływa na koszt TCO w 3 lata?',
-    a: 'Dla magazynu 5 000 etykiet/dzień oszczędność rolek wynosi ~33% (26,6 vs 40 rolek/mc). W ciągu 3 lat to ok. 480 rolek mniej — oszczędność ok. 27 000 zł. Dodając redukcję czasu wymiany rolek (~45 minut/mc) i zmniejszone odpady, całkowita oszczędność TCO dla średniego magazynu wynosi 30 000-40 000 zł w 3 lata.',
+    a: 'Dla magazynu 5 000 etykiet/dzień oszczędność rolek wynosi ~33% (26,6 vs 40 rolek/mies.). W ciągu 3 lat to ok. 480 rolek mniej — oszczędność ok. 27 000 zł. Dodając redukcję czasu wymiany rolek (~45 minut/mies.) i zmniejszone odpady, całkowita oszczędność TCO dla średniego magazynu wynosi 30 000-40 000 zł w 3 lata.',
   },
 ]
 
@@ -151,7 +151,7 @@ export default function ZeroLinerPage() {
     description: 'Kompletny przewodnik po technologii druku bezpodkładowego ZeroLiner w drukarce Zebra ZT411. Specyfikacja, ROI dla różnych wolumenów, korzyści ESG, zestaw upgrade dla istniejących ZT411.',
     datePublished: '2026-04-18',
     dateModified: '2026-04-18',
-    author: { '@type': 'Organization', name: 'TAKMA', url: 'https://takma.com.pl' },
+    author: { '@id': 'https://takma.com.pl/#organization' },
     publisher: {
       '@type': 'Organization',
       name: 'TAKMA',
@@ -208,7 +208,7 @@ export default function ZeroLinerPage() {
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ textShadow: '0 2px 16px rgba(0,0,0,0.7)' }}>
             <div className="max-w-full lg:max-w-[55%] text-center lg:text-left">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">
-                <span className="text-brand-500">ZEBRA ZT411 ZeroLiner</span><br />
+                <span className="text-brand-500">Zebra ZT411 ZeroLiner</span><br />
                 Druk etykiet bez podkładu
               </h1>
               <p className="mt-5 text-base sm:text-lg text-slate-300 leading-relaxed">

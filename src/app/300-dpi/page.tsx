@@ -42,7 +42,7 @@ const useCases = [
   {
     icon: ScanBarcode,
     title: 'GS1 DataMatrix',
-    desc: 'Standardowa rozdzielczość dla GS1 DataMatrix w opakowaniach farmaceutycznych (ilość 7-10 mm). 203 dpi za mało dla jednoznacznego odczytu, 600 dpi to nadwyżka.',
+    desc: 'Standardowa rozdzielczość dla GS1 DataMatrix w opakowaniach farmaceutycznych (rozmiar kodu 7–10 mm). 203 dpi za mało dla jednoznacznego odczytu, 600 dpi to nadwyżka.',
   },
   {
     icon: Package,
@@ -162,7 +162,7 @@ export default function Dpi300Page() {
     description: 'Przewodnik po rozdzielczości 300 dpi w drukarce Zebra ZT411. Kiedy wybrać 300 dpi vs 203 dpi vs 600 dpi, zastosowania, cena.',
     datePublished: '2026-04-18',
     dateModified: '2026-04-18',
-    author: { '@type': 'Organization', name: 'TAKMA', url: 'https://takma.com.pl' },
+    author: { '@id': 'https://takma.com.pl/#organization' },
     publisher: {
       '@type': 'Organization',
       name: 'TAKMA',

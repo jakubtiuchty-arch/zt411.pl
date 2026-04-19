@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     q: 'Do jakich zastosowań jest Zebra ZT411?',
-    a: 'Produkcja (WIP, oznaczenia identyfikacyjne, numery seryjne, etykiety odbiorcze i składowania). Transport i logistyka (kompletacja, wysyłka, przyjmowanie towarów, przeładunek, etykiety zgodności). Handel detaliczny (centra dystrybucji, obsługa zaplecza). Ochrona zdrowia (etykiety laboratoryjne, banki krwi, śledzenie zasobów, apteki). Rekomendowana tam, gdzie wymagana niezawodność 24/7 i duża ilość drukowanych etykiet dziennie.',
+    a: 'Produkcja (WIP, oznaczenia identyfikacyjne, numery seryjne, etykiety odbiorcze i składowania). Transport i logistyka (kompletacja, wysyłka, przyjmowanie towarów, przeładunek, etykiety zgodności). Handel detaliczny (centra dystrybucji, obsługa zaplecza). Ochrona zdrowia (etykiety laboratoryjne, banki krwi, śledzenie zasobów, apteki). Rekomendowana tam, gdzie wymagana niezawodność 24/7 i duża liczba drukowanych etykiet dziennie.',
   },
   {
     q: 'Jakie są warunki środowiskowe pracy ZT411?',
@@ -96,7 +96,7 @@ function FAQItem({ faq, index }: { faq: typeof faqs[0]; index: number }) {
 }
 
 export default function FAQ() {
-  const [sectionOpen, setSectionOpen] = useState(false)
+  const [sectionOpen, setSectionOpen] = useState(true)
 
   return (
     <section id="faq" className="py-8 lg:py-12 bg-slate-50 border-y border-slate-200">

@@ -6,7 +6,7 @@ import { ArrowRight, Home, ChevronRight, Droplet, FlameKindling, Shield, Info } 
 
 export const metadata: Metadata = {
   title: 'Taśmy termotransferowe do Zebra ZT411 — Wax, Wax-Resin, Resin',
-  description: 'Kompletny przewodnik po taśmach TT Zebra do drukarki ZT411. Wax (1600, 2100, 2300, 5319), Wax-Resin (3200, 3400), Resin (4800, 5095, 5100, ChemResist 8000). Długości 300-900 m.',
+  description: 'Taśmy TT Zebra do ZT411: Wax, Wax-Resin, Resin (10 artykułów). Długości 300-900 m, szerokość 40-220 mm. Dobór per etykieta i warunki pracy.',
   alternates: { canonical: 'https://www.zt411.pl/tasmy' },
   openGraph: {
     type: 'article',
@@ -153,7 +153,7 @@ const decisionTree = [
   {
     material: 'Syntetyki błyszczące (PET)',
     environment: 'Ciężkie warunki',
-    useFor: 'Chemia, outdoor, mrożnie',
+    useFor: 'Chemia, outdoor, mroźnie',
     recommended: ['RESIN 5095', 'RESIN 4800'],
   },
   {
@@ -173,7 +173,7 @@ const decisionTree = [
 const faqs = [
   {
     q: 'Jaka taśma termotransferowa pasuje do Zebra ZT411?',
-    a: 'Do ZT411 pasują taśmy TT Zebra w rolkach 300, 450, 600 i 900 m (maksymalna długość), z rdzeniem wewnętrznym 25 mm (1&quot;), orientacja face-out (tusz na zewnątrz). Szerokość: 51-110 mm standardowo. Dostępne trzy typy: Wax (tania, standardowa), Wax-Resin (chemia lekka), Resin (ekstremalne warunki). Pełna kompatybilność z 10 artykułami Zebra.',
+    a: 'Do ZT411 pasują taśmy TT Zebra w rolkach 300, 450, 600 i 900 m (maksymalna długość), z rdzeniem wewnętrznym 25 mm (1"), orientacja face-out (tusz na zewnątrz). Szerokość: 51-110 mm standardowo. Dostępne trzy typy: Wax (tania, standardowa), Wax-Resin (chemia lekka), Resin (ekstremalne warunki). Pełna kompatybilność z 10 artykułami Zebra.',
   },
   {
     q: 'Która taśma jest najtańsza dla drukarki ZT411?',
@@ -219,7 +219,7 @@ export default function TasmyPage() {
     description: 'Kompletny przewodnik po taśmach TT Zebra do drukarki ZT411. 10 kompatybilnych artykułów z 3 kategorii: Wax, Wax-Resin, Resin. Długości 300-900 m, szerokości 40-220 mm.',
     datePublished: '2026-04-18',
     dateModified: '2026-04-18',
-    author: { '@type': 'Organization', name: 'TAKMA', url: 'https://takma.com.pl' },
+    author: { '@id': 'https://takma.com.pl/#organization' },
     publisher: {
       '@type': 'Organization',
       name: 'TAKMA',

@@ -300,3 +300,98 @@ Od 2001 roku.
 
 **Sektory dla których wdrażamy ZT411:**
 Produkcja, Transport i logistyka, Handel detaliczny, Ochrona zdrowia (laboratoria, apteki, banki krwi), Znakowanie zgodności.
+
+---
+
+## 11. RFID UHF w ZT411 (podstrona /rfid)
+
+Zebra ZT411 RFID to zintegrowany koder UHF — drukarka jednocześnie drukuje etykietę i zapisuje dane do chipa RFID osadzonego w tej etykiecie.
+
+**Specyfikacja:**
+- Protokoły: EPC gen. 2 v2.1, ISO/IEC 18000-63, RAIN RFID
+- Częstotliwość: 865,6–867,6 MHz (ETSI EU), 902–928 MHz (FCC US)
+- Adaptive Encoding — automatyczny dobór mocy transmisji i pozycji kodowania per tag (bez ręcznej kalibracji)
+- Wspierane tagi: Zebra ARC-certified (Advanced RFID Center)
+- Zasięg odczytu: do 9 m przy odpowiednich tagach
+- Prędkość kodowania: 8–12 tagów/sekundę w ciągłej pracy
+
+**Warianty:**
+- Fabryczna instalacja (ZT41142-T0E00C0Z) — ok. 8 500 zł netto
+- Zestaw upgrade (Field Installable Kit) do istniejącej ZT411 — ok. 4 000–5 000 zł
+- On-Metal: specjalna wersja do znakowania powierzchni metalowych (kontenery, narzędzia). Tylko w ZT411 (ZT421 nie obsługuje), niekompatybilna z 600 dpi.
+
+**Zastosowania RFID ZT411:** logistyka magazynowa (SSCC + RFID, bramki 9 m), inwentaryzacja (100–700 tagów/s, 9 m), farmacja UDI (unique identifier EPC), motoryzacja (Track & Trace, metalowe kontenery z On-Metal), retail (EAS anti-theft, inwentaryzacja mobilna).
+
+---
+
+## 12. ZeroLiner — druk bezpodkładowy (podstrona /zeroliner)
+
+ZeroLiner to technologia Zebry, w której etykiety drukowane są bez silikonowego podkładu — klej jest od razu na spodzie etykiety, antyadhezyjna powłoka na wierzchu zapobiega zlepianiu w rolce.
+
+**Dostępność:** wyłącznie w ZT411 (brak w ZT421, ZT231, ZD-series). Dedykowana gilotyna linerless (D9 w Part Number). Tylko druk termiczny bezpośredni.
+
+**Korzyści:**
+- +50% etykiet na rolce o tej samej średnicy zewnętrznej
+- Zero odpadów podkładu silikonowego
+- Redukcja emisji CO2 (mniej transportu rolek, mniejsze zużycie energii na produkcję podkładu)
+- Rzadsze wymiany rolki → mniej przestojów
+
+**ROI scenariusze:**
+| Wolumen | Standard | ZeroLiner | Oszczędność |
+|---|---|---|---|
+| 1 000 etykiet/dzień | 8 rolek/mies. | 5,3 rolek/mies. | ok. 150 zł/mies. |
+| 5 000 etykiet/dzień | 40 rolek/mies. | 26,6 rolek/mies. | ok. 750 zł/mies. |
+| 10 000 etykiet/dzień | 80 rolek/mies. | 53,3 rolek/mies. | ok. 1 500 zł/mies. |
+| 20 000 etykiet/dzień | 160 rolek/mies. | 106,6 rolek/mies. | ok. 3 000 zł/mies. |
+
+TCO 3 lata dla średniego magazynu (5 000 etykiet/dzień): 30 000–40 000 zł oszczędności.
+
+**Zastosowania:** apteki (leki RX), e-commerce fulfillment, magazyny spożywcze (cold chain), cross-docking, restauracje (day-dot), szpitale (próbki, woreczki z lekami), centra dystrybucji ESG, sektor publiczny.
+
+---
+
+## 13. Taśmy termotransferowe do ZT411 (podstrona /tasmy)
+
+Do ZT411 pasują taśmy TT Zebra w rolkach 300, 450, 600 i 900 m, rdzeń wewnętrzny 25 mm (1"), orientacja face-out (tusz na zewnątrz). Szerokość 40–220 mm.
+
+**Trzy typy (10 artykułów Zebra):**
+- **Wax (wosk)** — tania, standardowa, do papieru wewnątrz budynku. Artykuły: 1600 (Economy), 2100 (Performance), 2300 (Standard, rolka 900 m), 5319 (Precyzyjna).
+- **Wax-Resin (wosk-żywica)** — pośrednia odporność, papier powlekany + syntetyki matowe, lekka chemia. Artykuły: 3200 (UL/cUL), 3400 (Uniwersalna).
+- **Resin (żywica)** — najwyższa odporność, tylko syntetyki, ekstremalne warunki (chemia, PCB, outdoor, wysokie temperatury). Artykuły: 4800 (UL/cUL), 5095 (Wytrzymała), 5100 (Premium), ChemResist 8000 (aceton/ksylen).
+
+**Drzewo decyzyjne:**
+- Papier powlekany, wewnątrz budynku → Wax 1600/2300/2100
+- Papier, lekka chemia → Wax/Resin 3200/3400
+- Syntetyki matowe (PP/PE), krótkie ekspozycje → Wax/Resin 3200 lub Resin 4800
+- Syntetyki błyszczące (PET), ciężkie warunki → Resin 5095/4800
+- Ekstremalne warunki, PCB, laboratorium → Resin 5100 Premium / ChemResist 8000
+- Kontakt z acetonem/ksylenem → Resin ChemResist 8000
+
+Pełna lista 94 Part Numberów z filtrem: https://www.zt411.pl/tasmy/lista
+
+---
+
+## 14. ZT411 vs ZT421 — kiedy który (podstrona /vs/zt421)
+
+**Krótko:** ZT411 to 4" (104 mm) z opcją 600 dpi i ZeroLiner. ZT421 to 6" (168 mm), bez 600 dpi i bez linerless.
+
+**Kluczowe różnice:**
+| Parametr | ZT411 | ZT421 |
+|---|---|---|
+| Szerokość druku | 4" (104 mm) | 6" (168 mm) |
+| Rozdzielczości | 203/300/600 dpi | 203/300 dpi |
+| Max szybkość | 356 mm/s | 305 mm/s |
+| ZeroLiner | Tak | Nie |
+| RFID On-Metal | Tak | Nie |
+| Cena bazowa | od 5 614 zł netto | od ok. 7 800 zł netto |
+| Wymiary szerokość | 269 mm | 336 mm |
+| Waga | 16,33 kg | 18,14 kg |
+| Min. szerokość nośnika | 25,4 mm | 51 mm |
+| Długość ciągłego druku 203 dpi | 3 988 mm | 2 591 mm |
+
+**Kiedy ZT411:** etykiety 4×6" i mniejsze, mikrotekst/PCB (600 dpi), RFID On-Metal, ZeroLiner, ciasne stanowiska, priorytet szybkości.
+
+**Kiedy ZT421:** etykiety paletowe SSCC 6×4", chemiczne GHS z długimi piktogramami, wielofunkcyjne etykiety produkcyjne, paczki morskie z dużą powierzchnią opisową.
+
+**Obie drukarki:** identyczny ekran 4,3", Link-OS Print DNA, ZPL/ZPL II/ZBI 2.0, RFID UHF, Wi-Fi 6/6E opcja, ENERGY STAR. Różnica tylko w części mechanicznej i szerokości.
+

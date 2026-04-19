@@ -7,7 +7,7 @@ import { getPrices, formatPrice } from '@/data/prices'
 const prices = getPrices()
 
 const tooltips: Record<string, string> = {
-  'Odrywanie (tear-off)': 'Najprostszy mechanizm: drukarka wydrukowuje etykietę, a użytkownik odrywa ją ręcznie na listwie odrywającej. Wariant bazowy, bez automatycznego podajnika.',
+  'Odrywanie (tear-off)': 'Najprostszy mechanizm: drukarka drukuje etykietę, a użytkownik odrywa ją ręcznie na listwie. Wariant bazowy, bez automatycznego podajnika.',
   'Gilotyna (cutter)': 'Automatyczny obcinak gilotynowy cięcie między etykietami. Zalecany przy ciągłych nośnikach lub gdy etykiety mają być różnych długości.',
   'Gilotyna linerless': 'Specjalna gilotyna do etykiet bezpodkładowych (ZeroLiner). Tnie bez podkładu — brak odpadów, +50% etykiet na rolkę.',
   'ZeroLiner': 'Zebra ZeroLiner — druk na etykietach bez podkładu (linerless). Więcej etykiet na rolkę, mniej odpadów, redukcja emisji CO2. Tylko w ZT411.',

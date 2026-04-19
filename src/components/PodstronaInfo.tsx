@@ -10,7 +10,7 @@ export default function PodstronaInfo() {
           <div className="rounded-2xl border border-brand-500/30 bg-gradient-to-br from-brand-500/5 to-white p-5 lg:p-6">
             <div className="flex items-center gap-2 mb-3">
               <BadgePercent size={22} className="text-brand-700" />
-              <h3 className="text-lg lg:text-xl font-bold text-slate-900">Większa ilość? Oferta projektowa</h3>
+              <h3 className="text-lg lg:text-xl font-bold text-slate-900">Większa liczba? Oferta projektowa</h3>
             </div>
             <p className="text-sm text-slate-700 leading-relaxed mb-4">
               Podane ceny dotyczą <strong>1 sztuki</strong>. Przy zakupie 5, 10 lub 50+ drukarek założymy dedykowany projekt i znacząco obniżymy cenę za sztukę — dodatkowo zoptymalizujemy konfigurację pod Twoje etykiety i proces.

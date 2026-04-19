@@ -90,7 +90,7 @@ export default function Serwis() {
               <h3 className="text-lg font-semibold text-slate-900">serwis-zebry.pl</h3>
             </div>
             <p className="text-sm text-slate-600 mb-4 leading-relaxed">
-              Dedykowany portal serwisowy TAKMA dla urządzeń Zebra. Zgłaszanie napraw online, śledzenie statusu, baza wiedzy z instrukcjami po polsku, poradniki diagnostyki i konfiguracji ZPL/DataWedge.
+              Portal serwisowy TAKMA dla urządzeń Zebra. Zgłaszanie napraw online, śledzenie statusu, baza wiedzy z instrukcjami po polsku, poradniki diagnostyki i konfiguracji ZPL/DataWedge.
             </p>
             <div className="space-y-2 mb-4">
               <a href="https://www.serwis-zebry.pl/instrukcje/zebra-zt411" target="_blank" rel="noopener" className="block p-3 bg-white border border-slate-200 rounded-lg hover:border-brand-500 hover:bg-brand-500/5 transition-colors group">

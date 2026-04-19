@@ -76,7 +76,7 @@ const useCases = [
   {
     icon: Gem,
     title: 'Jubilerstwo i zegarmistrzostwo',
-    desc: 'Etykiety zawieszki jubilerskie (5×15 mm) z numerem seryjnym, wagą i próbą. Mikrotekst wymaga 1 pt czcionki, co praktycznie niemożliwe poniżej 600 dpi.',
+    desc: 'Etykiety zawieszki jubilerskie (5×15 mm) z numerem seryjnym, wagą i próbą. Mikrotekst wymaga 1 pt czcionki, co jest praktycznie niemożliwe poniżej 600 dpi.',
   },
   {
     icon: Microscope,
@@ -156,7 +156,7 @@ export default function Dpi600Page() {
     description: 'Przewodnik po rozdzielczości 600 dpi w drukarce Zebra ZT411. Porównanie 203/300/600 dpi, zastosowania w elektronice, farmacji i jubilerstwie, ograniczenia, cena.',
     datePublished: '2026-04-18',
     dateModified: '2026-04-18',
-    author: { '@type': 'Organization', name: 'TAKMA', url: 'https://takma.com.pl' },
+    author: { '@id': 'https://takma.com.pl/#organization' },
     publisher: {
       '@type': 'Organization',
       name: 'TAKMA',

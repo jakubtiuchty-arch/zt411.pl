@@ -170,7 +170,7 @@ export default function Dpi203Page() {
     description: 'Przewodnik po rozdzielczości 203 dpi w drukarce Zebra ZT411. Najszybszy i najtańszy wariant — standard dla logistyki, e-commerce, magazynu. Porównanie z 300 i 600 dpi.',
     datePublished: '2026-04-18',
     dateModified: '2026-04-18',
-    author: { '@type': 'Organization', name: 'TAKMA', url: 'https://takma.com.pl' },
+    author: { '@id': 'https://takma.com.pl/#organization' },
     publisher: {
       '@type': 'Organization',
       name: 'TAKMA',

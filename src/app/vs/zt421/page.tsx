@@ -211,7 +211,7 @@ export default function Zt411VsZt421() {
     description: 'Szczegółowe porównanie dwóch drukarek termotransferowych Zebra z serii ZT400. ZT411 (4", do 600 dpi, ZeroLiner) vs ZT421 (6", do 300 dpi) — specyfikacja, ceny, zastosowania.',
     datePublished: '2026-04-18',
     dateModified: '2026-04-18',
-    author: { '@type': 'Organization', name: 'TAKMA', url: 'https://takma.com.pl' },
+    author: { '@id': 'https://takma.com.pl/#organization' },
     publisher: {
       '@type': 'Organization',
       name: 'TAKMA',

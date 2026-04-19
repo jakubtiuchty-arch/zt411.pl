@@ -30,7 +30,7 @@ export default function TasmyListaPage() {
     description: `Kompletny katalog ${ribbonsCount} Part Numbers taśm TT Zebra dla drukarki ZT411 — Wax (1600, 2100, 2300, 5319), Wax-Resin (3200, 3400), Resin (4800, 5095, 5100, ChemResist 8000). Filtrowalna tabela po szerokości, długości, typie.`,
     datePublished: '2026-04-18',
     dateModified: '2026-04-18',
-    author: { '@type': 'Organization', name: 'TAKMA', url: 'https://takma.com.pl' },
+    author: { '@id': 'https://takma.com.pl/#organization' },
     publisher: {
       '@type': 'Organization',
       name: 'TAKMA',
