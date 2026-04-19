@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const navLinks = [
   { href: '#warianty', label: 'Warianty' },
@@ -32,9 +33,9 @@ export default function Header() {
       <div className={`bg-white/95 backdrop-blur-sm border-b border-slate-200 shadow-sm transition-all duration-300`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-1.5">
-            <a href="#" className="flex items-center gap-2">
+            <Link href="/" className="flex items-center gap-2">
               <Image src="/images/takma_logo.webp" alt="TAKMA — Centrum Systemów Mobilnych" width={120} height={36} className="h-16 w-auto" />
-            </a>
+            </Link>
 
             {/* Desktop Nav */}
             <nav className="hidden md:flex items-center gap-6">
