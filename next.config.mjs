@@ -7,6 +7,16 @@ const nextConfig = {
         destination: '/zt411-rfid',
         permanent: true,
       },
+      {
+        source: '/tasmy',
+        destination: '/tasmy-termotransferowe',
+        permanent: true,
+      },
+      {
+        source: '/tasmy/lista',
+        destination: '/tasmy-termotransferowe/lista',
+        permanent: true,
+      },
     ]
   },
 };

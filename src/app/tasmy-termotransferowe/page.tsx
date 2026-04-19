@@ -7,11 +7,11 @@ import { ArrowRight, Home, ChevronRight, Droplet, FlameKindling, Shield, Info } 
 export const metadata: Metadata = {
   title: 'Taśmy termotransferowe do Zebra ZT411 — Wax, Wax-Resin, Resin',
   description: 'Taśmy TT Zebra do ZT411: Wax, Wax-Resin, Resin (10 artykułów). Długości 300-900 m, szerokość 40-220 mm. Dobór per etykieta i warunki pracy.',
-  alternates: { canonical: 'https://www.zt411.pl/tasmy' },
+  alternates: { canonical: 'https://www.zt411.pl/tasmy-termotransferowe' },
   openGraph: {
     type: 'article',
     locale: 'pl_PL',
-    url: 'https://www.zt411.pl/tasmy',
+    url: 'https://www.zt411.pl/tasmy-termotransferowe',
     title: 'Taśmy termotransferowe Zebra ZT411 — Wax, Wax-Resin, Resin',
     description: 'Dobór taśmy termotransferowej do Zebra ZT411 — jaki Wax, Wax-Resin, Resin dla jakiej etykiety. Długości 300-900 m.',
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Taśmy termotransferowe Zebra ZT411' }],
@@ -225,7 +225,7 @@ export default function TasmyPage() {
       name: 'TAKMA',
       logo: { '@type': 'ImageObject', url: 'https://takma.com.pl/images/logo-takma.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zt411.pl/tasmy' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zt411.pl/tasmy-termotransferowe' },
     image: 'https://www.zt411.pl/images/zt411-hero.jpg',
     keywords: 'taśma termotransferowa zt411, zebra wax 1600, zebra wax 2300, resin 5095, wax resin 3400, taśma TT zebra',
   }
@@ -245,7 +245,7 @@ export default function TasmyPage() {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
-      { '@type': 'ListItem', position: 2, name: 'Taśmy TT', item: 'https://www.zt411.pl/tasmy' },
+      { '@type': 'ListItem', position: 2, name: 'Taśmy TT', item: 'https://www.zt411.pl/tasmy-termotransferowe' },
     ],
   }
 
@@ -283,7 +283,7 @@ export default function TasmyPage() {
               </p>
               <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
                 <Link
-                  href="/tasmy/lista"
+                  href="/tasmy-termotransferowe/lista"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-bold text-slate-900 bg-brand-500 rounded-full hover:bg-brand-400 transition-all"
                 >
                   Przeszukaj katalog 94 taśm →
@@ -351,7 +351,7 @@ export default function TasmyPage() {
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-2">10 taśm Zebra kompatybilnych z ZT411</h2>
             <p className="text-sm text-slate-600 mb-6">
               Przegląd typów taśm. Szukasz konkretnego wariantu?&nbsp;
-              <Link href="/tasmy/lista" className="text-brand-700 underline underline-offset-2 font-semibold">
+              <Link href="/tasmy-termotransferowe/lista" className="text-brand-700 underline underline-offset-2 font-semibold">
                 Otwórz wyszukiwarkę z filtrem (94 taśmy) →
               </Link>
             </p>

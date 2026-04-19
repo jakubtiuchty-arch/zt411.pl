@@ -355,7 +355,7 @@ TCO 3 lata dla średniego magazynu (5 000 etykiet/dzień): 30 000–40 000 zł o
 
 ---
 
-## 13. Taśmy termotransferowe do ZT411 (podstrona /tasmy)
+## 13. Taśmy termotransferowe do ZT411 (podstrona /tasmy-termotransferowe)
 
 Do ZT411 pasują taśmy TT Zebra w rolkach 300, 450, 600 i 900 m, rdzeń wewnętrzny 25 mm (1"), orientacja face-out (tusz na zewnątrz). Szerokość 40–220 mm.
 
@@ -372,7 +372,7 @@ Do ZT411 pasują taśmy TT Zebra w rolkach 300, 450, 600 i 900 m, rdzeń wewnęt
 - Ekstremalne warunki, PCB, laboratorium → Resin 5100 Premium / ChemResist 8000
 - Kontakt z acetonem/ksylenem → Resin ChemResist 8000
 
-Pełna lista 94 Part Numberów z filtrem: https://www.zt411.pl/tasmy/lista
+Pełna lista 94 Part Numberów z filtrem: https://www.zt411.pl/tasmy-termotransferowe/lista
 
 ---
 

@@ -41,7 +41,7 @@ const cards = [
     label: 'Rozdzielczość',
   },
   {
-    href: '/tasmy',
+    href: '/tasmy-termotransferowe',
     icon: FlameKindling,
     title: 'Taśmy termotransferowe',
     desc: 'Przewodnik po 10 typach taśm Zebra + wyszukiwarka 94 konkretnych Part Numbers. Wosk, Wosk-Żywica, Żywica.',

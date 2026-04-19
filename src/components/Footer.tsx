@@ -20,7 +20,7 @@ const footerLinks = {
     { name: '600 dpi — mikrotekst', href: '/600-dpi' },
     { name: '300 dpi — standard', href: '/300-dpi' },
     { name: '203 dpi — logistyka', href: '/203-dpi' },
-    { name: 'Taśmy termotransferowe', href: '/tasmy' },
+    { name: 'Taśmy termotransferowe', href: '/tasmy-termotransferowe' },
     { name: 'ZT411 vs ZT421', href: '/vs/zt421' },
   ],
   serwis: [

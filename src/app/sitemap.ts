@@ -49,13 +49,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${base}/tasmy`,
+      url: `${base}/tasmy-termotransferowe`,
       lastModified: new Date('2026-04-18'),
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: `${base}/tasmy/lista`,
+      url: `${base}/tasmy-termotransferowe/lista`,
       lastModified: new Date('2026-04-18'),
       changeFrequency: 'weekly',
       priority: 0.8,
