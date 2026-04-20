@@ -146,7 +146,7 @@ const faqs = [
   },
   {
     q: 'Ile kosztuje ZT411 203 dpi?',
-    a: `Wariant bazowy ZT411 203 dpi z odrywaniem (ZT41142-T0E0000Z) kosztuje od ${price203Display} zł netto. Wariant z Wi-Fi 6/6E: od ~6 984 zł. Z odklejakiem: ~6 364 zł. Z gilotyną: ~7 734 zł. Z RFID UHF: od ~8 500 zł. Linerless (ZeroLiner): ~8 146 zł. Dostępne 7 konfiguracji w tej rozdzielczości.`,
+    a: `Wariant bazowy ZT411 203 dpi z odrywaniem (ZT41142-T0E0000Z) kosztuje od ${price203Display} zł netto. Wariant z Wi-Fi 6/6E: od ~6 984 zł. Z odklejakiem: ~6 364 zł. Z gilotyną: ~7 734 zł. Z RFID UHF: od ~8 500 zł. Linerless (bezpodkładowy): ~8 146 zł. Dostępne 7 konfiguracji w tej rozdzielczości.`,
   },
   {
     q: 'Jak szybko ZT411 203 dpi drukuje etykiety?',

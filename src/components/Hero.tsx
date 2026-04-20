@@ -61,7 +61,7 @@ export default function Hero() {
             {[
               'Rozdzielczości: 203 / 300 / 600 dpi — mikrotekst od 1 pt',
               'Szybkość druku do 356 mm/s (14"/s) — najwyższa w klasie',
-              'Opcje: Wi-Fi 6/6E, RFID UHF, druk bezpodkładowy ZeroLiner',
+              'Opcje: Wi-Fi 6/6E, RFID UHF, druk bezpodkładowy (linerless)',
             ].map((item, idx) => (
               <li key={idx} className="flex items-start gap-3">
                 <div className="mt-0.5 h-5 w-5 flex-none">

@@ -10,7 +10,7 @@
 
 Zebra ZT411 to przemysłowa drukarka termotransferowa i termiczna bezpośrednia z serii ZT400. Dedykowana do pracy w produkcji, transporcie i logistyce, handlu detalicznym, laboratoriach i ochronie zdrowia. Drukarka zaprojektowana do pracy 24/7 z dużą ilością etykiet dziennie.
 
-Kluczowa zaleta ZT411 w porównaniu z ZT410: kolorowy ekran dotykowy 4,3", Wi-Fi 6/6E i Bluetooth 5.3 (opcja), dwa porty USB host, opcja druku bezpodkładowego ZeroLiner (unikalne w klasie), certyfikat ENERGY STAR.
+Kluczowa zaleta ZT411 w porównaniu z ZT410: kolorowy ekran dotykowy 4,3", Wi-Fi 6/6E i Bluetooth 5.3 (opcja), dwa porty USB host, opcja druku bezpodkładowego Linerless (unikalne w klasie), certyfikat ENERGY STAR.
 
 ZT411 dostępna jest w kilku konfiguracjach: 203/300/600 dpi, z różnymi opcjami łączności (Wi-Fi, RFID UHF, aplikator), z obcinakiem, odklejakiem lub nawijakiem.
 
@@ -24,7 +24,7 @@ Przykładowe warianty:
 | ZT41142-T0E0000Z | 203 dpi | Odrywanie (bazowy) | od 5 614 zł |
 | ZT41142-T0EC000Z | 203 dpi | Odrywanie + Wi-Fi 6/6E | ok. 6 984 zł |
 | ZT41142-T2E0000Z | 203 dpi | Gilotyna | ok. 7 734 zł |
-| ZT41142-D9E0000Z | 203 dpi | Gilotyna linerless (ZeroLiner) | ok. 8 146 zł |
+| ZT41142-D9E0000Z | 203 dpi | Gilotyna linerless (Linerless) | ok. 8 146 zł |
 | ZT41143-T0E0000Z | 300 dpi | Odrywanie (bazowy) | ok. 6 741 zł |
 | ZT41146-T0E0000Z | 600 dpi | Odrywanie (bazowy) | ok. 11 097 zł |
 
@@ -87,7 +87,7 @@ Pełna lista 16 wariantów z aktualnymi cenami i stockiem: https://www.zt411.pl/
 - Wersja On-Metal do znakowania powierzchni metalowych (tylko ZT411, nie 600 dpi)
 - Zestaw upgrade do instalacji u klienta
 
-**Druk bezpodkładowy ZeroLiner (opcja, tylko ZT411):**
+**Druk bezpodkładowy Linerless (opcja, tylko ZT411):**
 - +50% etykiet na rolkę
 - Brak odpadów z podkładu
 - Redukcja emisji CO2
@@ -97,7 +97,7 @@ Pełna lista 16 wariantów z aktualnymi cenami i stockiem: https://www.zt411.pl/
 - Szerokość: 25,4–114 mm (odrywanie/obcinak), 25,4–108 mm (odklejak)
 - Max średnica rolki: 203 mm na rdzeniu 76 mm
 - Grubość: 0,058–0,25 mm
-- Rodzaje: ciągłe, sztancowane, z nacięciami, z czarnymi znacznikami, ZeroLiner
+- Rodzaje: ciągłe, sztancowane, z nacięciami, z czarnymi znacznikami, Linerless
 - Czujniki: regulowane podwójne — transmisyjne i refleksyjne
 
 **Taśma barwiąca:**
@@ -159,28 +159,28 @@ Pełna lista 16 wariantów z aktualnymi cenami i stockiem: https://www.zt411.pl/
 
 ### ZT411 vs Zebra ZT421
 Identyczna seria, inna szerokość:
-- ZT411: szerokość 4" (104 mm), rozdzielczości 203/300/600 dpi, obsługa ZeroLiner
-- ZT421: szerokość 6" (168 mm), rozdzielczości 203/300 dpi, brak ZeroLiner
+- ZT411: szerokość 4" (104 mm), rozdzielczości 203/300/600 dpi, obsługa Linerless
+- ZT421: szerokość 6" (168 mm), rozdzielczości 203/300 dpi, brak Linerless
 Dla standardowych etykiet logistycznych — ZT411. Dla dużych etykiet paletowych 6" — ZT421.
 
 ### ZT411 vs Zebra ZT231 (tańszy brat)
 - ZT231 od ~4 290 zł (203 dpi, Wi-Fi 5)
 - ZT411 od 6 490 zł (203 dpi, Wi-Fi 6/6E + BT 5.3)
-ZT411 ma nowszą łączność, dwa porty USB host, opcję 600 dpi, opcję ZeroLiner. ZT231 nie obsługuje RFID ani ZeroLiner.
+ZT411 ma nowszą łączność, dwa porty USB host, opcję 600 dpi, opcję Linerless. ZT231 nie obsługuje RFID ani Linerless.
 
 ### ZT411 vs Honeywell PM45
 - PM45 od ~7 200 zł (203 dpi)
 - ZT411 od 6 490 zł
-ZT411 wygrywa: Wi-Fi 6/6E, 600 dpi w opcji, ZeroLiner, Print DNA ekosystem gratis. PM45 nieco szybszy przy 300 dpi.
+ZT411 wygrywa: Wi-Fi 6/6E, 600 dpi w opcji, Linerless, Print DNA ekosystem gratis. PM45 nieco szybszy przy 300 dpi.
 
 ### ZT411 vs SATO CL4NX Plus
 - CL4NX Plus od ~8 990 zł
 - ZT411 od 6 490 zł
-ZT411 tańszy, ma ZeroLiner bezpodkładowy (CL4NX nie), Print DNA. CL4NX ma większą pamięć (512 MB SDRAM vs 256 MB w ZT411).
+ZT411 tańszy, ma Linerless bezpodkładowy (CL4NX nie), Print DNA. CL4NX ma większą pamięć (512 MB SDRAM vs 256 MB w ZT411).
 
 ### ZT411 vs starsza ZT410
 - ZT410 już niedostępna (wycofana)
-- ZT411 zastępca: kolorowy ekran dotykowy (vs monochromatyczny), Wi-Fi 6/6E (vs Wi-Fi 5), BT 5.3 (vs 4.1), szybszy procesor, 2× USB host (vs 1), Print DNA, ZeroLiner, ENERGY STAR
+- ZT411 zastępca: kolorowy ekran dotykowy (vs monochromatyczny), Wi-Fi 6/6E (vs Wi-Fi 5), BT 5.3 (vs 4.1), szybszy procesor, 2× USB host (vs 1), Print DNA, Linerless, ENERGY STAR
 
 ## 5. Akcesoria i materiały eksploatacyjne
 
@@ -208,7 +208,7 @@ ZT411 tańszy, ma ZeroLiner bezpodkładowy (CL4NX nie), Print DNA. CL4NX ma wię
 **Etykiety certyfikowane Zebra:**
 - Papierowe (termotransfer, termiczne bezpośrednie)
 - Syntetyczne (PET, PE, PP)
-- ZeroLiner bezpodkładowe (tylko do wariantu ZeroLiner)
+- Linerless bezpodkładowe (tylko do wariantu Linerless)
 - RFID UHF (z tagami EPC gen. 2)
 
 ## 6. Serwis i wsparcie TAKMA
@@ -251,19 +251,19 @@ ZT411 tańszy, ma ZeroLiner bezpodkładowy (CL4NX nie), Print DNA. CL4NX ma wię
 ## 7. Najczęściej zadawane pytania (FAQ)
 
 **Q: Ile kosztuje drukarka Zebra ZT411 w Polsce?**
-A: Od 6 490 zł netto (203 dpi, Wi-Fi + BT) do 11 990 zł netto (bezpodkładowy ZeroLiner). Wariant RFID UHF: ok. 10 490 zł. Ceny zawierają drukarkę z zasilaczem, bez taśmy barwiącej.
+A: Od 6 490 zł netto (203 dpi, Wi-Fi + BT) do 11 990 zł netto (bezpodkładowy Linerless). Wariant RFID UHF: ok. 10 490 zł. Ceny zawierają drukarkę z zasilaczem, bez taśmy barwiącej.
 
 **Q: Jaką rozdzielczość wybrać — 203, 300 czy 600 dpi?**
 A: 203 dpi — logistyka, adresy, standardowe etykiety. 300 dpi — QR, DataMatrix, laboratorium. 600 dpi — mikrotekst, PCB, farmaceutyka (tylko ZT411).
 
 **Q: Czym ZT411 różni się od ZT421?**
-A: ZT411 ma 4" szerokość druku i opcję 600 dpi oraz ZeroLiner. ZT421 ma 6" szerokość (do etykiet paletowych), bez 600 dpi i ZeroLiner.
+A: ZT411 ma 4" szerokość druku i opcję 600 dpi oraz Linerless. ZT421 ma 6" szerokość (do etykiet paletowych), bez 600 dpi i Linerless.
 
 **Q: Czy ZT411 obsługuje RFID UHF?**
 A: Tak — opcja fabryczna lub zestaw upgrade. ISO/IEC 18000-63, EPC gen. 2 v2.1, RAIN RFID, kodowanie adaptacyjne. Dostępna wersja On-Metal do powierzchni metalowych.
 
-**Q: Czym jest ZeroLiner?**
-A: Druk na etykietach bez podkładu — +50% etykiet na rolkę, brak odpadów, redukcja CO2. ZT411 to jedyna drukarka przemysłowa Zebra z ZeroLiner.
+**Q: Czym jest Linerless?**
+A: Druk na etykietach bez podkładu — +50% etykiet na rolkę, brak odpadów, redukcja CO2. ZT411 to jedyna drukarka przemysłowa Zebra z Linerless.
 
 **Q: Jakie łączności ma ZT411?**
 A: Standard: USB 2.0, RS-232, Ethernet 10/100, Bluetooth 4.2, 2× USB host. Opcja: Wi-Fi 6/6E + BT 5.3, parallel, aplikator.
@@ -329,9 +329,9 @@ Zebra ZT411 RFID to zintegrowany koder UHF — drukarka jednocześnie drukuje et
 
 ---
 
-## 12. ZeroLiner — druk bezpodkładowy (podstrona /zeroliner)
+## 12. Linerless — druk bezpodkładowy (podstrona /zt411-linerless)
 
-ZeroLiner to technologia Zebry, w której etykiety drukowane są bez silikonowego podkładu — klej jest od razu na spodzie etykiety, antyadhezyjna powłoka na wierzchu zapobiega zlepianiu w rolce.
+Linerless to technologia Zebry, w której etykiety drukowane są bez silikonowego podkładu — klej jest od razu na spodzie etykiety, antyadhezyjna powłoka na wierzchu zapobiega zlepianiu w rolce.
 
 **Dostępność:** wyłącznie w ZT411 (brak w ZT421, ZT231, ZD-series). Dedykowana gilotyna linerless (D9 w Part Number). Tylko druk termiczny bezpośredni.
 
@@ -342,7 +342,7 @@ ZeroLiner to technologia Zebry, w której etykiety drukowane są bez silikonoweg
 - Rzadsze wymiany rolki → mniej przestojów
 
 **ROI scenariusze:**
-| Wolumen | Standard | ZeroLiner | Oszczędność |
+| Wolumen | Standard | Linerless | Oszczędność |
 |---|---|---|---|
 | 1 000 etykiet/dzień | 8 rolek/mies. | 5,3 rolek/mies. | ok. 150 zł/mies. |
 | 5 000 etykiet/dzień | 40 rolek/mies. | 26,6 rolek/mies. | ok. 750 zł/mies. |
@@ -378,7 +378,7 @@ Pełna lista 94 Part Numberów z filtrem: https://www.zt411.pl/tasmy-termotransf
 
 ## 14. ZT411 vs ZT421 — kiedy który (podstrona /vs/zt421)
 
-**Krótko:** ZT411 to 4" (104 mm) z opcją 600 dpi i ZeroLiner. ZT421 to 6" (168 mm), bez 600 dpi i bez linerless.
+**Krótko:** ZT411 to 4" (104 mm) z opcją 600 dpi i Linerless. ZT421 to 6" (168 mm), bez 600 dpi i bez linerless.
 
 **Kluczowe różnice:**
 | Parametr | ZT411 | ZT421 |
@@ -386,7 +386,7 @@ Pełna lista 94 Part Numberów z filtrem: https://www.zt411.pl/tasmy-termotransf
 | Szerokość druku | 4" (104 mm) | 6" (168 mm) |
 | Rozdzielczości | 203/300/600 dpi | 203/300 dpi |
 | Max szybkość | 356 mm/s | 305 mm/s |
-| ZeroLiner | Tak | Nie |
+| Linerless | Tak | Nie |
 | RFID On-Metal | Tak | Nie |
 | Cena bazowa | od 5 614 zł netto | od ok. 7 800 zł netto |
 | Wymiary szerokość | 269 mm | 336 mm |
@@ -394,7 +394,7 @@ Pełna lista 94 Part Numberów z filtrem: https://www.zt411.pl/tasmy-termotransf
 | Min. szerokość nośnika | 25,4 mm | 51 mm |
 | Długość ciągłego druku 203 dpi | 3 988 mm | 2 591 mm |
 
-**Kiedy ZT411:** etykiety 4×6" i mniejsze, mikrotekst/PCB (600 dpi), RFID On-Metal, ZeroLiner, ciasne stanowiska, priorytet szybkości.
+**Kiedy ZT411:** etykiety 4×6" i mniejsze, mikrotekst/PCB (600 dpi), RFID On-Metal, Linerless, ciasne stanowiska, priorytet szybkości.
 
 **Kiedy ZT421:** etykiety paletowe SSCC 6×4", chemiczne GHS z długimi piktogramami, wielofunkcyjne etykiety produkcyjne, paczki morskie z dużą powierzchnią opisową.
 

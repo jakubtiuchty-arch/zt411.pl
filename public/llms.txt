@@ -14,7 +14,7 @@ Zebra ZT411 to przemysłowa drukarka etykiet — termotransferowa i termiczna be
 | ZT41143-T0E0000Z | 300 dpi | Wi-Fi 6/6E + BT 5.3, obcinak | 6 990 zł |
 | ZT41146-T0E0000Z | 600 dpi | Wi-Fi 6/6E + BT 5.3, obcinak | 8 490 zł |
 | ZT41142-T0E00C0Z | 203 dpi | RFID UHF | 10 490 zł |
-| ZT41142-T2E0000Z | 203 dpi | Bezpodkładowy ZeroLiner | 11 990 zł |
+| ZT41142-T2E0000Z | 203 dpi | Bezpodkładowy (linerless) | 11 990 zł |
 
 ### Kluczowe parametry
 
@@ -25,16 +25,16 @@ Zebra ZT411 to przemysłowa drukarka etykiet — termotransferowa i termiczna be
 - Ekran: kolorowy dotykowy 4,3"
 - Pamięć: 256 MB SDRAM + 512 MB Flash
 - Interfejsy: USB 2.0, RS-232, Ethernet 10/100, Bluetooth 4.2, 2× USB host
-- Opcje: Wi-Fi 6/6E + BT 5.3, RFID UHF, bezpodkładowy ZeroLiner, aplikator
+- Opcje: Wi-Fi 6/6E + BT 5.3, RFID UHF, bezpodkładowy (linerless), aplikator
 - Języki: ZPL, ZPL II, ZBI 2.0, EPL (tylko 203 dpi)
 - Wymiary: 495 × 269 × 324 mm, waga 16,33 kg
 - Certyfikat: ENERGY STAR
 
 ### ZT411 vs ZT421
-Różnica: ZT411 ma szerokość druku 4" (104 mm), ZT421 ma 6" (168 mm). ZT411 oferuje 600 dpi i ZeroLiner, ZT421 tylko 203/300 dpi. ZT411 od 6 490 zł, ZT421 od ok. 8 290 zł.
+Różnica: ZT411 ma szerokość druku 4" (104 mm), ZT421 ma 6" (168 mm). ZT411 oferuje 600 dpi i linerless, ZT421 tylko 203/300 dpi. ZT411 od 6 490 zł, ZT421 od ok. 8 290 zł.
 
 ### ZT411 vs Honeywell PM45
-ZT411 od 6 490 zł, PM45 od ok. 7 200 zł. ZT411 ma Wi-Fi 6/6E, 600 dpi w opcji, ZeroLiner. PM45 jest nieco szybszy przy 300 dpi. Dla firm z flotą Zebra — ZT411.
+ZT411 od 6 490 zł, PM45 od ok. 7 200 zł. ZT411 ma Wi-Fi 6/6E, 600 dpi w opcji, druk linerless. PM45 jest nieco szybszy przy 300 dpi. Dla firm z flotą Zebra — ZT411.
 
 ### Autoryzowany partner Zebra
 TAKMA, ul. Romana Maya 1, 61-371 Poznań

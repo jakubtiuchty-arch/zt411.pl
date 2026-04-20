@@ -25,7 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${base}/zeroliner`,
+      url: `${base}/zt411-linerless`,
       lastModified: new Date('2026-04-18'),
       changeFrequency: 'monthly',
       priority: 0.9,

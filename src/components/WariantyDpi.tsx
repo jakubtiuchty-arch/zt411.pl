@@ -16,7 +16,7 @@ const PN_CONFIG: Record<string, Config> = {
   T2E:  { features: ['Gilotyna (cutter)'] },
   T3E:  { features: ['Odklejak', 'Nawijak podkładu'] },
   T4E:  { features: ['Odklejak', 'Nawijak etykiet'] },
-  D9E:  { features: ['Gilotyna linerless', 'Druk termiczny bezpośredni', 'ZeroLiner (bez podkładu)'] },
+  D9E:  { features: ['Gilotyna linerless', 'Druk termiczny bezpośredni', 'Linerless (bez podkładu)'] },
 }
 
 const BESTSELLER_PN = 'ZT41142-T0E0000Z'

@@ -13,16 +13,16 @@ const fmtPLN = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
 const linerlessPriceDisplay = linerlessPrice ? fmtPLN(linerlessPrice) : '—'
 
 export const metadata: Metadata = {
-  title: `ZT411 ZeroLiner — druk bezpodkładowy | od ${linerlessPriceDisplay} zł`,
-  description: `ZT411 ZeroLiner: druk bez podkładu. +50% etykiet na rolkę, zero odpadów, redukcja CO2. Gilotyna linerless. Od ${linerlessPriceDisplay} zł netto.`,
-  alternates: { canonical: 'https://www.zt411.pl/zeroliner' },
+  title: `ZT411 Linerless — druk bezpodkładowy | od ${linerlessPriceDisplay} zł`,
+  description: `ZT411 Linerless: druk bez podkładu. +50% etykiet na rolkę, zero odpadów, redukcja CO2. Gilotyna linerless. Od ${linerlessPriceDisplay} zł netto.`,
+  alternates: { canonical: 'https://www.zt411.pl/zt411-linerless' },
   openGraph: {
     type: 'article',
     locale: 'pl_PL',
-    url: 'https://www.zt411.pl/zeroliner',
-    title: 'Zebra ZT411 ZeroLiner — druk bezpodkładowy (linerless)',
-    description: 'Kompletny przewodnik po technologii druku bezpodkładowego ZeroLiner w drukarce Zebra ZT411. ROI, ESG, zestaw upgrade.',
-    images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Zebra ZT411 ZeroLiner druk bezpodkładowy' }],
+    url: 'https://www.zt411.pl/zt411-linerless',
+    title: 'Zebra ZT411 Linerless — druk bezpodkładowy',
+    description: 'Kompletny przewodnik po technologii druku bezpodkładowego (linerless) w drukarce Zebra ZT411. ROI, ESG, zestaw upgrade.',
+    images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Zebra ZT411 Linerless druk bezpodkładowy' }],
   },
 }
 
@@ -35,7 +35,7 @@ const specs = [
   { label: 'Oszczędność etykiet', value: 'Do +50% etykiet na standardowej rolce vs. z podkładem' },
   { label: 'Odpad', value: 'Zero (bez podkładu silikonowego do utylizacji)' },
   { label: 'Zestaw upgrade', value: 'Field Installable Kit dla istniejących ZT411 (instalacja ~60 min u klienta)' },
-  { label: 'Nośniki', value: 'Zebra ZeroLiner Media (testowane i certyfikowane przez Zebra)' },
+  { label: 'Nośniki', value: 'Certyfikowane media linerless Zebra (testowane i atestowane)' },
   { label: 'Szerokość nośnika', value: '25,4–114 mm (standard ZT411)' },
 ]
 
@@ -78,7 +78,7 @@ const esgBenefits = [
   {
     icon: Recycle,
     title: 'Zero odpadów podkładu',
-    desc: 'Podkład silikonowy standardowych etykiet trafia na wysypisko — jest trudny do recyklingu. ZeroLiner eliminuje ten strumień odpadów w 100%.',
+    desc: 'Podkład silikonowy standardowych etykiet trafia na wysypisko — jest trudny do recyklingu. Linerless eliminuje ten strumień odpadów w 100%.',
   },
   {
     icon: Leaf,
@@ -88,7 +88,7 @@ const esgBenefits = [
   {
     icon: Package,
     title: 'Mniej miejsca magazynowego',
-    desc: 'Rolka ZeroLiner mieści 50% więcej etykiet przy tym samym wymiarze. Mniej rolek w magazynie = większa gęstość SKU na półce.',
+    desc: 'Rolka linerless mieści 50% więcej etykiet przy tym samym wymiarze. Mniej rolek w magazynie = większa gęstość SKU na półce.',
   },
   {
     icon: Clock,
@@ -110,57 +110,57 @@ const useCases = [
 
 const faqs = [
   {
-    q: 'Co to jest druk bezpodkładowy ZeroLiner?',
-    a: 'ZeroLiner to technologia Zebry, w której etykiety drukowane są bez silikonowego podkładu — klej jest od razu na spodzie etykiety, a antyadhezyjna powłoka na wierzchu zapobiega zlepianiu w rolce. Zalety: +50% etykiet na rolkę, zero odpadów z podkładu, redukcja CO2, rzadsze wymiany rolki. ZT411 to jedyna drukarka przemysłowa Zebra obsługująca ZeroLiner.',
+    q: 'Co to jest druk bezpodkładowy (linerless)?',
+    a: 'Linerless to technologia druku etykiet bez silikonowego podkładu — klej jest od razu na spodzie etykiety, a antyadhezyjna powłoka na wierzchu zapobiega zlepianiu w rolce. Zalety: +50% etykiet na rolkę, zero odpadów z podkładu, redukcja CO2, rzadsze wymiany rolki. ZT411 to jedyna drukarka przemysłowa Zebra obsługująca linerless.',
   },
   {
-    q: 'Czy ZeroLiner działa w trybie termotransferowym (z taśmą)?',
-    a: 'Nie. ZeroLiner działa wyłącznie w trybie druku termicznego bezpośredniego (direct thermal) — bez taśmy barwiącej. Etykiety termiczne mają krótszy czas życia (6-12 miesięcy) niż termotransferowe (wiele lat), dlatego ZeroLiner jest dedykowany do krótkich cykli — wysyłki, logistyka, day-dot, RX.',
+    q: 'Czy linerless działa w trybie termotransferowym (z taśmą)?',
+    a: 'Nie. Linerless działa wyłącznie w trybie druku termicznego bezpośredniego (direct thermal) — bez taśmy barwiącej. Etykiety termiczne mają krótszy czas życia (6-12 miesięcy) niż termotransferowe (wiele lat), dlatego linerless jest dedykowany do krótkich cykli — wysyłki, logistyka, day-dot, RX.',
   },
   {
-    q: 'Ile kosztuje wariant ZT411 ZeroLiner?',
-    a: `Cena waha się od ${linerlessPriceDisplay} zł netto (wariant 203 dpi ZT41142-D9E0000Z) do ok. 12 000 zł netto (wariant 600 dpi ZT41146-D9E0000Z). Dodatkowo trzeba kupić certyfikowane etykiety Zebra ZeroLiner Media — ich cena jest porównywalna do standardowych etykiet termicznych, ale rolka mieści +50% sztuk.`,
+    q: 'Ile kosztuje wariant ZT411 Linerless?',
+    a: `Cena waha się od ${linerlessPriceDisplay} zł netto (wariant 203 dpi ZT41142-D9E0000Z) do ok. 12 000 zł netto (wariant 600 dpi ZT41146-D9E0000Z). Dodatkowo trzeba kupić certyfikowane media linerless Zebra — ich cena jest porównywalna do standardowych etykiet termicznych, ale rolka mieści +50% sztuk.`,
   },
   {
-    q: 'Czy można dokupić ZeroLiner do istniejącej ZT411?',
-    a: 'Tak. Zebra oferuje zestaw upgrade (Field Installable Kit) do istniejących drukarek ZT411 — montaż zajmuje ok. 60 minut u klienta, nie wymaga specjalistycznych narzędzi. Po upgrade drukarka obsługuje zarówno standardowe media termotransferowe, jak i ZeroLiner (fabryczny wariant jest tylko direct thermal — bez możliwości powrotu do termotransferu).',
+    q: 'Czy można dokupić linerless do istniejącej ZT411?',
+    a: 'Tak. Zebra oferuje zestaw upgrade (Field Installable Kit) do istniejących drukarek ZT411 — montaż zajmuje ok. 60 minut u klienta, nie wymaga specjalistycznych narzędzi. Po upgrade drukarka obsługuje zarówno standardowe media termotransferowe, jak i linerless (fabryczny wariant jest tylko direct thermal — bez możliwości powrotu do termotransferu).',
   },
   {
-    q: 'Jakie etykiety pasują do ZT411 ZeroLiner?',
-    a: 'Tylko certyfikowane etykiety Zebra ZeroLiner Media — mają odpowiednią powłokę antyadhezyjną i klej dostosowany do antyadhezyjnej ścieżki drukarki. Używanie etykiet niecertyfikowanych grozi gromadzeniem kleju w głowicy i obcinaku, co skraca życie tych komponentów. Zebra gwarantuje kompatybilność z wersjami ZeroLiner w rozmiarach 25,4-114 mm.',
+    q: 'Jakie etykiety pasują do ZT411 Linerless?',
+    a: 'Tylko certyfikowane media linerless Zebra — mają odpowiednią powłokę antyadhezyjną i klej dostosowany do antyadhezyjnej ścieżki drukarki. Używanie etykiet niecertyfikowanych grozi gromadzeniem kleju w głowicy i obcinaku, co skraca życie tych komponentów. Zebra gwarantuje kompatybilność z wersjami linerless w rozmiarach 25,4-114 mm.',
   },
   {
-    q: 'Ile etykiet zmieści się na rolce ZeroLiner vs standardowej?',
-    a: 'Rolka ZeroLiner o tej samej średnicy zewnętrznej mieści +50% etykiet w porównaniu do standardowej rolki z podkładem. Przykład dla etykiety 100×150 mm: rolka standardowa ~1 000 etykiet, rolka ZeroLiner ~1 500 etykiet. Oznacza to mniej wymian rolek w trakcie zmiany — szczególnie istotne dla produkcji 24/7.',
+    q: 'Ile etykiet zmieści się na rolce linerless vs standardowej?',
+    a: 'Rolka linerless o tej samej średnicy zewnętrznej mieści +50% etykiet w porównaniu do standardowej rolki z podkładem. Przykład dla etykiety 100×150 mm: rolka standardowa ~1 000 etykiet, rolka linerless ~1 500 etykiet. Oznacza to mniej wymian rolek w trakcie zmiany — szczególnie istotne dla produkcji 24/7.',
   },
   {
-    q: 'Czy ZeroLiner to standardowa opcja Zebry?',
-    a: 'Tak, ZeroLiner jest oficjalną technologią Zebra Technologies, dostępną w ofercie ZT411 od kilku lat. Wszystkie komponenty są wspierane przez serwis Zebra na normalnych warunkach gwarancyjnych (3 lata) i kontrakty OneCare. TAKMA jako Premier Partner Zebra oferuje pełne wsparcie wdrożeniowe — dobór etykiet, konfigurację drukarki, szkolenie operatorów.',
+    q: 'Czy linerless to standardowa opcja Zebry?',
+    a: 'Tak, druk linerless jest oficjalną technologią Zebra Technologies, dostępną w ofercie ZT411 od kilku lat. Wszystkie komponenty są wspierane przez serwis Zebra na normalnych warunkach gwarancyjnych (3 lata) i kontrakty OneCare. TAKMA jako Premier Partner Zebra oferuje pełne wsparcie wdrożeniowe — dobór etykiet, konfigurację drukarki, szkolenie operatorów.',
   },
   {
-    q: 'Jak ZeroLiner wpływa na koszt TCO w 3 lata?',
+    q: 'Jak linerless wpływa na koszt TCO w 3 lata?',
     a: 'Dla magazynu 5 000 etykiet/dzień oszczędność rolek wynosi ~33% (26,6 vs 40 rolek/mies.). W ciągu 3 lat to ok. 480 rolek mniej — oszczędność ok. 27 000 zł. Dodając redukcję czasu wymiany rolek (~45 minut/mies.) i zmniejszone odpady, całkowita oszczędność TCO dla średniego magazynu wynosi 30 000-40 000 zł w 3 lata.',
   },
 ]
 
-export default function ZeroLinerPage() {
+export default function Zt411LinerlessPage() {
   const techArticleSchema = {
     '@context': 'https://schema.org',
     '@type': 'TechArticle',
-    headline: 'Zebra ZT411 ZeroLiner — druk bezpodkładowy (linerless)',
-    description: 'Kompletny przewodnik po technologii druku bezpodkładowego ZeroLiner w drukarce Zebra ZT411. Specyfikacja, ROI dla różnych wolumenów, korzyści ESG, zestaw upgrade dla istniejących ZT411.',
+    headline: 'Zebra ZT411 Linerless — druk bezpodkładowy',
+    description: 'Kompletny przewodnik po technologii druku bezpodkładowego (linerless) w drukarce Zebra ZT411. Specyfikacja, ROI dla różnych wolumenów, korzyści ESG, zestaw upgrade dla istniejących ZT411.',
     datePublished: '2026-04-18',
-    dateModified: '2026-04-18',
+    dateModified: '2026-04-20',
     author: { '@id': 'https://takma.com.pl/#organization' },
     publisher: {
       '@type': 'Organization',
       name: 'TAKMA',
       logo: { '@type': 'ImageObject', url: 'https://takma.com.pl/images/logo-takma.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zt411.pl/zeroliner' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zt411.pl/zt411-linerless' },
     image: 'https://www.zt411.pl/images/zt411-hero.jpg',
-    about: { '@type': 'Product', name: 'Zebra ZT411 ZeroLiner', url: 'https://www.zt411.pl/zeroliner' },
-    keywords: 'zebra zt411 zeroliner, druk bezpodkładowy, linerless, etykiety bez podkładu, ESG drukarka',
+    about: { '@type': 'Product', name: 'Zebra ZT411 Linerless', url: 'https://www.zt411.pl/zt411-linerless' },
+    keywords: 'zebra zt411 linerless, druk bezpodkładowy, linerless, etykiety bez podkładu, ESG drukarka',
   }
 
   const faqSchema = {
@@ -178,7 +178,7 @@ export default function ZeroLinerPage() {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
-      { '@type': 'ListItem', position: 2, name: 'ZeroLiner', item: 'https://www.zt411.pl/zeroliner' },
+      { '@type': 'ListItem', position: 2, name: 'Linerless', item: 'https://www.zt411.pl/zt411-linerless' },
     ],
   }
 
@@ -193,7 +193,7 @@ export default function ZeroLinerPage() {
               <Home size={12} /> Zebra ZT411
             </Link>
             <ChevronRight size={12} className="text-slate-400" />
-            <span className="text-slate-900 font-medium">ZeroLiner</span>
+            <span className="text-slate-900 font-medium">Linerless</span>
           </div>
         </nav>
 
@@ -208,17 +208,17 @@ export default function ZeroLinerPage() {
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ textShadow: '0 2px 16px rgba(0,0,0,0.7)' }}>
             <div className="max-w-full lg:max-w-[55%] text-center lg:text-left">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">
-                <span className="text-brand-500">Zebra ZT411 ZeroLiner</span><br />
+                <span className="text-brand-500">Zebra ZT411 Linerless</span><br />
                 Druk etykiet bez podkładu
               </h1>
               <p className="mt-5 text-base sm:text-lg text-slate-300 leading-relaxed">
                 <strong className="text-white">+50% etykiet na rolkę</strong>, zero odpadów z podkładu silikonowego,
-                redukcja emisji CO2. ZeroLiner to unikalna technologia Zebra dostępna wyłącznie w drukarkach ZT411.
+                redukcja emisji CO2. Druk linerless to unikalna technologia Zebra dostępna wyłącznie w drukarkach ZT411.
                 Dedykowana gilotyna linerless (D9) i antyadhezyjna ścieżka nośnika.
               </p>
               {linerlessPriceDisplay !== '—' && (
                 <div className="mt-6 inline-flex items-center gap-3 px-5 py-2.5 bg-white/5 border border-white/10 rounded-full">
-                  <span className="text-xs text-slate-400 uppercase tracking-wider">Wariant ZeroLiner</span>
+                  <span className="text-xs text-slate-400 uppercase tracking-wider">Wariant Linerless</span>
                   <span className="text-lg font-bold text-white">od {linerlessPriceDisplay} zł netto</span>
                 </div>
               )}
@@ -234,7 +234,7 @@ export default function ZeroLinerPage() {
               Standardowe etykiety samoprzylepne składają się z dwóch warstw — etykiety z klejem oraz silikonowego podkładu (linera), który zabezpiecza klej.
               Po odklejeniu etykiety podkład trafia na śmietnik. <strong>Druk bezpodkładowy (linerless)</strong> eliminuje podkład — etykieta jest cienką taśmą,
               która w rolce ma antyadhezyjną powłokę na wierzchu, a klej na spodzie. To oszczędza <strong>~50% miejsca w rolce</strong> i eliminuje odpady
-              silikonowego podkładu. Zebra ZeroLiner to branding tej technologii w drukarkach ZT411.
+              silikonowego podkładu. W drukarkach ZT411 dostępna jest wyłącznie fabryczna wersja linerless (symbol D9 w Part Number).
             </p>
           </div>
         </section>
@@ -242,7 +242,7 @@ export default function ZeroLinerPage() {
         {/* Specyfikacja */}
         <section className="py-10 lg:py-14 bg-slate-50 border-b border-slate-200">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">Specyfikacja ZeroLiner w ZT411</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">Specyfikacja Linerless w ZT411</h2>
             <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden">
               {specs.map((s, i) => (
                 <div key={s.label} className={`flex flex-col sm:flex-row ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50/60'} ${i < specs.length - 1 ? 'border-b border-slate-100' : ''}`}>
@@ -252,9 +252,9 @@ export default function ZeroLinerPage() {
               ))}
             </div>
             <div className="mt-6 p-4 bg-amber-50 border border-amber-200 rounded-xl text-sm text-amber-900">
-              <strong>Ważne:</strong> Wariant fabryczny ZeroLiner obsługuje <strong>wyłącznie druk termiczny bezpośredni</strong> —
+              <strong>Ważne:</strong> Wariant fabryczny Linerless obsługuje <strong>wyłącznie druk termiczny bezpośredni</strong> —
               nie można używać taśmy termotransferowej. Etykiety termiczne mają krótszy czas życia (6-12 mies.) niż termotransferowe (lata),
-              dlatego ZeroLiner jest dedykowany do krótkich cykli: wysyłki, day-dot, RX, logistyka.
+              dlatego linerless jest dedykowany do krótkich cykli: wysyłki, day-dot, RX, logistyka.
             </div>
           </div>
         </section>
@@ -266,7 +266,7 @@ export default function ZeroLinerPage() {
               <TrendingUp size={24} className="text-brand-700" /> ROI — oszczędność rolek
             </h2>
             <p className="text-sm text-slate-600 mb-6">
-              Przy 250 etykietach na rolce standardowej i 375 na rolce ZeroLiner (różnica ~50%). Ceny rolek orientacyjne — 45 zł/szt.
+              Przy 250 etykietach na rolce standardowej i 375 na rolce linerless (różnica ~50%). Ceny rolek orientacyjne — 45 zł/szt.
             </p>
             <div className="overflow-x-auto rounded-xl border border-slate-200">
               <table className="w-full text-sm border-collapse min-w-[600px]">
@@ -274,7 +274,7 @@ export default function ZeroLinerPage() {
                   <tr className="bg-slate-50">
                     <th className="text-left py-3 px-4 font-semibold text-slate-600 border-b border-slate-200">Wolumen</th>
                     <th className="py-3 px-4 text-center font-semibold text-slate-700 border-b border-slate-200">Rolki standard</th>
-                    <th className="py-3 px-4 text-center font-semibold bg-brand-500 text-slate-900 border-b border-brand-500">Rolki ZeroLiner</th>
+                    <th className="py-3 px-4 text-center font-semibold bg-brand-500 text-slate-900 border-b border-brand-500">Rolki Linerless</th>
                     <th className="py-3 px-4 text-center font-semibold text-emerald-700 border-b border-slate-200">Oszczędność</th>
                   </tr>
                 </thead>
@@ -322,7 +322,7 @@ export default function ZeroLinerPage() {
         {/* Use cases */}
         <section className="py-10 lg:py-14 bg-white border-b border-slate-200">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">Dla kogo ZeroLiner — zastosowania</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">Dla kogo Linerless — zastosowania</h2>
             <ul className="grid sm:grid-cols-2 gap-2">
               {useCases.map((u, i) => (
                 <li key={i} className="flex items-start gap-2 text-sm text-slate-700 p-3 bg-slate-50 rounded-lg">
@@ -337,7 +337,7 @@ export default function ZeroLinerPage() {
         {/* FAQ */}
         <section className="py-10 lg:py-14 bg-slate-50 border-b border-slate-200">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">FAQ — Zebra ZT411 ZeroLiner</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">FAQ — Zebra ZT411 Linerless</h2>
             <div className="space-y-3">
               {faqs.map((f, i) => (
                 <details key={i} className="group bg-white rounded-xl border border-slate-200 overflow-hidden">
@@ -354,10 +354,10 @@ export default function ZeroLinerPage() {
         {/* CTA */}
         <section className="py-12 lg:py-16 bg-gradient-to-br from-[#0A1A2F] to-slate-900 text-center">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">Zamów wariant ZT411 ZeroLiner</h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">Zamów wariant ZT411 Linerless</h2>
             <p className="text-slate-300 mb-8 leading-relaxed">
               Dostępne rozdzielczości 203, 300 i 600 dpi (symbol D9 w Part Number). Dla istniejących ZT411 —
-              zestaw upgrade do instalacji u klienta. Certyfikowane etykiety Zebra ZeroLiner Media.
+              zestaw upgrade do instalacji u klienta. Certyfikowane media linerless Zebra.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
@@ -371,7 +371,7 @@ export default function ZeroLinerPage() {
                 href="/#kontakt"
                 className="inline-flex items-center justify-center gap-2 px-8 py-3.5 text-base font-bold text-white border-2 border-white/20 rounded-full hover:bg-white/5 hover:border-white/40 transition-all"
               >
-                Zapytaj o ZeroLiner
+                Zapytaj o Linerless
               </Link>
             </div>
           </div>

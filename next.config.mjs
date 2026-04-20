@@ -8,6 +8,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/zeroliner',
+        destination: '/zt411-linerless',
+        permanent: true,
+      },
+      {
         source: '/tasmy',
         destination: '/tasmy-termotransferowe',
         permanent: true,

@@ -12,7 +12,7 @@ const zt411Low = fmtPLN(lowPrice)
 
 export const metadata: Metadata = {
   title: `Zebra ZT411 vs ZT421 — porównanie i różnice 2026`,
-  description: `Zebra ZT411 (4", 203/300/600 dpi, ZeroLiner) vs ZT421 (6", etykiety paletowe). Szczegółowe porównanie specyfikacji, cen, zastosowań. Partner Zebra — TAKMA.`,
+  description: `Zebra ZT411 (4", 203/300/600 dpi, linerless) vs ZT421 (6", etykiety paletowe). Szczegółowe porównanie specyfikacji, cen, zastosowań. Partner Zebra — TAKMA.`,
   alternates: { canonical: 'https://www.zt411.pl/vs/zt421' },
   openGraph: {
     type: 'article',
@@ -47,11 +47,11 @@ const diffs = [
     note: 'ZT411 drukuje o ~17% szybciej — istotne przy ciągłej produkcji 24/7.',
   },
   {
-    feature: 'Druk bezpodkładowy (ZeroLiner)',
+    feature: 'Druk bezpodkładowy (linerless)',
     zt411: true,
     zt421: false,
     winner: 'zt411',
-    note: 'ZeroLiner = +50% etykiet na rolkę, brak odpadów z podkładu, redukcja CO2. Dostępny tylko w ZT411.',
+    note: 'Linerless = +50% etykiet na rolkę, brak odpadów z podkładu, redukcja CO2. Dostępny tylko w ZT411.',
   },
   {
     feature: 'Cena bazowa (netto)',
@@ -145,7 +145,7 @@ const useCasesZT411 = [
   'Znakowanie PCB i elementów elektronicznych (kody 2D < 5 mm)',
   'Etykiety produktowe retail — opis składu, kodów, dat',
   'Etykiety RFID On-Metal do znakowania powierzchni metalowych',
-  'Druk bezpodkładowy ZeroLiner (apteki, szpitale, magazyny eco-friendly)',
+  'Druk bezpodkładowy linerless (apteki, szpitale, magazyny eco-friendly)',
   'Ciasne stanowiska montażowe (szerokość 269 mm)',
   'Stanowiska mobilne — lżejsza drukarka (16,3 vs 18,1 kg)',
   'Zastosowania wymagające najwyższej prędkości (356 mm/s)',
@@ -172,8 +172,8 @@ const faqs = [
     a: 'Nie. ZT421 oferuje wyłącznie rozdzielczości 203 i 300 dpi. Rozdzielczość 600 dpi jest dostępna wyłącznie w modelu ZT411 — dedykowana do mikrotekstu, znakowania PCB, etykiet farmaceutycznych i drobnych kodów 2D.',
   },
   {
-    q: 'Czy ZT421 obsługuje druk bezpodkładowy (ZeroLiner)?',
-    a: 'Nie. ZeroLiner (druk etykiet bez podkładu) jest dostępny wyłącznie w ZT411. ZT421 nie obsługuje linerless w żadnym wariancie.',
+    q: 'Czy ZT421 obsługuje druk bezpodkładowy (linerless)?',
+    a: 'Nie. Druk linerless (etykiety bez podkładu) jest dostępny wyłącznie w ZT411. ZT421 nie obsługuje linerless w żadnym wariancie.',
   },
   {
     q: 'Kiedy ZT421 jest lepszym wyborem niż ZT411?',
@@ -208,7 +208,7 @@ export default function Zt411VsZt421() {
     '@context': 'https://schema.org',
     '@type': 'TechArticle',
     headline: 'Zebra ZT411 vs ZT421 — porównanie drukarek przemysłowych z serii ZT400',
-    description: 'Szczegółowe porównanie dwóch drukarek termotransferowych Zebra z serii ZT400. ZT411 (4", do 600 dpi, ZeroLiner) vs ZT421 (6", do 300 dpi) — specyfikacja, ceny, zastosowania.',
+    description: 'Szczegółowe porównanie dwóch drukarek termotransferowych Zebra z serii ZT400. ZT411 (4", do 600 dpi, linerless) vs ZT421 (6", do 300 dpi) — specyfikacja, ceny, zastosowania.',
     datePublished: '2026-04-18',
     dateModified: '2026-04-18',
     author: { '@id': 'https://takma.com.pl/#organization' },
@@ -276,7 +276,7 @@ export default function Zt411VsZt421() {
                 Zebra <span className="text-brand-500">ZT411</span> vs <span className="text-brand-500">ZT421</span>
               </h1>
               <p className="mt-4 text-base sm:text-lg text-slate-300 leading-relaxed">
-                Różnica w jednym zdaniu: <strong className="text-white">ZT411 drukuje etykiety szerokości 4&quot;</strong> (do 104 mm) i oferuje 600 dpi oraz ZeroLiner,
+                Różnica w jednym zdaniu: <strong className="text-white">ZT411 drukuje etykiety szerokości 4&quot;</strong> (do 104 mm) i oferuje 600 dpi oraz druk linerless,
                 natomiast <strong className="text-white">ZT421 to 6&quot;</strong> (do 168 mm) bez 600 dpi i bez linerless.
                 Wybierz według szerokości etykiety.
               </p>
@@ -294,7 +294,7 @@ export default function Zt411VsZt421() {
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Drukujesz etykiety do 104 mm szerokości</h3>
                 <p className="text-sm text-slate-700 leading-relaxed">
                   Standard: etykiety logistyczne 4×6&quot;, apteczne, produktowe, laboratoryjne.
-                  Potrzebujesz 600 dpi, ZeroLiner bezpodkładowy, najszybszego druku (356 mm/s), lub niższej ceny (od {zt411Low} zł netto).
+                  Potrzebujesz 600 dpi, druku linerless (bezpodkładowego), najszybszego druku (356 mm/s), lub niższej ceny (od {zt411Low} zł netto).
                 </p>
               </div>
               <div className="p-5 lg:p-6 rounded-2xl border border-slate-300 bg-slate-50">
@@ -302,7 +302,7 @@ export default function Zt411VsZt421() {
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Drukujesz etykiety szerokości 4-6&quot;</h3>
                 <p className="text-sm text-slate-700 leading-relaxed">
                   Typowo: etykiety paletowe SSCC, chemiczne GHS, wielofunkcyjne produkcyjne, wysyłkowe GS1-128 w dużym formacie.
-                  Akceptujesz wyższą cenę (od ok. 7 800 zł netto) i brak 600 dpi / ZeroLiner.
+                  Akceptujesz wyższą cenę (od ok. 7 800 zł netto) i brak 600 dpi / linerless.
                 </p>
               </div>
             </div>

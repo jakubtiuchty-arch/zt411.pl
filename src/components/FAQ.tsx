@@ -13,7 +13,7 @@ const _fmt = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
 const faqs = [
   {
     q: 'Ile kosztuje drukarka Zebra ZT411 w Polsce?',
-    a: `Zebra ZT411 kosztuje od ${_fmt(_low)} zł netto (wariant 203 dpi, Wi-Fi + Bluetooth) do ${_fmt(_high)} zł netto (wariant bezpodkładowy ZeroLiner). Wariant z RFID UHF: ok. 10 490 zł netto. Ceny zawierają drukarkę z zasilaczem i kablem USB, bez taśmy barwiącej.`,
+    a: `Zebra ZT411 kosztuje od ${_fmt(_low)} zł netto (wariant 203 dpi, Wi-Fi + Bluetooth) do ${_fmt(_high)} zł netto (wariant bezpodkładowy — linerless). Wariant z RFID UHF: ok. 10 490 zł netto. Ceny zawierają drukarkę z zasilaczem i kablem USB, bez taśmy barwiącej.`,
   },
   {
     q: 'Jaką rozdzielczość druku wybrać: 203, 300 czy 600 dpi?',
@@ -21,19 +21,19 @@ const faqs = [
   },
   {
     q: 'Czym różni się Zebra ZT411 od ZT421?',
-    a: 'ZT411 ma szerokość druku 4" (104 mm), ZT421 ma 6" (168 mm). ZT411 oferuje opcjonalną rozdzielczość 600 dpi, ZT421 tylko 203 i 300 dpi. ZT411 obsługuje druk bezpodkładowy ZeroLiner, ZT421 nie. ZT411 jest lżejsza (16,33 vs 18,14 kg). Dla standardowych etykiet logistycznych — ZT411, dla dużych etykiet paletowych 6" — ZT421.',
+    a: 'ZT411 ma szerokość druku 4" (104 mm), ZT421 ma 6" (168 mm). ZT411 oferuje opcjonalną rozdzielczość 600 dpi, ZT421 tylko 203 i 300 dpi. ZT411 obsługuje druk bezpodkładowy (linerless), ZT421 nie. ZT411 jest lżejsza (16,33 vs 18,14 kg). Dla standardowych etykiet logistycznych — ZT411, dla dużych etykiet paletowych 6" — ZT421.',
   },
   {
     q: 'Czym ZT411 różni się od starszej ZT410?',
-    a: 'ZT411 to następca ZT410. Kluczowe różnice: kolorowy ekran dotykowy 4,3" (vs monochromatyczny w ZT410), Wi-Fi 6/6E i Bluetooth 5.3 (vs Wi-Fi 5 i BT 4.1), szybszy procesor, dwa porty USB host (vs jeden), Zebra Link-OS z Print DNA, opcja druku bezpodkładowego ZeroLiner, certyfikat ENERGY STAR. ZT410 została wycofana z produkcji.',
+    a: 'ZT411 to następca ZT410. Kluczowe różnice: kolorowy ekran dotykowy 4,3" (vs monochromatyczny w ZT410), Wi-Fi 6/6E i Bluetooth 5.3 (vs Wi-Fi 5 i BT 4.1), szybszy procesor, dwa porty USB host (vs jeden), Zebra Link-OS z Print DNA, opcja druku bezpodkładowego (linerless), certyfikat ENERGY STAR. ZT410 została wycofana z produkcji.',
   },
   {
     q: 'Czy ZT411 obsługuje RFID UHF?',
     a: 'Tak. Opcja RFID UHF (ISO/IEC 18000-63, EPC gen. 2 v2.1, RAIN RFID) dostępna jako wariant fabryczny lub zestaw do instalacji u klienta. Technologia kodowania adaptacyjnego automatycznie dobiera optymalne ustawienia dla każdego tagu. Dostępna jest też specjalna wersja RFID On-Metal do znakowania powierzchni metalowych (kontenery, zasoby metalowe).',
   },
   {
-    q: 'Czym jest druk bezpodkładowy ZeroLiner w ZT411?',
-    a: 'ZeroLiner to technologia druku na etykietach bez podkładu (linerless). Zalety: ~50% więcej etykiet na jednej rolce, brak odpadów z podkładu, redukcja emisji CO2, mniej przestojów na wymianę rolek. ZT411 to jedyna drukarka przemysłowa Zebra obsługująca ZeroLiner. Dostępna jako wariant fabryczny (tylko druk termiczny) lub zestaw do modernizacji istniejących ZT411.',
+    q: 'Czym jest druk bezpodkładowy (linerless) w ZT411?',
+    a: 'Linerless to technologia druku na etykietach bez silikonowego podkładu. Zalety: ~50% więcej etykiet na jednej rolce, brak odpadów z podkładu, redukcja emisji CO2, mniej przestojów na wymianę rolek. ZT411 to jedyna drukarka przemysłowa Zebra obsługująca linerless. Dostępna jako wariant fabryczny (tylko druk termiczny) lub zestaw do modernizacji istniejących ZT411.',
   },
   {
     q: 'Jakie łączności ma ZT411?',
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: 'Ile kosztuje Zebra ZT411 vs Honeywell PM45?',
-    a: `ZT411 od ${_fmt(_low)} zł netto, Honeywell PM45 od ok. 7 200 zł netto (porównywalny wariant 203 dpi). ZT411 wygrywa: Wi-Fi 6/6E (PM45 tylko Wi-Fi 5), rozdzielczość 600 dpi w opcji (PM45 max 406 dpi), ZeroLiner bezpodkładowy (PM45 brak), Print DNA gratis (bogatszy ekosystem niż Honeywell). PM45 wygrywa: nieco szybszy przy 300 dpi. Dla firm z flotą Zebra — ZT411.`,
+    a: `ZT411 od ${_fmt(_low)} zł netto, Honeywell PM45 od ok. 7 200 zł netto (porównywalny wariant 203 dpi). ZT411 wygrywa: Wi-Fi 6/6E (PM45 tylko Wi-Fi 5), rozdzielczość 600 dpi w opcji (PM45 max 406 dpi), druk bezpodkładowy linerless (PM45 brak), Print DNA gratis (bogatszy ekosystem niż Honeywell). PM45 wygrywa: nieco szybszy przy 300 dpi. Dla firm z flotą Zebra — ZT411.`,
   },
   {
     q: 'Jakie języki programowania obsługuje ZT411?',
@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     q: 'Jakie akcesoria i materiały eksploatacyjne pasują do ZT411?',
-    a: 'Taśmy barwiące Wax, Wax-Resin lub Resin (szerokość 51–110 mm, długość do 450 m, rdzeń 25 mm). Głowice drukujące 203/300/600 dpi (wymienne u klienta). Nawijak pełnej rolki, odklejak, obcinak gilotynowy, klawiatura ZKDU do niezależnego druku, interfejs aplikatora. Etykiety certyfikowane Zebra — ciągłe, sztancowane, z czarnymi znacznikami, ZeroLiner.',
+    a: 'Taśmy barwiące Wax, Wax-Resin lub Resin (szerokość 51–110 mm, długość do 450 m, rdzeń 25 mm). Głowice drukujące 203/300/600 dpi (wymienne u klienta). Nawijak pełnej rolki, odklejak, obcinak gilotynowy, klawiatura ZKDU do niezależnego druku, interfejs aplikatora. Etykiety certyfikowane Zebra — ciągłe, sztancowane, z czarnymi znacznikami, linerless.',
   },
   {
     q: 'Gdzie serwisować Zebra ZT411 w Polsce?',

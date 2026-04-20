@@ -9,8 +9,8 @@ const prices = getPrices()
 const tooltips: Record<string, string> = {
   'Odrywanie (tear-off)': 'Najprostszy mechanizm: drukarka drukuje etykietę, a użytkownik odrywa ją ręcznie na listwie. Wariant bazowy, bez automatycznego podajnika.',
   'Gilotyna (cutter)': 'Automatyczny obcinak gilotynowy cięcie między etykietami. Zalecany przy ciągłych nośnikach lub gdy etykiety mają być różnych długości.',
-  'Gilotyna linerless': 'Specjalna gilotyna do etykiet bezpodkładowych (ZeroLiner). Tnie bez podkładu — brak odpadów, +50% etykiet na rolkę.',
-  'ZeroLiner': 'Zebra ZeroLiner — druk na etykietach bez podkładu (linerless). Więcej etykiet na rolkę, mniej odpadów, redukcja emisji CO2. Tylko w ZT411.',
+  'Gilotyna linerless': 'Specjalna gilotyna do etykiet bezpodkładowych (linerless). Tnie bez podkładu — brak odpadów, +50% etykiet na rolkę.',
+  'Linerless': 'Druk linerless — etykiety bez podkładu. Więcej etykiet na rolkę, mniej odpadów, redukcja emisji CO2. Tylko w ZT411.',
 }
 
 const plans = [
@@ -31,7 +31,7 @@ const plans = [
   },
   {
     pn: 'ZT41142-D9E0000Z',
-    features: ['203 dpi', 'Gilotyna linerless', 'Termiczny bezpośredni', 'ZeroLiner', 'Ethernet + USB + BT 4.2'],
+    features: ['203 dpi', 'Gilotyna linerless', 'Termiczny bezpośredni', 'Linerless', 'Ethernet + USB + BT 4.2'],
     defaultActive: false,
   },
 ]

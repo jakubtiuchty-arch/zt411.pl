@@ -13,9 +13,9 @@ const cards = [
     label: 'Funkcja',
   },
   {
-    href: '/zeroliner',
+    href: '/zt411-linerless',
     icon: Leaf,
-    title: 'ZeroLiner — druk bezpodkładowy',
+    title: 'Linerless — druk bezpodkładowy',
     desc: '+50% etykiet na rolkę, zero odpadów podkładu, redukcja CO2. Unikalna technologia Zebra dostępna tylko w ZT411.',
     label: 'Funkcja',
   },
