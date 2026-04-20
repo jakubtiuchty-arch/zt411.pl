@@ -13,7 +13,7 @@ const fmtPLN = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
 const lowDisplay = fmtPLN(lowPrice)
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.zt411.pl'),
+  metadataBase: new URL('https://www.zebrazt411.pl'),
   title: `Zebra ZT411 — drukarka etykiet od ${lowDisplay} zł netto | TAKMA`,
   description: `Zebra ZT411: drukarka etykiet termotransferowa 4", 203/300/600 dpi, 356 mm/s, RFID, Wi-Fi 6E, ekran 4,3". Od ${lowDisplay} zł netto. Partner Zebra — TAKMA.`,
   keywords: ['zebra zt411', 'zt411', 'drukarka etykiet zebra', 'drukarka przemysłowa zebra', 'zebra zt411 cena', 'drukarka termotransferowa', 'zt411 300 dpi', 'zt411 600 dpi', 'zt411 rfid', 'zt411 vs zt421', 'zt411 vs zt410'],
@@ -21,12 +21,12 @@ export const metadata: Metadata = {
   creator: 'TAKMA',
   publisher: 'TAKMA Tadeusz Tiuchty',
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
-  alternates: { canonical: 'https://www.zt411.pl' },
+  alternates: { canonical: 'https://www.zebrazt411.pl' },
   openGraph: {
     type: 'website',
     locale: 'pl_PL',
-    url: 'https://www.zt411.pl',
-    siteName: 'zt411.pl — Zebra ZT411 | TAKMA',
+    url: 'https://www.zebrazt411.pl',
+    siteName: 'zebrazt411.pl — Zebra ZT411 | TAKMA',
     title: `Zebra ZT411 — drukarka etykiet od ${lowDisplay} zł | TAKMA`,
     description: `Drukarka etykiet Zebra ZT411: termotransferowa 4", do 600 dpi, 356 mm/s, RFID, Wi-Fi 6E. Od ${lowDisplay} zł netto.`,
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Drukarka etykiet Zebra ZT411 — partner TAKMA' }],
@@ -76,7 +76,7 @@ function JsonLd() {
   const product = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    '@id': 'https://www.zt411.pl/#product',
+    '@id': 'https://www.zebrazt411.pl/#product',
     name: 'Zebra ZT411',
     alternateName: ['Drukarka etykiet Zebra ZT411', 'Drukarka termotransferowa ZT411', 'Zebra ZT400 series'],
     description: 'Drukarka etykiet Zebra ZT411 — przemysłowa, termotransferowa i termiczna bezpośrednia z serii ZT400. Szerokość druku 4" (104 mm), rozdzielczości 203/300/600 dpi, prędkość do 356 mm/s, kolorowy ekran dotykowy 4,3", Wi-Fi 6/6E (opcja), RFID UHF (opcja), druk bezpodkładowy — linerless (opcja). Obsługa ZPL/ZPL II/EPL/ZBI 2.0.',
@@ -85,8 +85,8 @@ function JsonLd() {
     category: 'Drukarki przemysłowe',
     sku: sortedByPrice[0].pn,
     mpn: 'ZT411',
-    image: ['https://www.zt411.pl/images/zt411-hero.jpg'],
-    url: 'https://www.zt411.pl',
+    image: ['https://www.zebrazt411.pl/images/zt411-hero.jpg'],
+    url: 'https://www.zebrazt411.pl',
     sameAs: 'https://www.zebra.com/pl/pl/products/printers/industrial/zt400.html',
     additionalProperty: [
       { '@type': 'PropertyValue', name: 'Technologia druku', value: 'Termotransferowy / termiczny' },
@@ -118,7 +118,7 @@ function JsonLd() {
         priceCurrency: 'PLN',
         availability: v.availability === 'available' ? 'https://schema.org/InStock' : 'https://schema.org/PreOrder',
         itemCondition: 'https://schema.org/NewCondition',
-        url: 'https://www.zt411.pl/#warianty',
+        url: 'https://www.zebrazt411.pl/#warianty',
         seller: { '@type': 'Organization', name: 'TAKMA Tadeusz Tiuchty' },
       })),
     },
@@ -128,9 +128,9 @@ function JsonLd() {
   const website = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    '@id': 'https://www.zt411.pl/#website',
-    url: 'https://www.zt411.pl',
-    name: 'Zebra ZT411 — zt411.pl',
+    '@id': 'https://www.zebrazt411.pl/#website',
+    url: 'https://www.zebrazt411.pl',
+    name: 'Zebra ZT411 — zebrazt411.pl',
     inLanguage: 'pl-PL',
     publisher: { '@id': 'https://takma.com.pl/#organization' },
   }

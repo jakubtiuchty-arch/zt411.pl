@@ -7,11 +7,11 @@ import { ArrowRight, Home, ChevronRight, Droplet, FlameKindling, Shield, Info } 
 export const metadata: Metadata = {
   title: 'Taśmy termotransferowe do Zebra ZT411 — Wax, Wax-Resin, Resin',
   description: 'Taśmy TT Zebra do ZT411: Wax, Wax-Resin, Resin (10 artykułów). Długości 300-900 m, szerokość 40-220 mm. Dobór per etykieta i warunki pracy.',
-  alternates: { canonical: 'https://www.zt411.pl/tasmy-termotransferowe' },
+  alternates: { canonical: 'https://www.zebrazt411.pl/tasmy-termotransferowe' },
   openGraph: {
     type: 'article',
     locale: 'pl_PL',
-    url: 'https://www.zt411.pl/tasmy-termotransferowe',
+    url: 'https://www.zebrazt411.pl/tasmy-termotransferowe',
     title: 'Taśmy termotransferowe Zebra ZT411 — Wax, Wax-Resin, Resin',
     description: 'Dobór taśmy termotransferowej do Zebra ZT411 — jaki Wax, Wax-Resin, Resin dla jakiej etykiety. Długości 300-900 m.',
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Taśmy termotransferowe Zebra ZT411' }],
@@ -225,8 +225,8 @@ export default function TasmyPage() {
       name: 'TAKMA',
       logo: { '@type': 'ImageObject', url: 'https://takma.com.pl/images/logo-takma.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zt411.pl/tasmy-termotransferowe' },
-    image: 'https://www.zt411.pl/images/zt411-hero.jpg',
+    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zebrazt411.pl/tasmy-termotransferowe' },
+    image: 'https://www.zebrazt411.pl/images/zt411-hero.jpg',
     keywords: 'taśma termotransferowa zt411, zebra wax 1600, zebra wax 2300, resin 5095, wax resin 3400, taśma TT zebra',
   }
 
@@ -244,8 +244,8 @@ export default function TasmyPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
-      { '@type': 'ListItem', position: 2, name: 'Taśmy TT', item: 'https://www.zt411.pl/tasmy-termotransferowe' },
+      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zebrazt411.pl' },
+      { '@type': 'ListItem', position: 2, name: 'Taśmy TT', item: 'https://www.zebrazt411.pl/tasmy-termotransferowe' },
     ],
   }
 

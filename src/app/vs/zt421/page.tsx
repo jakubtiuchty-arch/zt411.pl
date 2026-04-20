@@ -13,11 +13,11 @@ const zt411Low = fmtPLN(lowPrice)
 export const metadata: Metadata = {
   title: `Zebra ZT411 vs ZT421 — porównanie i różnice 2026`,
   description: `Zebra ZT411 (4", 203/300/600 dpi, linerless) vs ZT421 (6", etykiety paletowe). Szczegółowe porównanie specyfikacji, cen, zastosowań. Partner Zebra — TAKMA.`,
-  alternates: { canonical: 'https://www.zt411.pl/vs/zt421' },
+  alternates: { canonical: 'https://www.zebrazt411.pl/vs/zt421' },
   openGraph: {
     type: 'article',
     locale: 'pl_PL',
-    url: 'https://www.zt411.pl/vs/zt421',
+    url: 'https://www.zebrazt411.pl/vs/zt421',
     title: 'Zebra ZT411 vs ZT421 — porównanie i różnice',
     description: 'Szczegółowe porównanie dwóch drukarek przemysłowych z serii ZT400. Kiedy wybrać ZT411 (4"), a kiedy ZT421 (6")?',
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Zebra ZT411 vs ZT421 porównanie' }],
@@ -217,10 +217,10 @@ export default function Zt411VsZt421() {
       name: 'TAKMA',
       logo: { '@type': 'ImageObject', url: 'https://takma.com.pl/images/logo-takma.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zt411.pl/vs/zt421' },
-    image: 'https://www.zt411.pl/images/zt411-hero.jpg',
+    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zebrazt411.pl/vs/zt421' },
+    image: 'https://www.zebrazt411.pl/images/zt411-hero.jpg',
     about: [
-      { '@type': 'Product', name: 'Zebra ZT411', url: 'https://www.zt411.pl' },
+      { '@type': 'Product', name: 'Zebra ZT411', url: 'https://www.zebrazt411.pl' },
       { '@type': 'Product', name: 'Zebra ZT421', url: 'https://takma.com.pl/produkt/zebra-zt421' },
     ],
   }
@@ -239,9 +239,9 @@ export default function Zt411VsZt421() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
-      { '@type': 'ListItem', position: 2, name: 'Porównania', item: 'https://www.zt411.pl/vs' },
-      { '@type': 'ListItem', position: 3, name: 'ZT411 vs ZT421', item: 'https://www.zt411.pl/vs/zt421' },
+      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zebrazt411.pl' },
+      { '@type': 'ListItem', position: 2, name: 'Porównania', item: 'https://www.zebrazt411.pl/vs' },
+      { '@type': 'ListItem', position: 3, name: 'ZT411 vs ZT421', item: 'https://www.zebrazt411.pl/vs/zt421' },
     ],
   }
 

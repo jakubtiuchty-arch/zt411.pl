@@ -1,6 +1,6 @@
-# zt411.pl — Zebra ZT411 drukarka etykiet
+# zebrazt411.pl — Zebra ZT411 drukarka etykiet
 
-> Strona produktowa drukarki etykiet Zebra ZT411, prowadzona przez TAKMA (autoryzowany partner Zebra Technologies od 2001 r.). Domena: https://www.zt411.pl
+> Strona produktowa drukarki etykiet Zebra ZT411, prowadzona przez TAKMA (autoryzowany partner Zebra Technologies od 2001 r.). Domena: https://www.zebrazt411.pl
 
 ## Zebra ZT411 — podstawowe informacje
 
@@ -38,5 +38,5 @@ ZT411 od 6 490 zł, PM45 od ok. 7 200 zł. ZT411 ma Wi-Fi 6/6E, 600 dpi w opcji,
 
 ### Autoryzowany partner Zebra
 TAKMA, ul. Romana Maya 1, 61-371 Poznań
-Tel: +48 61 624 82 82, e-mail: kontakt@zt411.pl
+Tel: +48 61 624 82 82, e-mail: kontakt@zebrazt411.pl
 Strona: https://takma.com.pl | Serwis: https://www.serwis-zebry.pl

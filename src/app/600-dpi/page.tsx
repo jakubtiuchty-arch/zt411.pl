@@ -17,11 +17,11 @@ const price600Display = price600 ? fmtPLN(price600) : '—'
 export const metadata: Metadata = {
   title: `ZT411 600 dpi — drukarka mikrotekstu | od ${price600Display} zł`,
   description: `Zebra ZT411 600 dpi: 24 pkt/mm, najmniejsza kreska 0,042 mm. Mikrotekst, kody 2D, PCB, farmacja UDI. Tylko w ZT411. Cena od ${price600Display} zł netto. Partner Zebra — TAKMA.`,
-  alternates: { canonical: 'https://www.zt411.pl/600-dpi' },
+  alternates: { canonical: 'https://www.zebrazt411.pl/600-dpi' },
   openGraph: {
     type: 'article',
     locale: 'pl_PL',
-    url: 'https://www.zt411.pl/600-dpi',
+    url: 'https://www.zebrazt411.pl/600-dpi',
     title: 'Zebra ZT411 600 dpi — drukarka do mikrotekstu',
     description: 'Szczegółowy przewodnik po rozdzielczości 600 dpi (24 pkt/mm) w drukarce Zebra ZT411. Zastosowania, ograniczenia, cena.',
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Zebra ZT411 600 dpi' }],
@@ -162,9 +162,9 @@ export default function Dpi600Page() {
       name: 'TAKMA',
       logo: { '@type': 'ImageObject', url: 'https://takma.com.pl/images/logo-takma.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zt411.pl/600-dpi' },
-    image: 'https://www.zt411.pl/images/zt411-hero.jpg',
-    about: { '@type': 'Product', name: 'Zebra ZT411 600 dpi', url: 'https://www.zt411.pl/600-dpi' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zebrazt411.pl/600-dpi' },
+    image: 'https://www.zebrazt411.pl/images/zt411-hero.jpg',
+    about: { '@type': 'Product', name: 'Zebra ZT411 600 dpi', url: 'https://www.zebrazt411.pl/600-dpi' },
     keywords: 'zebra zt411 600 dpi, drukarka 600 dpi, mikrotekst drukarka, etykiety pcb, udi drukarka, zebra mikrotekst',
   }
 
@@ -182,8 +182,8 @@ export default function Dpi600Page() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
-      { '@type': 'ListItem', position: 2, name: '600 dpi', item: 'https://www.zt411.pl/600-dpi' },
+      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zebrazt411.pl' },
+      { '@type': 'ListItem', position: 2, name: '600 dpi', item: 'https://www.zebrazt411.pl/600-dpi' },
     ],
   }
 

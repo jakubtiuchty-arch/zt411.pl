@@ -63,7 +63,7 @@ export default function Kontakt() {
           quantity: data.get('quantity'),
           accessories: addedAccessories,
           message: data.get('message'),
-          source: 'zt411.pl',
+          source: 'zebrazt411.pl',
         }),
       })
       if (!res.ok) throw new Error('send failed')

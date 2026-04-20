@@ -36,7 +36,7 @@ export async function GET(request: Request) {
   try {
     const pnParam = ZT411_PART_NUMBERS.join(',')
     const res = await fetch(`${TAKMA_STOCK_API}?pn=${pnParam}`, {
-      headers: { 'User-Agent': 'zt411.pl price-sync/1.0' },
+      headers: { 'User-Agent': 'zebrazt411.pl price-sync/1.0' },
       next: { revalidate: 0 },
     })
 

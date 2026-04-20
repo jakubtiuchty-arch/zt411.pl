@@ -3,7 +3,7 @@ import { getPrices } from '@/data/prices'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date(getPrices().lastSync)
-  const base = 'https://www.zt411.pl'
+  const base = 'https://www.zebrazt411.pl'
 
   return [
     {

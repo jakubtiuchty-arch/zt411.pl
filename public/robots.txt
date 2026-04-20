@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.zt411.pl/sitemap.xml
+Sitemap: https://www.zebrazt411.pl/sitemap.xml
 
 # AI crawlers — welcome
 User-agent: GPTBot

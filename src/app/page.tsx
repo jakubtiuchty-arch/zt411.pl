@@ -25,14 +25,14 @@ const homepageSchemas = () => {
   const webpage = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://www.zt411.pl/#webpage',
-    url: 'https://www.zt411.pl',
+    '@id': 'https://www.zebrazt411.pl/#webpage',
+    url: 'https://www.zebrazt411.pl',
     name: `Zebra ZT411 — drukarka etykiet od ${lowDisplay} zł netto | TAKMA`,
     description: 'Strona produktowa drukarki etykiet Zebra ZT411 prowadzona przez autoryzowanego partnera Zebra — TAKMA.',
     inLanguage: 'pl-PL',
-    isPartOf: { '@id': 'https://www.zt411.pl/#website' },
-    about: { '@id': 'https://www.zt411.pl/#product' },
-    primaryImageOfPage: { '@type': 'ImageObject', url: 'https://www.zt411.pl/images/zt411-hero.jpg' },
+    isPartOf: { '@id': 'https://www.zebrazt411.pl/#website' },
+    about: { '@id': 'https://www.zebrazt411.pl/#product' },
+    primaryImageOfPage: { '@type': 'ImageObject', url: 'https://www.zebrazt411.pl/images/zt411-hero.jpg' },
     dateModified: prices.lastSync,
     author: { '@id': 'https://takma.com.pl/#organization' },
     publisher: { '@id': 'https://takma.com.pl/#organization' },
@@ -42,7 +42,7 @@ const homepageSchemas = () => {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
+      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zebrazt411.pl' },
     ],
   }
 

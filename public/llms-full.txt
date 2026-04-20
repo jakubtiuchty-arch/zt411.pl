@@ -1,7 +1,7 @@
-# zt411.pl — pełny content strony produktowej Zebra ZT411
+# zebrazt411.pl — pełny content strony produktowej Zebra ZT411
 
 > Wersja pełna dla LLM. Krótszy zarys dostępny w /llms.txt.
-> Domena: https://www.zt411.pl — landing drukarki etykiet Zebra ZT411.
+> Domena: https://www.zebrazt411.pl — landing drukarki etykiet Zebra ZT411.
 > Strona prowadzona przez TAKMA — autoryzowanego partnera Zebra Technologies od 2001 roku.
 
 ---
@@ -28,9 +28,9 @@ Przykładowe warianty:
 | ZT41143-T0E0000Z | 300 dpi | Odrywanie (bazowy) | ok. 6 741 zł |
 | ZT41146-T0E0000Z | 600 dpi | Odrywanie (bazowy) | ok. 11 097 zł |
 
-Pełna lista 16 wariantów z aktualnymi cenami i stockiem: https://www.zt411.pl/#warianty
+Pełna lista 16 wariantów z aktualnymi cenami i stockiem: https://www.zebrazt411.pl/#warianty
 
-**Rabaty projektowe:** od 5 szt. Indywidualna wycena przez formularz na zt411.pl.
+**Rabaty projektowe:** od 5 szt. Indywidualna wycena przez formularz na zebrazt411.pl.
 **GRATIS do każdej drukarki ZT411:** rolka etykiet + taśma termotransferowa.
 
 ## 3. Pełna specyfikacja techniczna
@@ -285,7 +285,7 @@ A: Produkcja (WIP, numery seryjne), T&L (kompletacja, wysyłka), retail (centra 
 **TAKMA Tadeusz Tiuchty**
 ul. Romana Maya 1, 61-371 Poznań
 Tel: +48 61 624 82 82 | Komórka: +48 601 828 711
-E-mail: takma@takma.com.pl | kontakt@zt411.pl
+E-mail: takma@takma.com.pl | kontakt@zebrazt411.pl
 NIP: 915-100-43-77
 Od 2001 roku.
 
@@ -372,7 +372,7 @@ Do ZT411 pasują taśmy TT Zebra w rolkach 300, 450, 600 i 900 m, rdzeń wewnęt
 - Ekstremalne warunki, PCB, laboratorium → Resin 5100 Premium / ChemResist 8000
 - Kontakt z acetonem/ksylenem → Resin ChemResist 8000
 
-Pełna lista 94 Part Numberów z filtrem: https://www.zt411.pl/tasmy-termotransferowe/lista
+Pełna lista 94 Part Numberów z filtrem: https://www.zebrazt411.pl/tasmy-termotransferowe/lista
 
 ---
 

@@ -11,11 +11,11 @@ const ribbonsCount = ribbonsData.length
 export const metadata: Metadata = {
   title: `Wyszukiwarka taśm Zebra do ZT411 — katalog ${ribbonsCount} wariantów`,
   description: `Przeszukaj katalog ${ribbonsCount} taśm termotransferowych Zebra kompatybilnych z drukarką ZT411. Filtruj po typie (Wosk, Wosk-Żywica, Żywica), szerokości (40-220 mm) i długości (300-900 m).`,
-  alternates: { canonical: 'https://www.zt411.pl/tasmy-termotransferowe-termotransferowe/lista' },
+  alternates: { canonical: 'https://www.zebrazt411.pl/tasmy-termotransferowe-termotransferowe/lista' },
   openGraph: {
     type: 'article',
     locale: 'pl_PL',
-    url: 'https://www.zt411.pl/tasmy-termotransferowe-termotransferowe/lista',
+    url: 'https://www.zebrazt411.pl/tasmy-termotransferowe-termotransferowe/lista',
     title: `Wyszukiwarka taśm Zebra do ZT411 — katalog ${ribbonsCount} wariantów`,
     description: `Przeszukaj katalog ${ribbonsCount} taśm Zebra dla ZT411. Filtruj po szerokości, długości i typie. Kopiuj Part Number jednym kliknięciem.`,
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Wyszukiwarka taśm Zebra do ZT411' }],
@@ -36,8 +36,8 @@ export default function TasmyListaPage() {
       name: 'TAKMA',
       logo: { '@type': 'ImageObject', url: 'https://takma.com.pl/images/logo-takma.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zt411.pl/tasmy-termotransferowe-termotransferowe/lista' },
-    image: 'https://www.zt411.pl/images/zt411-hero.jpg',
+    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zebrazt411.pl/tasmy-termotransferowe-termotransferowe/lista' },
+    image: 'https://www.zebrazt411.pl/images/zt411-hero.jpg',
     keywords: 'lista taśm zebra zt411, part number taśma, wax 1600 części, zebra resin PN, katalog taśm termotransferowych',
   }
 
@@ -45,9 +45,9 @@ export default function TasmyListaPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
-      { '@type': 'ListItem', position: 2, name: 'Taśmy TT', item: 'https://www.zt411.pl/tasmy-termotransferowe' },
-      { '@type': 'ListItem', position: 3, name: 'Pełna lista PN', item: 'https://www.zt411.pl/tasmy-termotransferowe-termotransferowe/lista' },
+      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zebrazt411.pl' },
+      { '@type': 'ListItem', position: 2, name: 'Taśmy TT', item: 'https://www.zebrazt411.pl/tasmy-termotransferowe' },
+      { '@type': 'ListItem', position: 3, name: 'Pełna lista PN', item: 'https://www.zebrazt411.pl/tasmy-termotransferowe-termotransferowe/lista' },
     ],
   }
 

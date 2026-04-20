@@ -14,11 +14,11 @@ const rfidPriceDisplay = rfidPrice ? fmtPLN(rfidPrice) : '—'
 export const metadata: Metadata = {
   title: `Zebra ZT411 RFID UHF — EPC gen. 2 | od ${rfidPriceDisplay} zł`,
   description: `ZT411 RFID: koder UHF EPC gen. 2 v2.1, ISO/IEC 18000-63, RAIN RFID. Adaptive encoding, wariant On-Metal. Cena od ${rfidPriceDisplay} zł netto. Partner Zebra — TAKMA.`,
-  alternates: { canonical: 'https://www.zt411.pl/zt411-rfid' },
+  alternates: { canonical: 'https://www.zebrazt411.pl/zt411-rfid' },
   openGraph: {
     type: 'article',
     locale: 'pl_PL',
-    url: 'https://www.zt411.pl/zt411-rfid',
+    url: 'https://www.zebrazt411.pl/zt411-rfid',
     title: 'Zebra ZT411 RFID — drukarka UHF EPC gen. 2 z adaptive encoding',
     description: 'Kompletny przewodnik po RFID UHF w drukarce Zebra ZT411 — EPC gen. 2, kodowanie adaptacyjne, On-Metal, tagi ARC certified.',
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Zebra ZT411 RFID UHF' }],
@@ -148,9 +148,9 @@ export default function RfidPage() {
       name: 'TAKMA',
       logo: { '@type': 'ImageObject', url: 'https://takma.com.pl/images/logo-takma.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zt411.pl/zt411-rfid' },
-    image: 'https://www.zt411.pl/images/zt411-hero.jpg',
-    about: { '@type': 'Product', name: 'Zebra ZT411', url: 'https://www.zt411.pl' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zebrazt411.pl/zt411-rfid' },
+    image: 'https://www.zebrazt411.pl/images/zt411-hero.jpg',
+    about: { '@type': 'Product', name: 'Zebra ZT411', url: 'https://www.zebrazt411.pl' },
     keywords: 'zebra zt411 rfid, drukarka rfid uhf, EPC gen 2, adaptive encoding, RAIN RFID, on-metal',
   }
 
@@ -168,8 +168,8 @@ export default function RfidPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
-      { '@type': 'ListItem', position: 2, name: 'RFID', item: 'https://www.zt411.pl/zt411-rfid' },
+      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zebrazt411.pl' },
+      { '@type': 'ListItem', position: 2, name: 'RFID', item: 'https://www.zebrazt411.pl/zt411-rfid' },
     ],
   }
 

@@ -17,11 +17,11 @@ const price300Display = price300 ? fmtPLN(price300) : '—'
 export const metadata: Metadata = {
   title: `ZT411 300 dpi — drukarka GS1 DataMatrix | od ${price300Display} zł`,
   description: `Zebra ZT411 300 dpi: 12 pkt/mm, kod 2D od 5 mm, szybkość 305 mm/s. Najpopularniejsza rozdzielczość — kosmetyki GHS, laboratoria, farmacja. Od ${price300Display} zł netto.`,
-  alternates: { canonical: 'https://www.zt411.pl/300-dpi' },
+  alternates: { canonical: 'https://www.zebrazt411.pl/300-dpi' },
   openGraph: {
     type: 'article',
     locale: 'pl_PL',
-    url: 'https://www.zt411.pl/300-dpi',
+    url: 'https://www.zebrazt411.pl/300-dpi',
     title: 'Zebra ZT411 300 dpi — drukarka GS1 DataMatrix',
     description: 'Szczegółowy przewodnik po rozdzielczości 300 dpi w ZT411. Zastosowania, kiedy wybrać 300 dpi vs 203 dpi vs 600 dpi.',
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Zebra ZT411 300 dpi' }],
@@ -168,9 +168,9 @@ export default function Dpi300Page() {
       name: 'TAKMA',
       logo: { '@type': 'ImageObject', url: 'https://takma.com.pl/images/logo-takma.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zt411.pl/300-dpi' },
-    image: 'https://www.zt411.pl/images/zt411-hero.jpg',
-    about: { '@type': 'Product', name: 'Zebra ZT411 300 dpi', url: 'https://www.zt411.pl/300-dpi' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zebrazt411.pl/300-dpi' },
+    image: 'https://www.zebrazt411.pl/images/zt411-hero.jpg',
+    about: { '@type': 'Product', name: 'Zebra ZT411 300 dpi', url: 'https://www.zebrazt411.pl/300-dpi' },
     keywords: 'zebra zt411 300 dpi, drukarka 300 dpi, gs1 datamatrix drukarka, etykiety kosmetyki, etykiety laboratorium',
   }
 
@@ -188,8 +188,8 @@ export default function Dpi300Page() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
-      { '@type': 'ListItem', position: 2, name: '300 dpi', item: 'https://www.zt411.pl/300-dpi' },
+      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zebrazt411.pl' },
+      { '@type': 'ListItem', position: 2, name: '300 dpi', item: 'https://www.zebrazt411.pl/300-dpi' },
     ],
   }
 

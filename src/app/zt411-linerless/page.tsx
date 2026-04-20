@@ -15,11 +15,11 @@ const linerlessPriceDisplay = linerlessPrice ? fmtPLN(linerlessPrice) : '—'
 export const metadata: Metadata = {
   title: `ZT411 Linerless — druk bezpodkładowy | od ${linerlessPriceDisplay} zł`,
   description: `ZT411 Linerless: druk bez podkładu. +50% etykiet na rolkę, zero odpadów, redukcja CO2. Gilotyna linerless. Od ${linerlessPriceDisplay} zł netto.`,
-  alternates: { canonical: 'https://www.zt411.pl/zt411-linerless' },
+  alternates: { canonical: 'https://www.zebrazt411.pl/zt411-linerless' },
   openGraph: {
     type: 'article',
     locale: 'pl_PL',
-    url: 'https://www.zt411.pl/zt411-linerless',
+    url: 'https://www.zebrazt411.pl/zt411-linerless',
     title: 'Zebra ZT411 Linerless — druk bezpodkładowy',
     description: 'Kompletny przewodnik po technologii druku bezpodkładowego (linerless) w drukarce Zebra ZT411. ROI, ESG, zestaw upgrade.',
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Zebra ZT411 Linerless druk bezpodkładowy' }],
@@ -157,9 +157,9 @@ export default function Zt411LinerlessPage() {
       name: 'TAKMA',
       logo: { '@type': 'ImageObject', url: 'https://takma.com.pl/images/logo-takma.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zt411.pl/zt411-linerless' },
-    image: 'https://www.zt411.pl/images/zt411-hero.jpg',
-    about: { '@type': 'Product', name: 'Zebra ZT411 Linerless', url: 'https://www.zt411.pl/zt411-linerless' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zebrazt411.pl/zt411-linerless' },
+    image: 'https://www.zebrazt411.pl/images/zt411-hero.jpg',
+    about: { '@type': 'Product', name: 'Zebra ZT411 Linerless', url: 'https://www.zebrazt411.pl/zt411-linerless' },
     keywords: 'zebra zt411 linerless, druk bezpodkładowy, linerless, etykiety bez podkładu, ESG drukarka',
   }
 
@@ -177,8 +177,8 @@ export default function Zt411LinerlessPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
-      { '@type': 'ListItem', position: 2, name: 'Linerless', item: 'https://www.zt411.pl/zt411-linerless' },
+      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zebrazt411.pl' },
+      { '@type': 'ListItem', position: 2, name: 'Linerless', item: 'https://www.zebrazt411.pl/zt411-linerless' },
     ],
   }
 

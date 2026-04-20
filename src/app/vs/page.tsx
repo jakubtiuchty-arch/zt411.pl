@@ -7,11 +7,11 @@ import { Home, ChevronRight, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Zebra ZT411 — porównania z innymi drukarkami',
   description: 'Porównania Zebra ZT411 z alternatywnymi drukarkami przemysłowymi: ZT421 (6″), Honeywell PM45, starszy model ZT410. Parametry, ceny, kiedy wybrać który model.',
-  alternates: { canonical: 'https://www.zt411.pl/vs' },
+  alternates: { canonical: 'https://www.zebrazt411.pl/vs' },
   openGraph: {
     type: 'website',
     locale: 'pl_PL',
-    url: 'https://www.zt411.pl/vs',
+    url: 'https://www.zebrazt411.pl/vs',
     title: 'Zebra ZT411 — porównania z innymi drukarkami',
     description: 'Porównania Zebra ZT411 z ZT421, PM45, ZT410. Który model wybrać i dlaczego.',
   },
@@ -32,8 +32,8 @@ export default function VsIndexPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
-      { '@type': 'ListItem', position: 2, name: 'Porównania', item: 'https://www.zt411.pl/vs' },
+      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zebrazt411.pl' },
+      { '@type': 'ListItem', position: 2, name: 'Porównania', item: 'https://www.zebrazt411.pl/vs' },
     ],
   }
 

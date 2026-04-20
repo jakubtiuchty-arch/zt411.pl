@@ -17,11 +17,11 @@ const price203Display = price203 ? fmtPLN(price203) : '—'
 export const metadata: Metadata = {
   title: `ZT411 203 dpi — drukarka logistyczna od ${price203Display} zł`,
   description: `Zebra ZT411 203 dpi: 8 pkt/mm, 356 mm/s — najszybszy i najtańszy wariant. Etykiety wysyłkowe, adresy, GS1-128, magazyn, retail. Od ${price203Display} zł netto. Partner Zebra — TAKMA.`,
-  alternates: { canonical: 'https://www.zt411.pl/203-dpi' },
+  alternates: { canonical: 'https://www.zebrazt411.pl/203-dpi' },
   openGraph: {
     type: 'article',
     locale: 'pl_PL',
-    url: 'https://www.zt411.pl/203-dpi',
+    url: 'https://www.zebrazt411.pl/203-dpi',
     title: 'Zebra ZT411 203 dpi — drukarka etykiet logistycznych',
     description: 'Szczegółowy przewodnik po rozdzielczości 203 dpi w ZT411. Standardowa rozdzielczość dla logistyki, e-commerce, magazynu. Najniższa cena i najwyższa szybkość.',
     images: [{ url: '/images/zt411-hero.jpg', width: 1200, height: 630, alt: 'Zebra ZT411 203 dpi' }],
@@ -176,9 +176,9 @@ export default function Dpi203Page() {
       name: 'TAKMA',
       logo: { '@type': 'ImageObject', url: 'https://takma.com.pl/images/logo-takma.png' },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zt411.pl/203-dpi' },
-    image: 'https://www.zt411.pl/images/zt411-hero.jpg',
-    about: { '@type': 'Product', name: 'Zebra ZT411 203 dpi', url: 'https://www.zt411.pl/203-dpi' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.zebrazt411.pl/203-dpi' },
+    image: 'https://www.zebrazt411.pl/images/zt411-hero.jpg',
+    about: { '@type': 'Product', name: 'Zebra ZT411 203 dpi', url: 'https://www.zebrazt411.pl/203-dpi' },
     keywords: 'zebra zt411 203 dpi, drukarka 203 dpi, drukarka etykiet logistyka, etykiety wysyłkowe, drukarka adresów, gs1-128 drukarka',
   }
 
@@ -196,8 +196,8 @@ export default function Dpi203Page() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zt411.pl' },
-      { '@type': 'ListItem', position: 2, name: '203 dpi', item: 'https://www.zt411.pl/203-dpi' },
+      { '@type': 'ListItem', position: 1, name: 'Zebra ZT411', item: 'https://www.zebrazt411.pl' },
+      { '@type': 'ListItem', position: 2, name: '203 dpi', item: 'https://www.zebrazt411.pl/203-dpi' },
     ],
   }
 
