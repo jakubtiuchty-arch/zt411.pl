@@ -37,10 +37,15 @@ export default function Hero() {
           >
             Drukarka etykiet{' '}
             <span className="text-brand-500 block sm:inline">Zebra ZT411</span>
-            <span className="block text-xl sm:text-2xl mt-3 font-normal text-slate-300">
-              Termotransferowa 4&quot;, do 600 dpi — od {formatPLN(lowPrice)} zł netto
-            </span>
           </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.05 }}
+            className="mt-3 text-xl sm:text-2xl font-normal text-slate-300"
+          >
+            Termotransferowa 4&quot;, do 600 dpi — od {formatPLN(lowPrice)} zł netto
+          </motion.p>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
