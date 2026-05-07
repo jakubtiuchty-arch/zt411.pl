@@ -33,6 +33,8 @@ const footerLinks = {
   firma: [
     { name: 'ZT411 w sklepie', href: 'https://takma.com.pl/produkt/zebra-zt411' },
     { name: 'ZT421 (wersja 6")', href: 'https://takma.com.pl/produkt/zebra-zt421' },
+    { name: 'Drukarki etykiet Zebra', href: 'https://www.takma.com.pl/drukarki-etykiet-zebra' },
+    { name: 'Terminale mobilne', href: 'https://www.takma.com.pl/terminale-mobilne-zebra' },
     { name: 'Drukarki przemysłowe', href: 'https://takma.com.pl/drukarki-przemyslowe' },
     { name: 'O nas', href: 'https://takma.com.pl/o-nas' },
     { name: 'Kontakt', href: 'https://takma.com.pl/kontakt' },
